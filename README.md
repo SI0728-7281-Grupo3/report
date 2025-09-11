@@ -51,6 +51,7 @@ Github Collaboration Insights proporciona un cronograma que muestra las principa
 
 - Alexander Alberto Cantoral Sedamano (AlexlmL)
 - Stefano Alessandro Valenzuela Vallejos (AlessandroUPC)
+- Carlos Raul Guillermo Chavez Rojas (CarlosChavez19)
 
 Se divieron las siguientes ramas para la colaboración en el proyecto:
 
