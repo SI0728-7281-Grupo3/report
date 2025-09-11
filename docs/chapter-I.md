@@ -72,14 +72,28 @@ Consolidarnos como referentes en innovación tecnológica, promoviendo el desarr
         </tr>
         <tr>
             <!-- DATOS del integrante 5-->
-            <td>
-           <img src="" height="100" width="100">
-            <br>Stefano Alessandro Valenzuela Vallejos    U202214695
-            </td>
-            <!-- DESCRIPCIÓN del integrante 5-->
-            <td></td>
-            <!-- CONOCIMIENTOS del integrante 5-->
-            <td></td>
+<td>
+   <img src="..\assets\img\chapter-I\Foto_Stefano.jpeg" height="100" width="100">
+   <br>Stefano Alessandro Valenzuela Vallejos    U202214695
+</td>
+
+<!-- DESCRIPCIÓN del integrante 5-->
+<td>
+   Estudiante de Ingeniería de Software en la UPC, perteneciente al tercio superior. 
+   Me especializo en Ciberseguridad, Redes y Análisis de Datos, con experiencia en auditoría de TI, 
+   cumplimiento normativo (ISA, SOX) y automatización de procesos. 
+   Me caracterizo por ser proactivo, con alta curiosidad técnica y compromiso con el aprendizaje continuo.
+</td>
+
+<!-- CONOCIMIENTOS del integrante 5-->
+<td>
+   - Auditoría de TI (SOC 1) y Ciberseguridad <br>
+   - Normativas ISO 31000 e ISO 27001 <br>
+   - Automatización con ACL Analytics y Python <br>
+   - Redes, gestión de incidentes y análisis de datos <br>
+   - Machine Learning aplicado a seguridad
+</td>
+
     </body>
 </table>
 
