@@ -19,10 +19,10 @@ posteriormente identificar y plantear estrategias que habrá que poner en marcha
     <tbody style="text-align: center">
         <tr>
             <th colspan="2"></th>
-            <th><img src="../assets/img/chapter-II/restyle-logo.png" height="100" width="100"></th> 
-            <th><img src="../assets/img/chapter-II/aram.png" height="100" width="100"></th>
-            <th><img src="../assets/img/chapter-II/remodulatucasa.jpg" height="100" width="100"></th>
-            <th><img src="../assets/img/chapter-II/timbrit.jpg" height="100" width="100"></th>
+            <th><img src="https://i.postimg.cc/Nj00xB5R/restyle-logo.png" height="100" width="100"></th> 
+            <th><img src="https://i.postimg.cc/wj36m2GV/aram.png" width="100"></th>
+            <th><img src="https://i.postimg.cc/52GfqvcM/remodulatucasa.jpg" height="100" width="100"></th>
+            <th><img src="https://i.postimg.cc/wBmgWvHR/timbrit.jpg" height="100" width="100"></th>
         </tr>
         <!-- Este apartado pertenece al PERFIL se fucionó dos filas -->
         <tr>
