@@ -340,26 +340,28 @@ Entrevista a Contratistas
             </tr>
             <tr>
                 <th>Entrevistado 3</th>
-                <th></th>
+                <th>Fabian Reyes</th>
             <tr>
                 <th>Entrevistador </th>
-                <th></th>
+                <th>Stefano Valenzuela</th>
             </tr>
             <tr>
                 <td>Edad</td>
-                <td></td>
+                <td>20</td>
             </tr>
             <tr>
                 <td>Distrito</td>
-                <td></td>
+                <td>San Martin de Porres</td>
             </tr>
             <tr>
-            <td><img src="" alt="Foto de entrevista"></td>
-                <td><strong>Resumen:</strong><br>---</td>
+            <td><img src="..\assets\img\chapter-II\Fabian Entrevista Emergentes.png" alt="Foto de entrevista"></td>
+                <td><strong>Resumen:</strong> <br> Fabián nos comentó que, hace poco, estaba buscando mejores opciones para remodelar los muebles de su hogar. Le resultaba complicado encontrar un medio confiable y seguro para contratar este servicio.
+
+Le hablamos sobre nuestra aplicación y le pareció una propuesta novedosa. Considera que le sería de gran ayuda para escoger la opción correcta. Además, le mencionamos la implementación de un asistente virtual que le ayudará a encontrar la mejor opción, basándose en sus gustos, presupuesto, y otras preferencias. Para él, esta es una opción muy viable que le brindará comodidad y le permitirá ahorrar tiempo dentro de la aplicación.<br></td>
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
-                <td>0:00 min</td>
+                <td>4:00 min</td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
