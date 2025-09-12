@@ -28,7 +28,7 @@ Consolidarnos como referentes en innovación tecnológica, promoviendo el desarr
         <tr>
             <!-- DATOS del integrante 1-->
             <td> 
-            <img src="" height="100" width="100"> 
+            <img src="https://i.postimg.cc/7P1MLbZH/foto-alexander-797.jpg" height="100" width="100"> 
             <br>Alexander Alberto Cantoral Sedamano U20181b152 
             </td>
             <!-- DESCRIPCIÓN del integrante 1-->
