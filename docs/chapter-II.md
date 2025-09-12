@@ -302,7 +302,7 @@ Entrevista a Contratistas
                 <td>San Juan de Lurigancho</td>
             </tr>
             <tr>
-            <td><img src="../assets/images/chapter-II/entrevista_segemento1_romero.png" alt="Foto de entrevista"></td>
+            <td><img src="../assets/img/chapter-II/entrevista_segemento1_romero.png" alt="Foto de entrevista"></td>
             <td><strong>Resumen: </strong><br>
             Josef tuvo experiencia contratando un servicio de remodelación. A Josef le parece inconveniente que no haya una plataforma centralizada tipo marketplace para encontrar un buen servicio. A Josef le parece engorroso el proceso de encontrar servicios de remodelación de hogares. El principal problema que Josef tuvo al contratar un servicio de remodelación fueron los precios excesivos. Josef ha utilizado Facebook Marketplace para encontrar al carpintero que lo ayudó a encontrar al profesional de remodelación. Josef piensa que actualmente no hay suficiente transparencia en el mercado; le gustaría poder calificar el servicio, además de poder ver las calificaciones de todos los profesionales. A Josef le gustaría tener un seguimiento del estado actual de la remodelación. A Josef le parecería genial la idea del chatbot y lo usaría al inicio para comparar las cotizaciones con las del mercado actual.
             </td>
@@ -392,7 +392,7 @@ Entrevista a Remodeladores
                 <td>Lince</td>
             </tr>
             <tr>
-                <td><img src="../assets/images/chapter-II/entrevista_segemento2_perez.png" alt="Foto de entrevista"></td>
+                <td><img src="../assets/img/chapter-II/entrevista_segemento2_perez.png" alt="Foto de entrevista"></td>
                 <td><strong>Resumen:</strong><br>Juan tuvo experiencia como gerente de operaciones en una empresa de remodelación. A Juan le parece complicado coordinar todos los proyectos al mismo tiempo sin perder control sobre los tiempos y la calidad. A Juan le parece engorroso que la comunicación entre los equipos y los clientes no sea fluida, lo que genera retrasos. El principal problema que Juan tiene es mantener actualizada la información en tiempo real usando solo hojas de cálculo y software básico.
 Juan ha utilizado inspecciones periódicas y capacitaciones para asegurar la calidad del trabajo. Juan piensa que los servicios más solicitados son remodelaciones de cocinas, baños, renovación de interiores y diseño de mobiliario personalizado. A Juan le parece que su empresa se diferencia por la atención personalizada, cumplimiento de plazos y transparencia en costos.
 A Juan le gustaría tener una herramienta digital centralizada para que el cliente pueda ver el avance del proyecto en tiempo real. A Juan le parecería útil la idea del chatbot, autorizaría información general sobre servicios y precios aproximados. A Juan no le gustaría que el chatbot maneje información confidencial de clientes, las consultas complejas deberían ser derivadas a personal humano.
