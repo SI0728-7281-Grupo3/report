@@ -19,10 +19,10 @@ posteriormente identificar y plantear estrategias que habrá que poner en marcha
     <tbody style="text-align: center">
         <tr>
             <th colspan="2"></th>
-            <th><img src="../assets/img/chapter-II/restyle-logo.png" height="100" width="100"></th> 
-            <th><img src="../assets/img/chapter-II/aram.png" height="100" width="100"></th>
-            <th><img src="../assets/img/chapter-II/remodulatucasa.jpg" height="100" width="100"></th>
-            <th><img src="../assets/img/chapter-II/timbrit.jpg" height="100" width="100"></th>
+            <th><img src="https://i.postimg.cc/Nj00xB5R/restyle-logo.png" height="100" width="100"></th> 
+            <th><img src="https://i.postimg.cc/wj36m2GV/aram.png" width="100"></th>
+            <th><img src="https://i.postimg.cc/52GfqvcM/remodulatucasa.jpg" height="100" width="100"></th>
+            <th><img src="https://i.postimg.cc/wBmgWvHR/timbrit.jpg" height="100" width="100"></th>
         </tr>
         <!-- Este apartado pertenece al PERFIL se fucionó dos filas -->
         <tr>
@@ -434,25 +434,25 @@ Juan piensa que actualmente no hay suficiente fluidez en la comunicación, le gu
         <thead>
             <tr>
                 <th>Entrevistado 3</th>
-                <th></th>
+                <th>Alfredo Medina</th>
             </tr>
             <tr>
                 <th>Entrevistador </th>
-                <th> </th>
+                <th>Alexander Alberto Cantoral Sedamano</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>Edad</td>
-                <td></td>
+                <td>24</td>
             </tr>
             <tr>
                 <td>Distrito</td>
-                <td> </td>
+                <td>Comas</td>
             </tr>
             <tr>
-                <td><img src=""></td>
-                <td><strong>Resumen:</strong><br>---</td>
+                <td><img src="https://i.postimg.cc/wT3FMgy7/image.png"></td>
+                <td><strong>Resumen: En la entrevista Alfredo nos destaca las formas en como trabaja la empresa donde está y las formas en las cuales dicha empresa resalta en el mercado. Además nos destaca como el agregado del chatbot podría beneficiar a la empresa, siendo el una persona no técnica, nos cuenta que podría este mismo comparar el servicio buscado con la competencia y demás. Para finalizar, él ya conoce apps parecidas a la propuesta y nos destacó un aspecto importante que dicha competencia no tiene.</strong><br>---</td>
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
