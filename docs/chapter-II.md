@@ -437,25 +437,25 @@ Entrevista a Remodeladores
         <thead>
             <tr>
                 <th>Entrevistado 3</th>
-                <th></th>
+                <th>Alfredo Medina</th>
             </tr>
             <tr>
                 <th>Entrevistador </th>
-                <th> </th>
+                <th>Alexander Alberto Cantoral Sedamano</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>Edad</td>
-                <td></td>
+                <td>24</td>
             </tr>
             <tr>
                 <td>Distrito</td>
-                <td> </td>
+                <td>Comas</td>
             </tr>
             <tr>
-                <td><img src=""></td>
-                <td><strong>Resumen:</strong><br>---</td>
+                <td><img src="https://i.postimg.cc/wT3FMgy7/image.png"></td>
+                <td><strong>Resumen: En la entrevista Alfredo nos destaca las formas en como trabaja la empresa donde está y las formas en las cuales dicha empresa resalta en el mercado. Además nos destaca como el agregado del chatbot podría beneficiar a la empresa, siendo el una persona no técnica, nos cuenta que podría este mismo comparar el servicio buscado con la competencia y demás. Para finalizar, él ya conoce apps parecidas a la propuesta y nos destacó un aspecto importante que dicha competencia no tiene.</strong><br>---</td>
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
