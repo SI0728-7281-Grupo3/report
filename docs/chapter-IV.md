@@ -10,6 +10,7 @@
 ### 4.1.5. Quality Attribute Scenario Refinements. Carlos
 
 ## 4.2. Strategic-Level Domain-Driven Design.
+
 ### 4.2.1. EventStorming.
 ### 4.2.2. Candidate Context Discovery.
 ### 4.2.3. Domain Message Flows Modeling.
