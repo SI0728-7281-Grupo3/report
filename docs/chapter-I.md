@@ -32,12 +32,13 @@ Consolidarnos como referentes en innovación tecnológica, promoviendo el desarr
             <br>Alexander Alberto Cantoral Sedamano U20181b152 
             </td>
             <!-- DESCRIPCIÓN del integrante 1-->
-            <td ></td>
+            <td >Estudiante de octavo ciclo de la carrera de ingeniería de software. Desarrollador FullStack especializado en React y Spring. Mis intereses son entender lo dificil. </td>
             <!-- CONOCIMIENTOS del integrante 1-->
-            <td></td>
+            <td>
+            Poseo conocimientos en diferentes frameworks que usan C#, JS y Java. Dicen que tengo madera de líder pero me considero más un agente de cambio. Siento que mis habilidades técnicas y blandas serán escenciales para un buen trabajo en equipo.
+            </td>
         </tr>
         <tr>
-            <!-- DATOS del integrante 2-->
             <td>
             <img src="" height="100" width="80"> 
             <br>Carlos Raúl Guillermo Chávez Rojas  U201910317
