@@ -516,3 +516,5 @@ El **lenguaje ubicuo** es una parte fundamental de la estrategia de UX. Se refie
 - **Review (reseña)**: Comentario que un contratista deja en el perfil del remodelador o empresa, evaluando aspectos como la calidad del trabajo, el trato, los precios, entre otros.
 
 - **Subscription (suscripción)**: Proceso mediante el cual los remodeladores o compañías se registran en ReStyle para ofrecer sus servicios, pagando una tarifa mensual.
+
+- **Chatbot (asistente virtual)**: Sistema de inteligencia artificial que interactúa con usuarios (contratistas y remodeladores) para responder preguntas frecuentes, proporcionar estimados de presupuesto iniciales y derivar consultas complejas a soporte humano cuando sea necesario.
