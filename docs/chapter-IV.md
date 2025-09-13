@@ -27,7 +27,7 @@
 - `ReviewSubmitted` solo si `ProjectCompleted`.
 - Indexar únicamente perfiles **públicos y completos**.
 
-<img src="assets/img/chapter-IV-j/4.1.png" alt="EventStorming — tablero general" width="800">
+<img src="..\assets/img/chapter-IV-j/4.1.png" alt="EventStorming — tablero general" width="800">
 
 ---
 
@@ -45,7 +45,7 @@
 **Eventos pivote que delimitan contextos**
 - `QuoteAccepted`, `PaymentCaptured`, `ProjectCompleted`.
 
-<img src="assets/img/chapter-IV-j/4.2.png" alt="Candidate Context Discovery sobre el timeline" width="800">
+<img src="..\assets/img/chapter-IV-j/4.2.png" alt="Candidate Context Discovery sobre el timeline" width="800">
 
 ---
 
@@ -65,7 +65,7 @@
 
 **Sistemas externos:** *Payment Gateway* (PSP), *Email/Push Service*.
 
-<img src="assets/img/chapter-IV-j/4.3.png" alt="Domain Storytelling — escenario integrado" width="800">
+<img src="..\assets/img/chapter-IV-j/4.3.png" alt="Domain Storytelling — escenario integrado" width="800">
 
 ---
 
@@ -75,27 +75,27 @@
 **Identity & Profiles**  
 – Propósito: autenticar usuarios y administrar perfiles públicos.  
 – Decisiones: email único/verificado, consentimiento para perfil público, solo perfiles completos se indexan.  
-<img src="assets/img/chapter-IV-j/4.41.png" alt="Canvas — Identity & Profiles" width="800">
+<img src="..\assets/img/chapter-IV-j/4.41.png" alt="Canvas — Identity & Profiles" width="800">
 
 **Discovery (Search & Indexing)**  
 – Propósito: encontrar remodeladores e indexar perfiles/proyectos.  
 – Decisiones: ranking por *score* (distancia + rating + actividad + completitud).  
-<img src="assets/img/chapter-IV-j/4.42.png" alt="Canvas — Discovery (Search & Indexing)" width="800">
+<img src="..\assets/img/chapter-IV-j/4.42.png" alt="Canvas — Discovery (Search & Indexing)" width="800">
 
 **Project & Quotation**  
 – Propósito: gestionar solicitud, visitas, cotizaciones y aceptación.  
 – Decisiones: solo 1 cotización aceptada; vigencia; visita técnica requerida.  
-<img src="assets/img/chapter-IV-j/4.43.png" alt="Canvas — Project & Quotation" width="800">
+<img src="..\assets/img/chapter-IV-j/4.43.png" alt="Canvas — Project & Quotation" width="800">
 
 **Payment**  
 – Propósito: autorizar, capturar y reembolsar pagos.  
 – Decisiones: idempotencia por `RequestId`, reglas de captura, reembolsos parciales.  
-<img src="assets/img/chapter-IV-j/4.44.png" alt="Canvas — Payment" width="800">
+<img src="..\assets/img/chapter-IV-j/4.44.png" alt="Canvas — Payment" width="800">
 
 **Execution & Feedback**  
 – Propósito: controlar hitos/evidencias y reseñas al cierre.  
 – Decisiones: cerrar hito con evidencia; reseña solo tras `ProjectCompleted`.  
-<img src="assets/img/chapter-IV-j/44.png" alt="Canvas — Execution & Feedback" width="800">
+<img src="..\assets/img/chapter-IV-j/44.png" alt="Canvas — Execution & Feedback" width="800">
 
 ---
 
@@ -108,7 +108,7 @@
 - **Subscriptions & Notifications ↔ Payment**: **Customer/Supplier (Recurring/Dunning)**.
 - Gateways + **ACL** hacia **External IdP** y **PSP**.
 
-<img src="assets/img/chapter-IV-j/4.5.png" alt="Context Mapping — baseline y relaciones" width="800">
+<img src="..\assets/img/chapter-IV-j/4.5.png" alt="Context Mapping — baseline y relaciones" width="800">
 
 **Alternativas analizadas (resumen)**
 - **Discovery dividido (Indexer + Search API):** +escala/+experimentos; −más contratos.

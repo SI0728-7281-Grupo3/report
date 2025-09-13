@@ -285,35 +285,38 @@ En este punto el equipo realizará entrevistas a nuestros segmentos objetivos pr
 ## Entrevistas a segmento objetivo 1
 Entrevista a Contratistas
 
+
 <table>
             <tr>
                 <th>Entrevistado 1</th>
-                <th></th>
+                <th>Ana morales</th>
             <tr>
                 <th>Entrevistador </th>
-                <th></th>
+                <th>Josue Omar Hidalgo Bustamnate</th>
             </tr>
             <tr>
                 <td>Edad: </td>
-                <td></td>
+                <td>24</td>
             </tr>
             <tr>
                 <td>Distrito</td>
-                <td></td>
+                <td>Santiago de Surco</td>
             </tr>
             <tr>
-            <td><img src="" alt="Foto de entrevista"></td>
-            <td><strong>Resumen: </strong><br>
-            ---
-            </td>
+            <td><img src="..\assets/img/chapter-IV-j/interview_client.png" alt="Foto de entrevista"> </td>
+                <td><strong>Resumen:</strong> <br> Anna comento que  para remodelar el baño. Comparó 3 cotizaciones, agendó la visita técnica desde la app; autorizó el pago y la captura se realizó cuando se confirmó la fecha de inicio. Siguió el avance por hitos con fotos y dejó una reseña al cierre. Antes de la app le frustraban la poca transparencia en el desglose de costos, los precios y los tiempos inciertos. Valora que solo se indexen perfiles completos con reseñas y que el flujo de notificaciones sea claro. Usaría un asistente para estimar presupuesto, elegir materiales y resolver dudas durante la ejecución.
+
+Le hablamos sobre nuestra aplicación y le pareció una propuesta novedosa. Considera que le sería de gran ayuda para escoger la opción correcta. Además, le mencionamos la implementación de un asistente virtual que le ayudará a encontrar la mejor opción, basándose en sus gustos, presupuesto, y otras preferencias. Para él, esta es una opción muy viable que le brindará comodidad y le permitirá ahorrar tiempo dentro de la aplicación.<br></td>
+</tr>
+<tr>
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
-                <td> 0:00 min</td>
+                <td> 4:32 min</td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
-                <td><a href="">Link de entrevistas</a></td>
+                <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202119880_upc_edu_pe/EZivMR22EpVHtfduobfpy8oB2n7N2wMqyv7OOeK6wbzyzw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=viEY9b">Link de entrevistas</a></td>
             </tr>
             <tr>
                 <th>Entrevistado 2</th>
@@ -373,6 +376,7 @@ Le hablamos sobre nuestra aplicación y le pareció una propuesta novedosa. Cons
             </tr>
         </tbody>
 </table>
+
 
 ## Entrevista a segmento objetivo 2
 Entrevista a Remodeladores
