@@ -92,6 +92,22 @@
                 <td>N/A</td>
                 <td>N/A</td>
             </tr>
+            <tr>
+                <td>EPIC-008</td>
+                <td>Implementación de Chatbot de Atención al Cliente en App Web</td>
+                <td>
+                    <strong>Como</strong> plataforma de servicios de remodelación, <strong>quiero</strong> incorporar un chatbot de atención al cliente en la aplicación web <strong>para</strong> brindar soporte automatizado e inmediato a usuarios (contratistas y remodeladores), ayudándoles con consultas frecuentes, estimaciones de presupuesto y derivación a soporte humano cuando sea necesario, mejorando así la experiencia de usuario y reduciendo la carga de atención directa.
+                </td>
+                <td>
+                    - El chatbot debe estar disponible <strong>solo en la aplicación web</strong> (no en LP ni app móvil por ahora).<br>
+                    - Debe responder en menos de 3 segundos.<br>
+                    - Debe entender al menos 10 intenciones diferentes (ej: presupuesto, uso de app, contacto).<br>
+                    - Debe integrarse con un sistema de soporte humano para escalado de consultas (ej: chat en vivo o ticket).<br>
+                    - Debe incluir un sistema de feedback para calificar respuestas (ej: thumbs up/down).<br>
+                    - Debe ser accesible desde todas las pantallas de la app web.
+                </td>
+                <td>N/A</td>
+            </tr>
       </tbody>
 </table>
 
@@ -622,7 +638,73 @@
             <strong>Y</strong> el sistema muestra un mensaje de éxito
             </td>
             <td> EPIC-004</td>
-        </tr>    
+        </tr>
+        <tr style="text-align:center">
+        <td>US-023</td>
+        <td>Interacción básica con el chatbot en app web</td>
+        <td>
+            <strong>Como</strong> usuario de ReStyle, 
+            <strong>quiero</strong> poder hacer preguntas básicas al chatbot 
+            <strong>para</strong> obtener respuestas rápidas sobre el uso de la plataforma.
+        </td>
+        <td> 
+            <h5>Escenario 1: Chatbot responde pregunta frecuente</h5>
+            <strong>Dado</strong> que he abierto el chatbot en la app web<br>
+            <strong>Cuando</strong> escribo "¿Cómo cambio mi contraseña?"<br>
+            <strong>Entonces</strong> el chatbot me responde con los pasos para cambiar la contraseña<br>
+            <strong>Y</strong> la respuesta aparece en menos de 3 segundos<br>
+            <h5>Escenario 2: Chatbot no entonde la pregunta</h5>
+            <strong>Dado</strong> que he hecho una pregunta muy específica o compleja<br>
+            <strong>Cuando</strong> el chatbot no puede entender mi intención<br>
+            <strong>Entonces</strong> me sugiere reformular la pregunta<br>
+            <strong>Y</strong> me ofrece la opción de contactar con un agente humano
+        </td>
+        <td>EPIC-008</td>
+    </tr>
+    <tr style="text-align:center">
+        <td>US-024</td>
+        <td>Consulta de presupuestos estimados vía chatbot</td>
+        <td>
+            <strong>Como</strong> usuario contratista de ReStyle, 
+            <strong>quiero</strong> consultar al chatbot un estimado de presupuesto para mi proyecto 
+            <strong>para</strong> tener una idea inicial de costos.
+        </td>
+        <td> 
+            <h5>Escenario 1: Solicitud de presupuesto básico</h5>
+            <strong>Dado</strong> que he iniciado una conversación con el chatbot<br>
+            <strong>Cuando</strong> selecciono la opción "Calcular presupuesto"<br>
+            <strong>Entonces</strong> el chatbot me pregunta por el tipo de remodelación, metros cuadrados y ubicación<br>
+            <strong>Y</strong> al proporcionar los datos, recibo un rango de precios estimado<br>
+            <h5>Escenario 2: Proyecto complejo</h5>
+            <strong>Dado</strong> que mi proyecto requiere múltiples servicios<br>
+            <strong>Cuando</strong> el chatbot detecta alta complejidad<br>
+            <strong>Entonces</strong> me sugiere contactar con un remodelador para una cotización precisa<br>
+            <strong>Y</strong> me ofrece agendar una cita
+        </td>
+        <td>EPIC-008</td>
+    </tr>
+    <tr style="text-align:center">
+        <td>US-025</td>
+        <td>Derivación a soporte humano desde chatbot</td>
+        <td>
+            <strong>Como</strong> usuario de ReStyle, 
+            <strong>quiero</strong> que el chatbot me derive a un agente humano cuando no pueda resolver mi consulta 
+            <strong>para</strong> no quedarme bloqueado.
+        </td>
+        <td> 
+            <h5>Escenario 1: Derivación exitosa</h5>
+            <strong>Dado</strong> que el chatbot no puede responder mi pregunta después de 2 intentos<br>
+            <strong>Cuando</strong> selecciono "Hablar con agente"<br>
+            <strong>Entonces</strong> el chatbot recopila el historial de la conversación<br>
+            <strong>Y</strong> me conecta con un agente humano junto con el contexto<br>
+            <h5>Escenario 2: Agente no disponible</h5>
+            <strong>Dado</strong> que solicito hablar con un agente fuera del horario de atención<br>
+            <strong>Cuando</strong> no hay agentes disponibles<br>
+            <strong>Entonces</strong> el chatbot me ofrece dejar un mensaje<br>
+            <strong>Y</strong> me promete una respuesta en menos de 24 horas
+        </td>
+        <td>EPIC-008</td>
+    </tr>   
         <tr style="text-align:center">
             <td> TS001 </td>
             <td> Obtener Usuarios </td>
@@ -889,7 +971,121 @@
                 <strong>Entonces</strong> el servidor responde con un código de estado 400 Bad Request
                 <strong>Y</strong> recibo un mensaje de error en la solicitud indicando que el ID de parámetro es incorrecto o no existe.
             </td>
-            <td> </td>
+            <tr style="text-align:center">
+        </tr>
+        <tr style="text-align:center">
+            <td>TS009</td>
+            <td>Implementar API de integración del chatbot</td>
+            <td> 
+                <strong>Como</strong> desarrollador backend en reStyle,
+                <strong>Quiero</strong> implementar una API RESTful para integrar el chatbot con la app web
+                <strong>Para</strong> permitir el envío y recepción de mensajes en tiempo real.
+            </td>
+            <td> 
+                <h5>Escenario 01: Envío de mensaje exitoso</h5>
+                <strong>Dado</strong> que tengo autorización en el uso de la API y al endpoint de chatbot,
+                <strong>Cuando</strong> envío una solicitud POST con un mensaje de usuario en formato JSON,
+                <strong>Entonces</strong> el servidor responde con un código de estado 200 OK
+                <strong>Y</strong> recibo la respuesta del chatbot en un response de formato JSON que contiene los siguientes campos:<br>
+                - sessionId: {ID de la sesión de chat}<br>
+                - messageId: {ID único del mensaje}<br>
+                - timestamp: {Fecha y hora de la respuesta}<br>
+                - response: {Texto de la respuesta del chatbot}<br>
+                - intent: {Intención detectada del usuario}<br>
+                - confidence: {Nivel de confianza de la respuesta}<br>
+                <h5>Escenario 02: Envío de mensaje con error</h5>
+                <strong>Dado</strong> que tengo autorización en el uso de la API y al endpoint de chatbot,
+                <strong>Cuando</strong> envío una solicitud POST con un mensaje vacío o mal formado,
+                <strong>Entonces</strong> el servidor responde con un código de estado 400 Bad Request
+                <strong>Y</strong> recibo un mensaje de error indicando que el mensaje no puede ser procesado.<br>
+                <h5>Escenario 03: Obtener historial de conversación</h5>
+                <strong>Dado</strong> que tengo autorización en el uso de la API y al endpoint de historial de chatbot,
+                <strong>Cuando</strong> envío una solicitud GET con el sessionId válido,
+                <strong>Entonces</strong> el servidor responde con un código de estado 200 OK
+                <strong>Y</strong> recibo el historial completo de la conversación en formato JSON.
+            </td>
+            <td>EPIC-008</td>
+        </tr>
+        <tr style="text-align:center">
+            <td>TS010</td>
+            <td>Implementar servicio de procesamiento de lenguaje natural</td>
+            <td> 
+                <strong>Como</strong> desarrollador backend en reStyle,
+                <strong>Quiero</strong> implementar un servicio de NLP para el chatbot
+                <strong>Para</strong> que pueda entender las intenciones del usuario y generar respuestas precisas.
+            </td>
+            <td> 
+                <h5>Escenario 01: Procesamiento de intención exitoso</h5>
+                <strong>Dado</strong> que el servicio de NLP está funcionando correctamente,
+                <strong>Cuando</strong> recibe un mensaje del usuario con una intención clara (ej: "presupuesto para baño"),
+                <strong>Entonces</strong> el servicio identifica la intención principal con al menos 85% de confianza
+                <strong>Y</strong> extrae las entidades relevantes (tipo: "baño", acción: "presupuesto").<br>
+                <h5>Escenario 02: Intención con baja confianza</h5>
+                <strong>Dado</strong> que el servicio de NLP recibe un mensaje ambiguo o poco claro,
+                <strong>Cuando</strong> el nivel de confianza es menor al 60%,
+                <strong>Entonces</strong> el servicio devuelve un código de "intención_no_reconocida"
+                <strong>Y</strong> sugiere al chatbot pedir clarificación al usuario.<br>
+                <h5>Escenario 03: Entrenamiento del modelo</h5>
+                <strong>Dado</strong> que se han recolectado nuevos datos de conversaciones,
+                <strong>Cuando</strong> se ejecuta el proceso de re-entrenamiento del modelo,
+                <strong>Entonces</strong> el servicio genera un nuevo modelo con métricas mejoradas
+                <strong>Y</strong> se despliega automáticamente sin interrumpir el servicio.
+            </td>
+            <td>EPIC-008</td>
+        </tr>
+        <tr style="text-align:center">
+            <td>TS011</td>
+            <td>Implementar base de conocimientos para chatbot</td>
+            <td> 
+                <strong>Como</strong> desarrollador backend en reStyle,
+                <strong>Quiero</strong> implementar una base de conocimientos para el chatbot
+                <strong>Para</strong> que pueda acceder a información actualizada sobre servicios y preguntas frecuentes.
+            </td>
+            <td> 
+                <h5>Escenario 01: Consulta exitosa a la base de conocimientos</h5>
+                <strong>Dado</strong> que la base de conocimientos está poblada con al menos 50 preguntas frecuentes,
+                <strong>Cuando</strong> el chatbot consulta por una pregunta común (ej: "¿Cómo cambio mi contraseña?"),
+                <strong>Entonces</strong> el sistema devuelve la respuesta precisa en menos de 100ms
+                <strong>Y</strong> incluye enlaces relevantes si son necesarios.<br>
+                <h5>Escenario 02: Actualización de la base de conocimientos</h5>
+                <strong>Dado</strong> que un administrador necesita agregar nueva información,
+                <strong>Cuando</strong> se envía una solicitud PUT a la API de administración con datos válidos,
+                <strong>Entonces</strong> el sistema actualiza la base de conocimientos
+                <strong>Y</strong> la nueva información está disponible inmediatamente para el chatbot.<br>
+                <h5>Escenario 03: Búsqueda sin resultados</h5>
+                <strong>Dado</strong> que el usuario hace una pregunta muy específica no cubierta en la base,
+                <strong>Cuando</strong> la consulta no devuelve resultados relevantes,
+                <strong>Entonces</strong> el sistema registra la pregunta para revisión posterior
+                <strong>Y</strong> sugiere derivar al usuario a soporte humano.
+            </td>
+            <td>EPIC-008</td>
+        </tr>
+        <tr style="text-align:center">
+            <td>TS012</td>
+            <td>Implementar integración con sistema de soporte humano</td>
+            <td> 
+                <strong>Como</strong> desarrollador backend en reStyle,
+                <strong>Quiero</strong> implementar la integración entre el chatbot y el sistema de soporte humano
+                <strong>Para</strong> permitir derivaciones fluidas cuando el chatbot no pueda resolver una consulta.
+            </td>
+            <td> 
+                <h5>Escenario 01: Derivación exitosa a agente humano</h5>
+                <strong>Dado</strong> que el chatbot detecta la necesidad de derivación,
+                <strong>Cuando</strong> se inicia el proceso de transferencia a un agente humano,
+                <strong>Entonces</strong> el sistema crea un ticket en el sistema de soporte
+                <strong>Y</strong> transfiere el historial completo de la conversación al agente.<br>
+                <h5>Escenario 02: Agente no disponible</h5>
+                <strong>Dado</strong> que no hay agentes disponibles en el momento,
+                <strong>Cuando</strong> se intenta una derivación,
+                <strong>Entonces</strong> el sistema informa al usuario del tiempo estimado de espera
+                <strong>Y</strong> ofrece la opción de ser contactado posteriormente por email.<br>
+                <h5>Escenario 03: Recolección de información previa a la derivación</h5>
+                <strong>Dado</strong> que se requiere información adicional antes de la derivación,
+                <strong>Cuando</strong> el chatbot identifica que la consulta es compleja,
+                <strong>Entonces</strong> solicita al usuario información de contacto y detalles específicos
+                <strong>Y</strong> guarda esta información en el ticket de soporte.
+            </td>
+            <td>EPIC-008</td>
         </tr>
     </body>
 </table>
@@ -1024,17 +1220,87 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
             </tr>
             <tr>
                 <td>16</td>
+                <td>US-027</td>
+                <td>Interacción básica con el chatbot en app web</td>
+                <td>Como usuario de ReStyle, quiero poder hacer preguntas básicas al chatbot para obtener respuestas rápidas sobre el uso de la plataforma.</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>US-028</td>
+                <td>Consulta de presupuestos estimados vía chatbot</td>
+                <td>Como usuario contratista de ReStyle, quiero consultar al chatbot un estimado de presupuesto para mi proyecto para tener una idea inicial de costos.</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>US-029</td>
+                <td>Derivación a soporte humano desde chatbot</td>
+                <td>Como usuario de ReStyle, quiero que el chatbot me derive a un agente humano cuando no pueda resolver mi consulta para no quedarme bloqueado.</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>19</td>
                 <td>US-10</td>
                 <td>Gestión de solicitudes al servidor</td>
                 <td>Como desarrollador, quiero asegurarme de que el API pueda gestionar múltiples solicitudes de varios dispositivos para que el sistema funcione sin interrupciones durante temporadas de alta demanda.</td>
                 <td>5</td>
             </tr>
             <tr>
-                <td>17</td>
+                <td>20</td>
                 <td>US-11</td>
                 <td>Autorización y seguridad de acceso al API</td>
                 <td>Como desarrollador, quiero poder configurar una autenticación y autorización segura en el API para garantizar que solos los usuarios admin puedan acceder al sistema.</td>
                 <td>3</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>US-009</td>
+                <td>Establecer comunicación con remodeladores</td>
+                <td>Como usuario contratista, quiero establecer comunicación efectiva con los remodeladores para poder expresar mis necesidades y recibir información actualizada sobre el proyecto.</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>US-014</td>
+                <td>Contratación de servicios de remodelación</td>
+                <td>Como usuario contratista, quiero contratar servicios de remodelación de manera eficiente para asegurar que el proyecto se realice acorde a mi presupuesto y necesidades.</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>US-017</td>
+                <td>Gestión de portafolio</td>
+                <td>Como usuario remodelador, quiero gestionar mi portafolio de proyectos de manera eficiente para poder compartir mi trabajo con contratistas interesados.</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>US-019</td>
+                <td>Gestión de proyecto</td>
+                <td>Como usuario remodelador, quiero gestionar el proyecto encargado por un contratista para permitir el monitoreo de avances y cumplimiento de objetivos.</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>US-020</td>
+                <td>Gestión de suscripción</td>
+                <td>Como usuario remodelador, quiero suscribirme a un plan de pago para acceder a beneficios exclusivos y mejorar mi experiencia en la aplicación.</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td>US-021</td>
+                <td>Implementar API RESTful</td>
+                <td>Como desarrollador, quiero implementar una API RESTful para poder acceder a los datos del sistema de forma segura.</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>27</td>
+                <td>US-022</td>
+                <td>Implementar Landing Page</td>
+                <td>Como visitante, quiero acceder a una Landing Page con secciones informativas para tener un conocimiento claro de la aplicación.</td>
+                <td>5</td>
             </tr>
         </tbody>
 </table>
