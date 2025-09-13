@@ -13,7 +13,6 @@ Brindar soluciones tecnológicas innovadoras y de alta calidad que contribuyan a
 * **Visión:**
 Consolidarnos como referentes en innovación tecnológica, promoviendo el desarrollo de software eficiente, sostenible y con un impacto positivo en la sociedad.
 
-
 ### 1.1.2. Perfiles de integrantes del equipo
 
 <table style="text-align:center">
@@ -24,7 +23,7 @@ Consolidarnos como referentes en innovación tecnológica, promoviendo el desarr
             <th>Conocimientos</th>
         </tr>
     </thead>
-    <body >
+    <tbody>
         <tr>
             <!-- DATOS del integrante 1-->
             <td> 
@@ -61,13 +60,13 @@ Consolidarnos como referentes en innovación tecnológica, promoviendo el desarr
         <tr>
             <!-- DATOS del integrante 4-->
             <td>
-            <img src="" height="100" width="75">
+            <img src="../assets/img/chapter-I/Foto_Luciano.png" height="100" width="75">
             <br>Luciano Stefano Ruiz Blas    U20211f978
             </td>
-            <!-- DESCRIPCIÓN del integrante 4-->
-            <td></td>
-            <!-- CONOCIMIENTOS del integrante 4-->
+            <td>Apasionado por la inteligencia artificial y el desarrollo web. Entusiasta del trabajo en equipo y fiel creyente de la metodología ágil.
+            </td>
             <td>
+            Java, html, css, C++, C#, TypeScript, Python, SQL, tailwindcss, angular, boostrap, Springboot. 
             </td>
         </tr>
         <tr>
@@ -94,7 +93,7 @@ Consolidarnos como referentes en innovación tecnológica, promoviendo el desarr
    - Machine Learning aplicado a seguridad
 </td>
 
-    </body>
+    </tbody>
 </table>
 
 ## 1.2. Solution Profile

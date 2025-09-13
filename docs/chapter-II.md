@@ -311,6 +311,10 @@ Entrevista a Contratistas
                 <td>Timing de la entrevista</td>
                 <td> 3:55 min min</td>
             </tr>
+             <tr>
+                <td>URL de la entrevista</td>
+                <td><a href="">Link de entrevistas</a></td>
+            </tr>
             <tr>
                 <th>Entrevistado 2</th>
                 <th></th>
@@ -403,6 +407,10 @@ Juan piensa que actualmente no hay suficiente fluidez en la comunicación, le gu
             <tr>
                 <td>Timing de la entrevista</td>
                 <td>07:04 min</td>
+            </tr>
+             <tr>
+                <td>URL de la entrevista</td>
+                <td><a href="">Link de entrevistas</a></td>
             </tr>
             <tr>
                 <th>Entrevistado 2</th>
