@@ -1,5 +1,5 @@
 # Capítulo II: Requirements Elicitation & Analysis.
-## 2.1. Competidores. 
+## 2.1. Competidores.
 En este apartado el equipo realizará investigaciones sobre nuestros potenciales competidores en el mercado.
 ### 2.1.1. Análisis competitivo.
 En este apartado el equipo realizará un analisis competitivo de nuestras 3 principales competidores identificados para
@@ -230,55 +230,55 @@ En este punto el equipo realizará entrevistas a nuestros segmentos objetivos pr
 ## Segmento objetivo 1 (personas que remodelan su hogar)
 
 ### 1) Preguntas demográficas
-1. ¿Cuál es tu nombre?  
-2. ¿Qué edad tienes?  
-3. ¿Con qué género te identificas?  
-4. ¿De qué distrito resides?  
-5. ¿Cuál es tu estado civil?  
-6. ¿Cuál es tu nivel educativo más alto alcanzado?  
-7. ¿Cuál es tu ocupación?  
+1. ¿Cuál es tu nombre?
+2. ¿Qué edad tienes?
+3. ¿Con qué género te identificas?
+4. ¿De qué distrito resides?
+5. ¿Cuál es tu estado civil?
+6. ¿Cuál es tu nivel educativo más alto alcanzado?
+7. ¿Cuál es tu ocupación?
 
 ### 2) Preguntas sobre sus preferencias
-1. ¿Qué tipo de contenido consumes regularmente (libros, películas, música, etc.)?  
-2. ¿Qué redes sociales o plataformas digitales utilizas con mayor frecuencia?  
+1. ¿Qué tipo de contenido consumes regularmente (libros, películas, música, etc.)?
+2. ¿Qué redes sociales o plataformas digitales utilizas con mayor frecuencia?
 3. En una escala del 1 al 10, ¿qué tanto crees saber sobre el uso de aparatos tecnológicos? (celulares, laptop, computadora, etc.)
 
 ### 3) Preguntas sobre la solución
-1. ¿Has intentado contratar servicios de remodelación anteriormente? ¿Cuál fue tu experiencia?  
-2. ¿Qué te detiene o hace difícil encontrar un servicio de remodelación adecuado para tu hogar?  
-3. ¿Cómo describirías el proceso de encontrar y contratar un servicio de remodelación de hogares?  
-4. ¿Cuál es el principal problema que has encontrado al contratar servicios de remodelación?  
-5. ¿Has utilizado alguna aplicación o plataforma en línea para contratar servicios de remodelación? ¿Cómo fue tu experiencia?  
-6. ¿Cómo te sientes acerca de la transparencia en el proceso de contratación de servicios de remodelación?  
-7. ¿Crees que tener acceso a comentarios y puntuaciones de otros usuarios ayudaría en la selección de un servicio de remodelación?  
-8. ¿Qué funcionalidades esperarías encontrar en una aplicación o plataforma en línea para contratar servicios de remodelación?  
-9. ¿Te gustaría tener un seguimiento en tiempo real del estado de la remodelación de tu hogar? ¿Por qué?  
-10. Si tuvieras un asistente virtual dentro de la app que te diera presupuestos estimados, recomiende materiales y responda dudas 24/7, ¿en qué momentos del proceso lo usarías y para qué tareas específicas? 
+1. ¿Has intentado contratar servicios de remodelación anteriormente? ¿Cuál fue tu experiencia?
+2. ¿Qué te detiene o hace difícil encontrar un servicio de remodelación adecuado para tu hogar?
+3. ¿Cómo describirías el proceso de encontrar y contratar un servicio de remodelación de hogares?
+4. ¿Cuál es el principal problema que has encontrado al contratar servicios de remodelación?
+5. ¿Has utilizado alguna aplicación o plataforma en línea para contratar servicios de remodelación? ¿Cómo fue tu experiencia?
+6. ¿Cómo te sientes acerca de la transparencia en el proceso de contratación de servicios de remodelación?
+7. ¿Crees que tener acceso a comentarios y puntuaciones de otros usuarios ayudaría en la selección de un servicio de remodelación?
+8. ¿Qué funcionalidades esperarías encontrar en una aplicación o plataforma en línea para contratar servicios de remodelación?
+9. ¿Te gustaría tener un seguimiento en tiempo real del estado de la remodelación de tu hogar? ¿Por qué?
+10. Si tuvieras un asistente virtual dentro de la app que te diera presupuestos estimados, recomiende materiales y responda dudas 24/7, ¿en qué momentos del proceso lo usarías y para qué tareas específicas?
 ---
 
 ## Segmento objetivo 2 (empresas/proveedores de remodelación)
 
 ### 1) Preguntas demográficas
-1. ¿Cuál es tu nombre?  
-2. ¿Qué edad tienes?  
-3. ¿Con qué género te identificas?  
-4. ¿De qué distrito resides?  
-5. ¿Cuál es tu estado civil?  
-6. ¿Cuál es tu nivel educativo más alto alcanzado?  
+1. ¿Cuál es tu nombre?
+2. ¿Qué edad tienes?
+3. ¿Con qué género te identificas?
+4. ¿De qué distrito resides?
+5. ¿Cuál es tu estado civil?
+6. ¿Cuál es tu nivel educativo más alto alcanzado?
 7. ¿Cuál es tu ocupación?
 
 ### 2) Preguntas sobre la solución
-1. ¿Cuál es el mayor desafío que enfrenta su empresa al brindar servicios de remodelación?  
-2. ¿Cómo maneja su empresa la asignación de trabajos y la gestión de proyectos de remodelación?  
-3. ¿Cómo asegura su empresa la calidad del trabajo realizado por su personal?  
-4. ¿Cómo se comunica su empresa con los clientes durante el proceso de remodelación?  
-5. ¿Cómo maneja su empresa las quejas o problemas de los clientes durante el proceso de remodelación?  
-6. ¿Qué tipo de servicios de remodelación son más solicitados por sus clientes?  
-7. ¿Cómo maneja su empresa la capacitación y el desarrollo de habilidades de su personal de remodelación?  
-8. ¿Qué medidas toma su empresa para asegurar la seguridad de su personal durante los trabajos de remodelación?  
-9. ¿Cómo se diferencian los servicios de remodelación de su empresa de los de la competencia?  
-10. ¿Qué cambios o mejoras podría hacer su empresa en su proceso de remodelación para mejorar la satisfacción del cliente?  
-11. Si integráramos un chatbot que atienda consultas frecuentes de clientes usando su catálogo, disponibilidad y precios, ¿qué información autorizarían a usar y qué límites pondrían? 
+1. ¿Cuál es el mayor desafío que enfrenta su empresa al brindar servicios de remodelación?
+2. ¿Cómo maneja su empresa la asignación de trabajos y la gestión de proyectos de remodelación?
+3. ¿Cómo asegura su empresa la calidad del trabajo realizado por su personal?
+4. ¿Cómo se comunica su empresa con los clientes durante el proceso de remodelación?
+5. ¿Cómo maneja su empresa las quejas o problemas de los clientes durante el proceso de remodelación?
+6. ¿Qué tipo de servicios de remodelación son más solicitados por sus clientes?
+7. ¿Cómo maneja su empresa la capacitación y el desarrollo de habilidades de su personal de remodelación?
+8. ¿Qué medidas toma su empresa para asegurar la seguridad de su personal durante los trabajos de remodelación?
+9. ¿Cómo se diferencian los servicios de remodelación de su empresa de los de la competencia?
+10. ¿Qué cambios o mejoras podría hacer su empresa en su proceso de remodelación para mejorar la satisfacción del cliente?
+11. Si integráramos un chatbot que atienda consultas frecuentes de clientes usando su catálogo, disponibilidad y precios, ¿qué información autorizarían a usar y qué límites pondrían?
 
 ### 2.2.2. Registro de entrevistas.
 
@@ -316,32 +316,33 @@ Entrevista a Contratistas
                 <td><a href="">Link de entrevistas</a></td>
             </tr>
             <tr>
-                <th>Entrevistado 2</th>
-                <th></th>
+                <th>Entrevistado 2d</th>
+                <th>Ana morales</th>
             <tr>
                 <th>Entrevistador </th>
-                <th></th>
+                <th>Josue Omar Hidalgo Bustamnate</th>
             </tr>
             <tr>
                 <td>Edad</td>
-                <td></td>
+                <td>24</td>
             </tr>
             <tr>
                 <td>Distrito</td>
-                <td></td>
+                <td>Santiago de Surco</td>
             </tr>
             <tr>
-            <td><img src="" alt="Foto de entrevista"></td>
-                <td><strong>Resumen:</strong><br>---</td>
+            <td><img src="../assets/img/chapter-IV-j/interview_client.png" alt="Foto de entrevista"></td>
+                <td><strong>Resumen: </strong><br>Anna comento que  para remodelar el baño. Comparó 3 cotizaciones, agendó la visita técnica desde la app; autorizó el pago y la captura se realizó cuando se confirmó la fecha de inicio. Siguió el avance por hitos con fotos y dejó una reseña al cierre. Antes de la app le frustraban la poca transparencia en el desglose de costos, los precios y los tiempos inciertos. Valora que solo se indexen perfiles completos con reseñas y que el flujo de notificaciones sea claro. Usaría un asistente para estimar presupuesto, elegir materiales y resolver dudas durante la ejecución.
+
+Le hablamos sobre nuestra aplicación y le pareció una propuesta novedosa. Considera que le sería de gran ayuda para escoger la opción correcta. Además, le mencionamos la implementación de un asistente virtual que le ayudará a encontrar la mejor opción, basándose en sus gustos, presupuesto, y otras preferencias. Para él, esta es una opción muy viable que le brindará comodidad y le permitirá ahorrar tiempo dentro de la aplicación.</td>
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
-                <td>0:00 min</td>
+                <td>04:24 min</td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
-                <td><a href="">Link de entrevistas</a></td>
-            </tr>
+<td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202119880_upc_edu_pe/EZivMR22EpVHtfduobfpy8oB2n7N2wMqyv7OOeK6wbzyzw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=viEY9b">Link de entrevistas</a></td>            </tr>
             <tr>
                 <th>Entrevistado 3</th>
                 <th>Fabian Reyes</th>
@@ -362,16 +363,15 @@ Entrevista a Contratistas
                 <td><strong>Resumen:</strong> <br> Fabián nos comentó que, hace poco, estaba buscando mejores opciones para remodelar los muebles de su hogar. Le resultaba complicado encontrar un medio confiable y seguro para contratar este servicio.
 
 Le hablamos sobre nuestra aplicación y le pareció una propuesta novedosa. Considera que le sería de gran ayuda para escoger la opción correcta. Además, le mencionamos la implementación de un asistente virtual que le ayudará a encontrar la mejor opción, basándose en sus gustos, presupuesto, y otras preferencias. Para él, esta es una opción muy viable que le brindará comodidad y le permitirá ahorrar tiempo dentro de la aplicación.<br></td>
-            </tr>
-            <tr>
-                <td>Timing de la entrevista</td>
-                <td>4:00 min</td>
-            </tr>
-            <tr>
-                <td>URL de la entrevista</td>
-                <td><a href="">Link de entrevistas</a></td>
-            </tr>
-        </tbody>
+</tr>
+<tr>
+<td>Timing de la entrevista</td>
+<td>4:00 min</td>
+</tr>
+<tr>
+<td>URL de la entrevista</td>
+<td><a href="">Link de entrevistas</a></td>
+</tr>
 </table>
 
 ## Entrevista a segmento objetivo 2
@@ -475,8 +475,8 @@ Juan piensa que actualmente no hay suficiente fluidez en la comunicación, le gu
 
 ### 2.2.3. Análisis de entrevistas.
 
-## 2.3. Needfinding. 
-Comprender las necesidades y requisitos de los usuarios es crucial para el éxito en el desarrollo de software. La fase de investigación de necesidades requiere un enfoque sistemático para recolectar información, identificar problemas y descubrir oportunidades que guiarán el diseño y desarrollo del software. Al analizar los comportamientos, preferencias y desafíos de los usuarios, nuestro objetivo es crear soluciones que sean tanto funcionales como intuitivas e impactantes. Los perfiles de usuario se han desarrollado teniendo en cuenta los segmentos clave, como el contratista, que busca remodelador, y el remodelador, que ofrece servicios de remodelación. 
+## 2.3. Needfinding.
+Comprender las necesidades y requisitos de los usuarios es crucial para el éxito en el desarrollo de software. La fase de investigación de necesidades requiere un enfoque sistemático para recolectar información, identificar problemas y descubrir oportunidades que guiarán el diseño y desarrollo del software. Al analizar los comportamientos, preferencias y desafíos de los usuarios, nuestro objetivo es crear soluciones que sean tanto funcionales como intuitivas e impactantes. Los perfiles de usuario se han desarrollado teniendo en cuenta los segmentos clave, como el contratista, que busca remodelador, y el remodelador, que ofrece servicios de remodelación.
 
 ### 2.3.1. User Personas.
 
@@ -496,11 +496,11 @@ Comprender las necesidades y requisitos de los usuarios es crucial para el éxit
 El **lenguaje ubicuo** es una parte fundamental de la estrategia de UX. Se refiere al conjunto de términos y frases que se utilizan de manera consistente en toda la aplicación para referirse a conceptos, acciones y elementos clave. El lenguaje ubicuo tiene los siguientes beneficios:
 
 - **Mejora la usabilidad**: Los usuarios pueden comprender fácilmente la aplicación y navegar por ella sin confusiones.
-  
+
 - **Aumenta la accesibilidad**: El uso de un lenguaje claro y conciso facilita el uso de la aplicación para personas con diferentes niveles de alfabetización y habilidades cognitivas.
-  
+
 - **Refuerza la marca**: Un lenguaje único y consistente ayuda a crear una identidad de marca fuerte y memorable.
-  
+
 - **Promueve la colaboración**: Facilita la comunicación entre los equipos de diseño, desarrollo y marketing.
 
 **Glosario:**
