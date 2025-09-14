@@ -414,26 +414,26 @@ Juan piensa que actualmente no hay suficiente fluidez en la comunicación, le gu
             </tr>
             <tr>
                 <th>Entrevistado 2</th>
-                <th></th>
+                <th>Sebastian Samamé Vera</th>
             <tr>
                 <th>Entrevistador </th>
-                <th></th>
+                <th>Carlos Chávez</th>
             </tr>
             <tr>
                 <td>Edad</td>
-                <td></td>
+                <td>23</td>
             </tr>
             <tr>
                 <td>Distrito</td>
-                <td> </td>
+                <td>Pueblo Libre</td>
             </tr>
             <tr>
-                <td><img src="" alt="Foto de entrevista"></td>
-                <td><strong>Resumen:</strong><br>---</td>
+                <td><img src="../assets/img/chapter-II/Entrevista2.jpg" alt="Foto de entrevista"></td>
+                <td><strong>Resumen:</strong><br>El entrevistado, Sebastian Samame, trabajador de una empresa de remodelación en Pueblo Libre, señaló que el mayor desafío de su negocio es coordinar tiempos entre clientes, materiales y permisos. Su empresa gestiona proyectos con cronogramas y software especializado, garantiza la calidad con supervisores y checklists, y mantiene la comunicación con clientes vía WhatsApp, correo y reuniones semanales. Los servicios más demandados son remodelaciones de cocinas y baños, mientras que las quejas se resuelven con rapidez, ofreciendo garantías si es necesario. Destacó la capacitación semestral y protocolos de seguridad para el personal, así como la puntualidad y transparencia como sus principales diferenciadores. Como mejora, ve útil implementar un sistema digital de seguimiento en tiempo real y considera viable un chatbot para consultas frecuentes, siempre que se proteja la información privada de los clientes.</td>
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
-                <td>0:00 min</td>
+                <td>7:25 min</td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>

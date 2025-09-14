@@ -39,13 +39,18 @@ Consolidarnos como referentes en innovación tecnológica, promoviendo el desarr
         </tr>
         <tr>
             <td>
-            <img src="" height="100" width="80"> 
+            <img src="../assets/img/chapter-I/Foto_Carlos.jpeg" height="100" width="80"> 
             <br>Carlos Raúl Guillermo Chávez Rojas  U201910317
             </td>
-            <!-- DESCRIPCIÓN del integrante 2-->
-            <td></td>
-            <!-- CONOCIMIENTOS del integrante 2-->
-            <td></td>
+            <td>
+            Tengo 23 años y estudio la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me apasiona el mundo digital y la capacidad de la tecnología para solucionar problemas y crear nuevas experiencias. Soy una persona proactiva, responsable y con gran capacidad de aprendizaje. Tengo un fuerte interés por la investigación y la innovación, y estoy siempre buscando nuevas formas de mejorar mis habilidades y conocimientos.           
+            </td>
+            <td>
+            - Desarrollo Web con distintos frameworks para frontend y backend<br>
+            - Normativas ISO/EIC 27001 e ISO/IEC 25010<br>
+            - Analisis de datos<br>
+            - Diseño UX/UI<br>
+            </td>
         </tr>
         <tr>
             <!-- DATOS del integrante 3-->
