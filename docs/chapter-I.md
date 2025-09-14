@@ -50,13 +50,18 @@ Consolidarnos como referentes en innovación tecnológica, promoviendo el desarr
         <tr>
             <!-- DATOS del integrante 3-->
             <td>
-            <img src="" height="100" width="100"> 
+            <img src="../assets/img/chapter-I/Foto_Josue.png" height="100" width="100"> 
             <br>Josue Omar Hidalgo Bustamante  U202119880
             </td>
-            <!-- DESCRIPCIÓN del integrante 3-->
-            <td></td>
-            <!-- CONOCIMIENTOS del integrante 3-->
-            <td></td>
+            Me llamo Josue Omar Hidalgo Bustamante, estudiante de Ingeniería de Software. Mi enfoque profesional está orientado al desarrollo de soluciones digitales que aborden diversas necesidades del mundo real. Puedo aportar al equipo a través de mi experiencia en programación con lenguajes como Java y Python, manejo de bases de datos, así como en la elaboración de documentación técnica y la aplicación de metodologías ágiles para la gestión de proyectos. 
+            <td>   Python, JavaScript, TypeScript,
+             MySQL, PostgreSQL, MongoDB,
+            Spring Boot, Flask,FastApi,Django ,
+            React, Flutter,
+            TailwindCSS, Bootstrap, CSS, HTML,
+            AWS, Docker, Kubernetes, Railway,
+            DDD, CQRS, Microservicios, Arquitectura C4, MQTT, RabbitMQ, REST APIs.</td>
+            <td> </td>
         </tr>
         <tr>
             <!-- DATOS del integrante 4-->
