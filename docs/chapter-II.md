@@ -482,7 +482,99 @@ Comprender las necesidades y requisitos de los usuarios es crucial para el éxit
 
 
 ### 2.3.2. User Task Matrix.
-
+<body>
+    <h2>User Task Matrix</h2>
+    <table>
+        <tr>
+            <th rowspan="2">User Task</th>
+            <th colspan="2">Usuario (Contratista) </th>
+            <th colspan="2">Usuario 2 (Remodelador) </th>
+        </tr>
+        <tr>
+            <th>Frecuencia</th>
+            <th>Importancia</th>
+            <th>Frecuencia</th>
+            <th>Importancia</th>
+        </tr>
+        <tr>
+            <td>Buscar y comparar remodeladores confiables en el área</td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Baja</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td>Solicitar y comparar cotizaciones de proyectos </td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Media</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Revisar reseñas, calificaciones y testimonios de otros clientes </td>
+            <td>Alta</td>
+            <td>Media</td>
+            <td>Media</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td>Coordinar y programar visitas técnicas </td>
+            <td>Media</td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Hacer seguimiento en tiempo real al avance del proyecto (fotos, hitos, reportes)</td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Dejar reseñas y calificaciones al cierre del servicio</td>
+            <td>Media</td>
+            <td>Alta</td>
+            <td>Media</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td>Crear y actualizar portafolio de proyectos realizados</td>
+            <td>Baja</td>
+            <td>Media</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Gestionar cronogramas, materiales y permisos</td>
+            <td>Baja</td>
+            <td>Media</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+                <tr>
+            <td>Mantener comunicación centralizada con el cliente (app/chatbot)</td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+                <tr>
+            <td>Resolver dudas frecuentes con un chatbot (servicios, precios, materiales)</td>
+            <td>Media</td>
+            <td>Alta</td>
+            <td>Media</td>
+            <td>Media</td>
+        </tr>
+                <tr>
+            <td>Discutir cambios o ajustes en el contrato del proyecto</td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+    </table>
+</body>
 
 ### 2.3.3. User Journey Mapping.
 
