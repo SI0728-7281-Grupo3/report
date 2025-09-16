@@ -309,14 +309,14 @@ Entrevista a Contratistas
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
-                <td> 3:55 min min</td>
+                <td> 0:03-3:58 min</td>
             </tr>
              <tr>
                 <td>URL de la entrevista</td>
-                <td><a href="">Link de entrevistas</a></td>
+                <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181b152_upc_edu_pe/ESda4ieKM_9Gs7g0EhKARr0BRrHPKE8unSplRAp_8cbMxw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=52TXwT">Link de entrevistas</a></td>
             </tr>
             <tr>
-                <th>Entrevistado 2d</th>
+                <th>Entrevistado 2</th>
                 <th>Ana morales</th>
             <tr>
                 <th>Entrevistador </th>
@@ -338,11 +338,11 @@ Le hablamos sobre nuestra aplicación y le pareció una propuesta novedosa. Cons
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
-                <td>04:24 min</td>
+                <td>3:59-9:50 min</td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
-<td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202119880_upc_edu_pe/EZivMR22EpVHtfduobfpy8oB2n7N2wMqyv7OOeK6wbzyzw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=viEY9b">Link de entrevistas</a></td>            </tr>
+<td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181b152_upc_edu_pe/ESda4ieKM_9Gs7g0EhKARr0BRrHPKE8unSplRAp_8cbMxw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=52TXwT">Link de entrevistas</a></td>            </tr>
             <tr>
                 <th>Entrevistado 3</th>
                 <th>Fabian Reyes</th>
@@ -366,11 +366,11 @@ Le hablamos sobre nuestra aplicación y le pareció una propuesta novedosa. Cons
 </tr>
 <tr>
 <td>Timing de la entrevista</td>
-<td>4:00 min</td>
+<td>9:50-16:24 min</td>
 </tr>
 <tr>
 <td>URL de la entrevista</td>
-<td><a href="">Link de entrevistas</a></td>
+<td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181b152_upc_edu_pe/ESda4ieKM_9Gs7g0EhKARr0BRrHPKE8unSplRAp_8cbMxw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=52TXwT">Link de entrevistas</a></td>
 </tr>
 </table>
 
@@ -381,7 +381,7 @@ Entrevista a Remodeladores
         <thead>
             <tr>
                 <th>Entrevistado 1</th>
-                <th>Juan Perez</th>
+                <th>Ivan?</th>
             </tr>
             <tr>
                 <th>Entrevistador </th>
@@ -406,11 +406,11 @@ Juan piensa que actualmente no hay suficiente fluidez en la comunicación, le gu
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
-                <td>07:04 min</td>
+                <td>16:34-23:38 min</td>
             </tr>
              <tr>
                 <td>URL de la entrevista</td>
-                <td><a href="">Link de entrevistas</a></td>
+                <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181b152_upc_edu_pe/ESda4ieKM_9Gs7g0EhKARr0BRrHPKE8unSplRAp_8cbMxw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=52TXwT">Link de entrevistas</a></td>
             </tr>
             <tr>
                 <th>Entrevistado 2</th>
@@ -433,11 +433,11 @@ Juan piensa que actualmente no hay suficiente fluidez en la comunicación, le gu
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
-                <td>7:25 min</td>
+                <td>23:39-31:05 min</td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
-                <td><a href="">Link de entrevistas</a></td>
+                <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181b152_upc_edu_pe/ESda4ieKM_9Gs7g0EhKARr0BRrHPKE8unSplRAp_8cbMxw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=52TXwT">Link de entrevistas</a></td>
             </tr>
         <thead>
             <tr>
@@ -464,11 +464,11 @@ Juan piensa que actualmente no hay suficiente fluidez en la comunicación, le gu
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
-                <td>0:00 min</td>
+                <td>31:06-39:48 min</td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
-                <td><a href="">Link de entrevistas</a></td>
+                <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181b152_upc_edu_pe/ESda4ieKM_9Gs7g0EhKARr0BRrHPKE8unSplRAp_8cbMxw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=52TXwT">Link de entrevistas</a></td>
             </tr>
 </table>
 
