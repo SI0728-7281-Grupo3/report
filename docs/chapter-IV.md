@@ -22,9 +22,55 @@ El diseño busca satisfacer las siguientes necesidades:
 
 Este diseño busca transformar la industria de la remodelación doméstica, eliminando las fricciones tradicionales del sector y creando una experiencia fluida que beneficie tanto a propietarios como a prestadores de servicios, cumpliendo con las expectativas de eficiencia y calidad en el mercado actual.
 
-### 4.1.2. Attribute-Driven Design Inputs. STEFANO
+### 4.1.2. Attribute-Driven Design Inputs 
+En esta sección se detallan los tres tipos de entradas clave que guían el proceso de diseño arquitectónico bajo el enfoque de ADD. Estas entradas están directamente relacionadas con la funcionalidad principal, los atributos de calidad y las restricciones impuestas por el negocio y la tecnología.
+
+---
+
 #### 4.1.2.1. Primary Functionality (Primary User Stories).
+Los User Stories seleccionados para esta sección tienen un impacto directo en las decisiones arquitectónicas, ya que representan la funcionalidad principal que debe soportar la plataforma para satisfacer las necesidades de los usuarios.
+
+| Epic / User Story ID | Título | Descripción | Criterios de Aceptación (resumen) | Epic ID |
+|---|---|---|---|---|
+| US-007 | Búsqueda de empresas remodeladoras | Como contratista, buscar remodeladoras por **ubicación** o **expertise** para obtener resultados personalizados. | Filtra por ubicación/expertise; sin filtros muestra todas las remodeladoras disponibles. | EPIC-001 |
+| US-014 | Búsqueda de portafolios | Como contratista, buscar y abrir portafolios para revisar trabajos previos. | Lista de portafolios; al seleccionar uno, redirige al perfil del remodelador. | EPIC-001 |
+| US-008 | Revisar críticas y opiniones | Como contratista, ver opiniones de otros clientes para evaluar calidad. | Lista de reviews en el perfil; navegación hacia portafolio desde una review. | EPIC-001 |
+| US-009 | Agregar críticas y opiniones | Como contratista, publicar una reseña tras un proyecto. | Formulario con validación; guarda y confirma éxito; no guarda si no se confirma. | EPIC-001 |
+| US-016 | Programar consulta con un remodelador | Como propietario, agendar una consulta para discutir necesidades y obtener recomendaciones. | Opción de contacto; confirmación/aviso de la consulta al usuario. | EPIC-001 |
+| US-006 | Subir contenido a un portafolio | Como remodelador, subir multimedia a su portafolio para promocionar servicios y proyectos. | Muestra contenidos subidos; alerta si no guarda; valida límites de carga. | EPIC-005 |
+| US-015 | Seguimiento de proyecto | Como remodelador, ver hitos/etapas y estado del proyecto. | Visualiza hitos; puede marcar cumplimiento; cerrar proyecto al completar todos. | EPIC-006 |
+| US-023 | Interacción básica con el chatbot en app web | Como usuario, hacer preguntas básicas al chatbot para obtener respuestas rápidas. | Responde “¿Cómo cambio mi contraseña?” en **< 3 s**; sugiere reformular o derivar a humano. | EPIC-008 |
+| US-024 | Consulta de presupuestos estimados vía chatbot | Como contratista, obtener un rango de costos (tipo, m², ubicación). | Flujo “Calcular presupuesto”; si es complejo, sugiere contactar/agendar. | EPIC-008 |
+| US-025 | Derivación a soporte humano desde chatbot | Como usuario, ser derivado a un agente si el bot no resuelve. | Deriva con historial tras 2 intentos; fuera de horario permite dejar mensaje con promesa **< 24 h**. | EPIC-008 |
+| US-010 | Gestión de solicitudes al servidor | Como desarrollador, asegurar que el API gestiona múltiples solicitudes concurrentes. | Bajo carga, mantiene tiempo de respuesta promedio y no hay caídas. | EPIC-003 |
+| US-011 | Autorización y seguridad de acceso al API | Como desarrollador, configurar AuthN/AuthZ segura (solo **admin** a recursos críticos). | Acceso permitido con credenciales válidas; denegado y notificado en intentos inválidos. | EPIC-003 |
+
+---
+
 #### 4.1.2.2. Quality attribute Scenarios.
+Los escenarios de atributos de calidad identificados tienen un impacto significativo en la arquitectura de la solución, ya que determinan cómo debe comportarse el sistema en términos de seguridad, escalabilidad, disponibilidad y rendimiento.
+
+| Atributo | Fuente | Estímulo | Artefacto | Entorno | Respuesta | Medida |
+|---|---|---|---|---|---|---|
+| Seguridad | Usuario no autorizado | Intenta acceder a recursos del API reservados a **admin** | API + AuthN/AuthZ | Acceso público | Bloqueo de acceso y notificación | 0 accesos indebidos; registro del intento |
+| Escalabilidad | Aumento de concurrencia | Solicitudes simultáneas desde varios dispositivos | API REST | Alta demanda | API opera sin errores/caídas | Tiempo de respuesta en rango promedio; servicio estable |
+| Rendimiento | Usuario del chatbot | Pregunta frecuente en app web | Chatbot | Producción | Respuesta visible y útil | **p95 < 3 s** por respuesta |
+| Continuidad de atención | Usuario del chatbot | Bot no entiende / no hay agentes disponibles | Chatbot ↔ Soporte humano | Operación | Derivación con historial u opción de dejar mensaje | Respuesta comprometida **< 24 h** |
+| Exactitud (NLP) | Servicio de NLP | Mensaje con intención clara/ambigua | Motor NLP del bot | Normal | Identifica intención o marca “no reconocida” | Confianza ≥ **85%**; si < **60%**, pedir aclaración |
+| Rendimiento (KB) | Consulta del bot | Búsqueda de FAQ/guías | Base de conocimientos | Normal | Devuelve respuesta precisa | Latencia **< 100 ms** por consulta |
+
+---
+
+#### 4.1.2.3. Constraints.
+Las restricciones representan características no negociables impuestas por el cliente o por necesidades del negocio. En ReStyle, estas restricciones aseguran que la solución se ajuste a expectativas técnicas y operativas de la plataforma (especialmente para el **chatbot** y la **integración API**).
+
+| Technical Story ID | Título | Descripción | Criterios de Aceptación | Epic ID |
+|---|---|---|---|---|
+| TS009 | Implementar API de integración del chatbot | API RESTful para integrar el chatbot con la app web (envío/recepción de mensajes e historial). | POST válido devuelve respuesta del bot (sessionId, intent, confidence); maneja errores 400 ante payload inválido; GET historial por sessionId. | EPIC-008 |
+| TS010 | Implementar servicio de procesamiento de lenguaje natural | Servicio NLP para entender intenciones y extraer entidades. | Identifica intención con **≥85%** de confianza; si **<60%**, devuelve “intención_no_reconocida”; reentrenamiento sin downtime. | EPIC-008 |
+| TS011 | Implementar base de conocimientos para chatbot | KB con preguntas frecuentes y contenido de soporte. | ≥50 FAQs; respuesta **<100 ms**; actualización vía API disponible de inmediato; registra consultas sin resultado. | EPIC-008 |
+| TS012 | Implementar integración con sistema de soporte humano | Derivación fluida a agente con transferencia de historial. | Crea ticket, transfiere historial; si no hay agentes, informa ETA y ofrece contacto posterior. | EPIC-008 |
+
 ### 4.1.3. Architectural Drivers Backlog. Carlos
 ### 4.1.4. Architectural Design Decisions. Carlos
 ### 4.1.5. Quality Attribute Scenario Refinements. Carlos
