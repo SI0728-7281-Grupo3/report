@@ -475,6 +475,48 @@ Juan piensa que actualmente no hay suficiente fluidez en la comunicación, le gu
 
 ### 2.2.3. Análisis de entrevistas.
 
+##### Segmento objetivo 1: Personas que remodelar su hogar
+**Características objetivas**
+| Característica | Resultado | Porcentaje |
+|----------------|-----------|------------|
+| Rango de edad  | 20-24 años (jóvenes adultos) | 100% |
+| Distritos      | Periféricos (SJL, SMP)<br>Céntricos (Surco)| 67%<br>33% |
+
+**Características subjetivas**
+| Tema identificado | Resultado | Porcentaje |
+|-------------------|-----------|------------|
+| Problemas con precios poco claros | Todos lo mencionaron | 100% |
+| Falta de centralización en la búsqueda de servicios | Todos lo perciben | 100% |
+| Valoración de reseñas y calificaciones | 2 de 3 entrevistados | 67% |
+| Interés en chatbot/IA para apoyo inicial | Todos lo consideran útil | 100% |
+| Seguimiento del proyecto en tiempo real | 2 de 3 entrevistados | 67% |
+
+**Conclusión del segmento:**  
+Las personas que quieren remodelar su hogar buscan **confiabilidad, precios claros y transparencia en reseñas**, valorando mucho una plataforma centralizada con **seguimiento en tiempo real** y el soporte de un **asistente virtual para comparar y decidir**.
+
+---
+
+##### Segmento objetivo 2: Empresas/proveedores de remodelación
+**Características objetivas**
+| Característica | Resultado | Porcentaje |
+|----------------|-----------|------------|
+| Rango de edad  | 23-28 años (adultos jóvenes profesionales) | 100% |
+| Distritos      | Céntricos (Lince, Pueblo Libre)<br> Periféricos (Comas) | 67%<br>33%  |
+
+**Características subjetivas**
+| Tema identificado | Resultado | Porcentaje |
+|-------------------|-----------|------------|
+| Dificultad para coordinar tiempos y clientes | Todos lo señalaron | 100% |
+| Comunicación con clientes poco fluida | 2 de 3 entrevistados | 67% |
+| Necesidad de un sistema digital centralizado | Todos lo desean | 100% |
+| Servicios más demandados: cocinas y baños | 2 de 3 entrevistados | 67% |
+| Diferenciadores: puntualidad y transparencia | Todos lo destacaron | 100% |
+| Opinión sobre chatbot | Todos lo consideran útil | 100% |
+| Límite: chatbot no debe manejar información sensible | 2 de 3 entrevistados | 67% |
+
+**Conclusión del segmento:**  
+Los remodeladores de empresas buscan **optimizar la gestión de proyectos con herramientas digitales**, mejorar la **comunicación con clientes** y mantener **diferenciación en puntualidad y transparencia**. Ven en el chatbot un aliado, pero con límites claros en la información sensible.
+
 ## 2.3. Needfinding.
 Comprender las necesidades y requisitos de los usuarios es crucial para el éxito en el desarrollo de software. La fase de investigación de necesidades requiere un enfoque sistemático para recolectar información, identificar problemas y descubrir oportunidades que guiarán el diseño y desarrollo del software. Al analizar los comportamientos, preferencias y desafíos de los usuarios, nuestro objetivo es crear soluciones que sean tanto funcionales como intuitivas e impactantes. Los perfiles de usuario se han desarrollado teniendo en cuenta los segmentos clave, como el contratista, que busca remodelador, y el remodelador, que ofrece servicios de remodelación.
 
