@@ -576,23 +576,31 @@ Comprender las necesidades y requisitos de los usuarios es crucial para el éxit
 
 #### Segmento Objetivo 1: Personas que remodelan su hogar
 
-<img src="../assets/img/chapter-II/Customer_journey_map1.png" alt="Foto de entrevista">
+<img src="../assets/img/chapter-II/Customer_journey_map1.png" alt="Journey Map Clientes">
 
 #### Segmento Objetivo 2: Empresas/proveedores de remodelación
 
-<img src="../assets/img/chapter-II/Customer_journey_map2.png" alt="Foto de entrevista">
+<img src="../assets/img/chapter-II/Customer_journey_map2.png" alt="Journey Map Remodelador>
 
 ### 2.3.4. Empathy Mapping.
 
 #### Segmento Objetivo 1: Personas que remodelan su hogar
 
-<img src="../assets/img/chapter-II/Empathy_map_clientes.png" alt="Foto de entrevista">
+<img src="../assets/img/chapter-II/Empathy_map_clientes.png" alt="Empathy Map Clientes">
 
 #### Segmento Objetivo 2: Empresas/proveedores de remodelación
 
-<img src="../assets/img/chapter-II/Empathy_map_remodeladores.png" alt="Foto de entrevista">
+<img src="../assets/img/chapter-II/Empathy_map_remodeladores.png" alt="Empathy Map Remodelador">
 
 ### 2.3.5. As-is Scenario Mapping.
+
+#### Segmento Objetivo 1: Personas que remodelan su hogar
+
+<img src="../assets/img/chapter-II/as-is_cliente.jpg" alt="As-Is Clientes">
+
+#### Segmento Objetivo 2: Empresas/proveedores de remodelación
+
+<img src="../assets/img/chapter-II/as-is_remodelador.jpg" alt="As-Is Remodelador">
 
 ## 2.4. Ubiquitous Language.
 
