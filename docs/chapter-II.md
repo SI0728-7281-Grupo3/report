@@ -627,7 +627,7 @@ Comprender las necesidades y requisitos de los usuarios es crucial para el éxit
 
 #### Segmento Objetivo 2: Empresas/proveedores de remodelación
 
-<img src="../assets/img/chapter-II/Customer_journey_map2.png" alt="Journey Map Remodelador>
+<img src="../assets/img/chapter-II/Customer_journey_map2.png" alt="Journey Map Remodelador">
 
 ### 2.3.4. Empathy Mapping.
 
