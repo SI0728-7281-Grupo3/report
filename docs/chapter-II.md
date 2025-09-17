@@ -621,6 +621,14 @@ Comprender las necesidades y requisitos de los usuarios es crucial para el éxit
 
 ### 2.3.3. User Journey Mapping.
 
+#### Segmento Objetivo 1: Personas que remodelan su hogar
+
+<img src="../assets/img/chapter-II/Customer_journey_map1.png" alt="Foto de entrevista">
+
+#### Segmento Objetivo 2: Empresas/proveedores de remodelación
+
+<img src="../assets/img/chapter-II/Customer_journey_map2.png" alt="Foto de entrevista">
+
 ### 2.3.4. Empathy Mapping.
 
 
