@@ -71,7 +71,50 @@ Las restricciones representan características no negociables impuestas por el c
 | TS011 | Implementar base de conocimientos para chatbot | KB con preguntas frecuentes y contenido de soporte. | ≥50 FAQs; respuesta **<100 ms**; actualización vía API disponible de inmediato; registra consultas sin resultado. | EPIC-008 |
 | TS012 | Implementar integración con sistema de soporte humano | Derivación fluida a agente con transferencia de historial. | Crea ticket, transfiere historial; si no hay agentes, informa ETA y ofrece contacto posterior. | EPIC-008 |
 
-### 4.1.3. Architectural Drivers Backlog. Carlos
+### 4.1.3. Architectural Drivers Backlog.
+
+<table>
+    <tr>
+        <th>Driver ID</th>
+        <th>Titulo de Driver</th>
+        <th>Descripción </th>
+        <th>Importancia para Stakeholders (High, Medium, Low)</th>
+        <th>Impacto en Architecture Technical Complexity (High, Medium, Low)</th>
+    </tr>
+    <tr>
+        <td>QA-SEC-01</td>
+        <td>Seguridad en acceso al API</td>
+        <td>Garantizar autenticación y autorización robusta para proteger recursos críticos del sistema.</td>
+        <td>High</td><td>High</td>
+    </tr>
+    <tr>
+        <td>QA-SCA-01</td>
+        <td>Escalabilidad bajo alta concurrencia</td>
+        <td>El sistema debe manejar múltiples solicitudes simultáneas sin caída del servicio.</td>
+        <td>High</td><td>High</td>
+    </tr>
+    <tr>
+        <td>QA-PERF-01</td>
+        <td>Rendimiento de chatbot</td>
+        <td>El chatbot debe responder consultas frecuentes en menos de 3 segundos (p95).</td>
+        <td>High</td><td>High</td>
+    </tr>
+    <tr>
+        <td>QA-AV-01</td>
+        <td>Continuidad de atención vía chatbot/soporte humano</td>
+        <td>El sistema debe garantizar atención incluso si el bot falla, derivando al soporte humano.</td>
+        <td>High</td><td>Medium</td>
+    </tr>
+    <tr>
+        <td>QA-NLP-01</td>
+        <td>Exactitud en interpretación del NLP</td>
+        <td>El motor NLP debe identificar intenciones con ≥85% de confianza.</td>
+        <td>High</td><td>Medium</td>
+    </tr>
+    
+</table>
+
+
 ### 4.1.4. Architectural Design Decisions. Carlos
 ### 4.1.5. Quality Attribute Scenario Refinements. Carlos
 ## 4.2. Strategic-Level Domain-Driven Design.
