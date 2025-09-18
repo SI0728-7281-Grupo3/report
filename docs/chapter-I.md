@@ -27,35 +27,46 @@ Consolidarnos como referentes en innovación tecnológica, promoviendo el desarr
         <tr>
             <!-- DATOS del integrante 1-->
             <td> 
-            <img src="" height="100" width="100"> 
+            <img src="https://i.postimg.cc/7P1MLbZH/foto-alexander-797.jpg" height="100" width="100"> 
             <br>Alexander Alberto Cantoral Sedamano U20181b152 
             </td>
             <!-- DESCRIPCIÓN del integrante 1-->
-            <td ></td>
+            <td >Estudiante de octavo ciclo de la carrera de ingeniería de software. Desarrollador FullStack especializado en React y Spring. Mis intereses son entender lo dificil. </td>
             <!-- CONOCIMIENTOS del integrante 1-->
-            <td></td>
+            <td>
+            Poseo conocimientos en diferentes frameworks que usan C#, JS y Java. Dicen que tengo madera de líder pero me considero más un agente de cambio. Siento que mis habilidades técnicas y blandas serán escenciales para un buen trabajo en equipo.
+            </td>
         </tr>
         <tr>
-            <!-- DATOS del integrante 2-->
             <td>
-            <img src="" height="100" width="80"> 
+            <img src="../assets/img/chapter-I/Foto_Carlos.jpeg" height="100" width="80"> 
             <br>Carlos Raúl Guillermo Chávez Rojas  U201910317
             </td>
-            <!-- DESCRIPCIÓN del integrante 2-->
-            <td></td>
-            <!-- CONOCIMIENTOS del integrante 2-->
-            <td></td>
+            <td>
+            Tengo 23 años y estudio la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me apasiona el mundo digital y la capacidad de la tecnología para solucionar problemas y crear nuevas experiencias. Soy una persona proactiva, responsable y con gran capacidad de aprendizaje. Tengo un fuerte interés por la investigación y la innovación, y estoy siempre buscando nuevas formas de mejorar mis habilidades y conocimientos.           
+            </td>
+            <td>
+            - Desarrollo Web con distintos frameworks para frontend y backend<br>
+            - Normativas ISO/EIC 27001 e ISO/IEC 25010<br>
+            - Analisis de datos<br>
+            - Diseño UX/UI<br>
+            </td>
         </tr>
         <tr>
             <!-- DATOS del integrante 3-->
             <td>
-            <img src="" height="100" width="100"> 
+            <img src="../assets/img/chapter-I/Foto_Josue.png" height="100" width="100"> 
             <br>Josue Omar Hidalgo Bustamante  U202119880
             </td>
-            <!-- DESCRIPCIÓN del integrante 3-->
-            <td></td>
-            <!-- CONOCIMIENTOS del integrante 3-->
-            <td></td>
+            Me llamo Josue Omar Hidalgo Bustamante, estudiante de Ingeniería de Software. Mi enfoque profesional está orientado al desarrollo de soluciones digitales que aborden diversas necesidades del mundo real. Puedo aportar al equipo a través de mi experiencia en programación con lenguajes como Java y Python, manejo de bases de datos, así como en la elaboración de documentación técnica y la aplicación de metodologías ágiles para la gestión de proyectos. 
+            <td>   Python, JavaScript, TypeScript,
+             MySQL, PostgreSQL, MongoDB,
+            Spring Boot, Flask,FastApi,Django ,
+            React, Flutter,
+            TailwindCSS, Bootstrap, CSS, HTML,
+            AWS, Docker, Kubernetes, Railway,
+            DDD, CQRS, Microservicios, Arquitectura C4, MQTT, RabbitMQ, REST APIs.</td>
+            <td> </td>
         </tr>
         <tr>
             <!-- DATOS del integrante 4-->

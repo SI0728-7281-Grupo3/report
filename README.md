@@ -17,13 +17,15 @@
 ## Integrantes 
 
  </center> 
+<center>
 
 * **Alexander Alberto Cantoral Sedamano U20181b152**
 * **Carlos Raúl Guillermo Chávez Rojas  U201910317**
 * **Josue Omar Hidalgo Bustamante  U202119880**
-* **Luciano Stefano Ruiz Blas    U20211f978** 
+* **Luciano Stefano Ruiz Blas    U20211f978**
 * **Stefano Alessandro Valenzuela Vallejos    U202214695**
-
+* 
+ </center> 
 <center>
 
 ### Setiembre 2025
@@ -51,6 +53,9 @@ Github Collaboration Insights proporciona un cronograma que muestra las principa
 
 - Alexander Alberto Cantoral Sedamano (AlexlmL)
 - Stefano Alessandro Valenzuela Vallejos (AlessandroUPC)
+- Carlos Raul Guillermo Chavez Rojas (CarlosChavez19)
+- Josue Omar Hidalgo Bustamante(Kabudence)
+- Luciano Stefano Ruiz Blas (LucianRuiz)
 
 Se divieron las siguientes ramas para la colaboración en el proyecto:
 
@@ -125,24 +130,43 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
 4. [Capítulo IV:  Strategic-Level Software Design]()
 
     4.1. [Strategic-Level Attribute-Driven Design]()
+
     4.1.1. [Design Purpose]()
+
     4.1.2. [Attribute-Driven Design Inputs]()
+
     4.1.2.1. [Primary Functionality (Primary User Stories)]()
+
     4.1.2.2. [Quality attribute Scenarios]()
+
     4.1.2.3. [Constraints]()
+
     4.1.3. [Architectural Drivers Backlog]()
+
     4.1.4. [Architectural Design Decisions]()
+
     4.1.5. [Quality Attribute Scenario Refinements]()
+
     4.2. [Strategic-Level Domain-Driven Design]()
+
     4.2.1. [EventStorming]()
+
     4.2.2. [Candidate Context Discovery]()
+
     4.2.3. [Domain Message Flows Modeling]()
+
     4.2.4. [Bounded Context Canvases]()
+
     4.2.5. [Context Mapping]()
+
     4.3. [Software Architecture]()
+
     4.3.1. [Software Architecture System Landscape Diagram]()
+
     4.3.1. [Software Architecture Context Level Diagrams]()
+
     4.3.2. [Software Architecture Container Level Diagrams]()
+
     4.3.3. [Software Architecture Deployment Diagrams]()
 <br>
 
@@ -171,7 +195,7 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
        <!--ENTREGA TB1-->
       <!-- Estudiante 1 TB1 -->    
       <td>
-        <b>Cantoral Sedamano, Alexander Alberto TB1:
+        <b>Cantoral Sedamano, Alexander Alberto TB1: Para esta entrega pude conversar con uno de los segmentos objetivos, personas no tan técnicas y pudo entender la idea y a donde apuntaba la aplicación en features. En las reuniones se me entendió de como se tenía que desarrollar el proyecto con mis compañeros.
         </b><br>
         <b>Cantoral Sedamano, Alexander Alberto TP:
         </b> <br>
@@ -251,7 +275,7 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
        <!--ENTREGA TB1-->
       <!-- Estudiante 1 TB1 -->    
       <td>
-        <b>Cantoral Sedamano, Alexander Alberto TB1:
+        <b>Cantoral Sedamano, Alexander Alberto TB1: Tanto para la entrevista como con mis compañeros se le pudo explicar lo que se tenía que lograr para esta entrega en cuestión de puntos. Con el entrevista fue un tanto diferente al chatear porque era más complicado pero con mímicas fue más sencillo en la videollamada.
         </b><br>
         <b>Cantoral Sedamano, Alexander Alberto TP:
         </b> <br>
