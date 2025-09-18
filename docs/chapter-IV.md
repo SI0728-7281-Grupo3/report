@@ -173,7 +173,7 @@ Las restricciones representan características no negociables impuestas por el c
             <td>Continuidad de atención vía chatbot/soporte humano</td>
             <td>Permite redirigir tráfico desde controlador a chatbot o soporte humano sin romper flujo.</td>
             <td>Manejo de fallback puede complejizarse; no está diseñado para resiliencia.</td>
-            <td>Cada capa puede manejar fallbacks (aplicación → soporte humano); facilita desacoplar chatbot de soporte.</td>
+            <td>Cada capa puede manejar fallbacks; facilita desacoplar chatbot de soporte.</td>
             <td>Riesgo de latencia por pasos extra; aumenta puntos de falla intermedios.</td>
             <td>Sencillo: si el servidor falla, se deriva a otro canal humano.</td>
             <td>Depende de disponibilidad del servidor principal; no asegura continuidad automatizada.</td>
