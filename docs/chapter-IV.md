@@ -616,7 +616,7 @@ Este diagrama de despliegue muestra la topología **simple y vertical** de ReSty
 el **cliente** (navegador/app móvil) se comunica vía **HTTPS** con la **capa de ingreso** (API Gateway), 
 que enruta al **Servidor de Aplicaciones**. La aplicación persiste datos en el **Servidor de BD** y 
 gestiona archivos en el **Almacenamiento de Objetos** (CDN/Bucket). Además, se anotan las 
-integraciones externas críticas: **IdP (OIDC/OAuth2)**, **Pasarela de Pagos** y **LLM (ChatGPT)**.
+integraciones externas críticas: **Pasarela de Pagos** y **LLM (ChatGPT)**.
 
 ![Deployment Diagram](../assets/img/chapter-IV-j/C4%20-%20Diagrams/Deployment%20Diagram.png)
 
