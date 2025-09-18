@@ -224,13 +224,13 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
     <!-- Estudiante 3 TB1-->
      <tr>   
       <td>
-      <b>TB1:
-      </b> <br> 
-      <b>TP1:
+      <b>Chavez Rojas, Carlos Raul Guillermo TB1:
+      </b>En esta entrega me enfoqué en comunicar con claridad los avances del trabajo. Realicé una entrevista a uno de los segmentos objetivo y participé en la elaboración de varios artefactos como User Persona, User Task Matrix, User Journey Mapping, Empathy Maps y As-Is Scenario Mapping. Además, trabajé en el Architectural Drivers Backlog, las Architectural Design Decisions y los Quality Attribute Scenario Refinements, lo que me permitió transmitir de manera objetiva las necesidades de los usuarios y las decisiones clave del proyecto.<br> 
+      <b>Chavez Rojas, Carlos Raul Guillermo TP1:
       </b><br>
-      <b>TB2:
+      <b>Chavez Rojas, Carlos Raul Guillermo TB2:
       </b><br>
-      <b>TF:
+      <b>Chavez Rojas, Carlos Raul Guillermo TF:
       </b>
       </td>  
     </tr>
@@ -304,13 +304,13 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
     <!-- Estudiante 3 TB1-->
      <tr>   
       <td>
-      <b>TB1:
-      </b> <br> 
-      <b>TP1:
+      <b>Chavez Rojas, Carlos Raul Guillermo TB1:
+      </b>En esta entrega comuniqué los resultados con objetividad, presentando de forma clara la entrevista realizada al segmento objetivo y los artefactos desarrollados (User Persona, User Task Matrix, User Journey Mapping, Empathy Maps y As-Is Scenario Mapping). Además, documenté el Architectural Drivers Backlog, las Design Decisions y los Quality Attribute Scenario Refinements con un lenguaje accesible para diferentes especialidades y niveles jerárquicos, facilitando la comprensión de los avances del proyecto.<br> 
+      <b>Chavez Rojas, Carlos Raul Guillermo TP1:
       </b><br>
-      <b>TB2:
+      <b>Chavez Rojas, Carlos Raul Guillermo TB2:
       </b><br>
-      <b>TF:
+      <b>Chavez Rojas, Carlos Raul Guillermo TF:
       </b>
       </td> 
     </tr>
