@@ -237,8 +237,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
     <!-- Estudiante 4 TB1-->
      <tr>   
       <td>
-      <b>TB1:
-      </b> <br> 
+      <b>Ruiz Blas Luciano Stefano TB1:
+      </b> Logre comunicar el mensaje que plasme en mi trabajo. Realizando los User Person, pude conocer más a nuestros usuarios logrando asi hacerles llegar mejor el mensaje.<br> 
       <b>TP1:
       </b><br>
       <b>TB2:
@@ -317,8 +317,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
     <!-- Estudiante 4 TB1-->
      <tr>   
       <td>
-      <b>TB1:
-      </b> <br> 
+      <b>Ruiz Blas Luciano Stefano TB1:
+      </b>En esta entrega logré redactar de manera clara y precisa. Logre redactar la idea de nuestro proyecto de manera que el publico en general lo pueda entender. Además realice el Design Purpose y el Strategic-Level Attribute-Driven Design de manera entendible para el público en general.  <br> 
       <b>TP1:
       </b><br>
       <b>TB2:
