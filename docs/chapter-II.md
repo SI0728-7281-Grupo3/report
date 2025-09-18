@@ -521,8 +521,11 @@ Los remodeladores de empresas buscan **optimizar la gestión de proyectos con he
 Comprender las necesidades y requisitos de los usuarios es crucial para el éxito en el desarrollo de software. La fase de investigación de necesidades requiere un enfoque sistemático para recolectar información, identificar problemas y descubrir oportunidades que guiarán el diseño y desarrollo del software. Al analizar los comportamientos, preferencias y desafíos de los usuarios, nuestro objetivo es crear soluciones que sean tanto funcionales como intuitivas e impactantes. Los perfiles de usuario se han desarrollado teniendo en cuenta los segmentos clave, como el contratista, que busca remodelador, y el remodelador, que ofrece servicios de remodelación.
 
 ### 2.3.1. User Personas.
-<img src="../assets/img/chapter-II/Carlos_Sánchez.png" alt="Foto de entrevista">
+
+- User Persona Segmento 1
 <img src="../assets/img/chapter-II/Juan_Morales.png" alt="Foto de entrevista">
+- User persona Segmento 2
+<img src="../assets/img/chapter-II/Carlos_Sánchez.png" alt="Foto de entrevista">
 
 ### 2.3.2. User Task Matrix.
 <body>
