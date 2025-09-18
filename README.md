@@ -55,7 +55,8 @@ Github Collaboration Insights proporciona un cronograma que muestra las principa
 - Stefano Alessandro Valenzuela Vallejos (AlessandroUPC)
 - Carlos Raul Guillermo Chavez Rojas (CarlosChavez19)
 - Josue Omar Hidalgo Bustamante(Kabudence)
-- 
+- Luciano Stefano Ruiz Blas (LucianRuiz)
+
 Se divieron las siguientes ramas para la colaboración en el proyecto:
 
 - main
