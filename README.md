@@ -204,19 +204,19 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
         </b>
         </td>
         <td rowspan="6"> 
-         <b>-</b><br>
+         <b>TB1: Como equipo, desarrollamos las distintas secciones del proyecto ReStyle, desde la definición de requerimientos y user stories hasta la elaboración de los diagramas arquitectónicos y de despliegue. Durante las presentaciones, comunicamos con objetividad nuestras ideas y resultados, adaptando el lenguaje según la audiencia, de manera que tanto públicos técnicos como no técnicos comprendieran el propósito, alcance y beneficios del sistema. Esto nos permitió transmitir de forma clara y efectiva el valor del proyecto en el marco de la ingeniería de software.</b><br>
       </td>   
     </tr>
     <!-- Estudiante 2 TB1 --> 
     <tr> 
       <td>
-      <b>TB1:
-      </b> <br> 
-      <b>TP1:
+      <b>Valenzuela Vallejos, Stefano Alessandro TB1:
+      </b>Me encargué de la sección Attribute-Driven Design Inputs y de los diagramas arquitectónicos del proyecto. Al presentarlos, comuniqué con objetividad los resultados y decisiones de diseño, adaptando el lenguaje tanto a públicos técnicos como no técnicos, logrando transmitir claramente el aporte de la arquitectura al desarrollo de ReStyle.<br> 
+      <b>Valenzuela Vallejos, Stefano Alessandro TP1:
       </b><br>
-      <b>TB2:
+      <b>Valenzuela Vallejos, Stefano Alessandro TB2:
       </b><br>
-      <b>TF:
+      <b>Valenzuela Vallejos, Stefano Alessandro TF:
       </b>
       </td>  
     </tr>
@@ -284,21 +284,21 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
         </b>
         </td>
         <td rowspan="6"> 
-         <b>-</b><br>
+         <b>TB1: Como equipo, redactamos cada parte del informe de manera clara y objetiva, cuidando que la documentación refleje tanto los aspectos técnicos como el impacto práctico del proyecto ReStyle. La escritura se trabajó pensando en diferentes audiencias, lo que nos permitió comunicar nuestros resultados de forma efectiva a públicos de distintas especialidades y niveles jerárquicos dentro del marco del desarrollo en ingeniería.</b><br>
       </td>   
     </tr>
     <!-- Estudiante 2 TB1 --> 
     <tr> 
       <td>
-      <b>TB1:
-      </b> <br> 
-      <b>TP1:
+      <b>Valenzuela Vallejos, Stefano Alessandro TB1:
+      </b>Me encargué de la sección Attribute-Driven Design Inputs y de los diagramas arquitectónicos del proyecto. Al presentarlos, comuniqué con objetividad los resultados y decisiones de diseño, adaptando el lenguaje tanto a públicos técnicos como no técnicos, logrando transmitir claramente el aporte de la arquitectura al desarrollo de ReStyle.<br> 
+      <b>Valenzuela Vallejos, Stefano Alessandro TP1:
       </b><br>
-      <b>TB2:
+      <b>Valenzuela Vallejos, Stefano Alessandro TB2:
       </b><br>
-      <b>TF:
+      <b>Valenzuela Vallejos, Stefano Alessandro TF:
       </b>
-      </td>   
+      </td>  
     </tr>
     <!-- Estudiante 3 TB1-->
      <tr>   

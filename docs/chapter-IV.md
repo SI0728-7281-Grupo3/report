@@ -182,9 +182,38 @@ Las restricciones representan características no negociables impuestas por el c
 
 
 
-## 4.3. Software Architecture. STEFANO
-### 4.3.1. Software Architecture System Landscape Diagram.
-### 4.3.1. Software Architecture Context Level Diagrams.
-### 4.3.2. Software Architecture Container Level Diagrams.
-### 4.3.3. Software Architecture Deployment Diagrams.
+## 4.3. Software Architecture
+Esta sección presenta la arquitectura de ReStyle siguiendo C4. Incluye el panorama global del ecosistema (System Landscape), el contexto del sistema (System Context) y el desglose de contenedores internos (Container). Al final se deja el espacio para el diagrama de despliegue (Deployment).
 
+
+### 4.3.1. Software Architecture System Landscape Diagram.
+El diagrama de landscape muestra los **actores principales** (Propietario, Profesional, Administrador), el **sistema ReStyle** y los **sistemas externos** (pasarela de pagos, identidad, almacenamiento de objetos, etc.), así como sus relaciones a alto nivel.
+
+![System Landscape Diagram](../assets/img/chapter-IV-j/C4%20-%20Diagrams/System%20Landscape%20Diagram.png)
+
+---
+
+### 4.3.1. Software Architecture Context Level Diagrams.
+El diagrama de contexto detalla las **interacciones** entre los actores y el sistema ReStyle, así como las **dependencias** con servicios externos (LLM, visión por computador, mapas, notificaciones, etc.).
+
+![System Context Diagram](../assets/img/chapter-IV-j/C4%20-%20Diagrams/System%20Context%20Diagram.png)
+
+---
+
+### 4.3.2. Software Architecture Container Level Diagrams.
+El diagrama de contenedores describe los **bounded contexts / microservicios**, el **API Gateway**, los **frontends** (Web/Mobile) y las **persistencias**. Permite entender responsabilidades y límites de cada contenedor.
+
+![System Container Diagram](../assets/img/chapter-IV-j/C4%20-%20Diagrams/System%20Context%20Diagram.png)
+
+---
+
+### 4.3.3. Software Architecture Deployment Diagrams.
+Este diagrama de despliegue muestra la topología **simple y vertical** de ReStyle en producción: 
+el **cliente** (navegador/app móvil) se comunica vía **HTTPS** con la **capa de ingreso** (API Gateway), 
+que enruta al **Servidor de Aplicaciones**. La aplicación persiste datos en el **Servidor de BD** y 
+gestiona archivos en el **Almacenamiento de Objetos** (CDN/Bucket). Además, se anotan las 
+integraciones externas críticas: **IdP (OIDC/OAuth2)**, **Pasarela de Pagos** y **LLM (ChatGPT)**.
+
+![Deployment Diagram](../assets/img/chapter-IV-j/C4%20-%20Diagrams/Deployment%20Diagram.png)
+
+---
