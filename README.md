@@ -195,8 +195,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
        <!--ENTREGA TB1-->
       <!-- Estudiante 1 TB1 -->    
       <td>
-        <b>Cantoral Sedamano, Alexander Alberto TB1: Para esta entrega pude conversar con uno de los segmentos objetivos, personas no tan técnicas y pudo entender la idea y a donde apuntaba la aplicación en features. En las reuniones se me entendió de como se tenía que desarrollar el proyecto con mis compañeros.
-        </b><br>
+        <b>Cantoral Sedamano, Alexander Alberto TB1: 
+        </b>Para esta entrega pude conversar con uno de los segmentos objetivos, personas no tan técnicas y pudo entender la idea y a donde apuntaba la aplicación en features. En las reuniones se me entendió de como se tenía que desarrollar el proyecto con mis compañeros.<br>
         <b>Cantoral Sedamano, Alexander Alberto TP:
         </b> <br>
         <b>Cantoral Sedamano, Alexander Alberto TB2:
@@ -275,8 +275,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
        <!--ENTREGA TB1-->
       <!-- Estudiante 1 TB1 -->    
       <td>
-        <b>Cantoral Sedamano, Alexander Alberto TB1: Tanto para la entrevista como con mis compañeros se le pudo explicar lo que se tenía que lograr para esta entrega en cuestión de puntos. Con el entrevista fue un tanto diferente al chatear porque era más complicado pero con mímicas fue más sencillo en la videollamada.
-        </b><br>
+        <b>Cantoral Sedamano, Alexander Alberto TB1: 
+        </b>Tanto para la entrevista como con mis compañeros se le pudo explicar lo que se tenía que lograr para esta entrega en cuestión de puntos. Con el entrevista fue un tanto diferente al chatear porque era más complicado pero con mímicas fue más sencillo en la videollamada.<br>
         <b>Cantoral Sedamano, Alexander Alberto TP:
         </b> <br>
         <b>Cantoral Sedamano, Alexander Alberto TB2:
