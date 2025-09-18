@@ -191,7 +191,293 @@ Las restricciones representan características no negociables impuestas por el c
     </body>
 </table>
 
-### 4.1.5. Quality Attribute Scenario Refinements. Carlos
+### 4.1.5. Quality Attribute Scenario Refinements.
+<table>
+    <thead>
+        <tr>
+            <th colspan="3">Scenario Refinement for Scenario 1</th>
+        </tr>
+    </thead>
+    <body>
+        <tr>
+            <td colspan="2">Scenarios:</td>
+            <td>Intento de acceso indebido al API con credenciales inválidas.</td>
+        </tr>
+        <tr>
+            <td colspan="2">Business Goals:</td>
+            <td>Proteger recursos críticos y garantizar confianza en la plataforma.</td>
+        </tr>
+        <tr>
+            <td colspan="2">Relevant Quality Attributes:</td>
+            <td>Seguridad.</td>
+        </tr>
+        <tr>
+            <td rowspan="7">Scenario Components</td>
+        </tr>
+        <tr>
+            <td>Stimulus:</td>
+            <td>Usuario no autorizado intenta acceder al endpoint reservado a administradores.</td>
+        </tr>
+        <tr>
+            <td>Stimulus Source:</td>
+            <td>Usuario externo no autenticado.</td>
+        </tr>
+        <tr>
+            <td>Environment:</td>
+            <td>Producción, acceso público a la API.</td>
+        </tr>
+        <tr>
+            <td>Artifact (if Known)</td>
+            <td>API Gateway</td>
+        </tr>
+        <tr>
+            <td>Response:</td>
+            <td>Bloqueo de acceso, registro del intento, notificación de alerta.</td>
+        </tr>
+        <tr>
+            <td>Response Measure:</td>
+            <td>0 accesos indebidos permitidos; 100% intentos loggeados.</td>
+        </tr>
+        <tr>
+            <td colspan="2">Questions:</td>
+            <td>¿Qué nivel de logging es suficiente sin comprometer rendimiento?</td>
+        </tr>
+        <tr>
+            <td colspan="2">Issues:</td>
+            <td>Equilibrar seguridad estricta con experiencia de usuario (falsos positivos).</td>
+        </tr>
+    </body>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="3">Scenario Refinement for Scenario 2</th>
+        </tr>
+    </thead>
+    <body>
+        <tr>
+            <td colspan="2">Scenarios:</td>
+            <td>Múltiples usuarios realizan solicitudes concurrentes a la API.</td>
+        </tr>
+        <tr>
+            <td colspan="2">Business Goals:</td>
+            <td>Garantizar que la plataforma escale con el crecimiento de usuarios.</td>
+        </tr>
+        <tr>
+            <td colspan="2">Relevant Quality Attributes:</td>
+            <td>Escalabilidad.</td>
+        </tr>
+        <tr>
+            <td rowspan="7">Scenario Components</td>
+        </tr>
+        <tr>
+            <td>Stimulus:</td>
+            <td>Aumento repentino de solicitudes simultáneas desde clientes web y móviles.</td>
+        </tr>
+        <tr>
+            <td>Stimulus Source:</td>
+            <td>Usuarios concurrentes.</td>
+        </tr>
+        <tr>
+            <td>Environment:</td>
+            <td>Producción, hora pico.</td>
+        </tr>
+        <tr>
+            <td>Artifact (if Known)</td>
+            <td>API REST, balanceador de carga.</td>
+        </tr>
+        <tr>
+            <td>Response:</td>
+            <td>Sistema procesa solicitudes sin errores ni caídas.</td>
+        </tr>
+        <tr>
+            <td>Response Measure:</td>
+            <td>Tiempo de respuesta ≤ 2 s bajo 1000 solicitudes concurrentes.</td>
+        </tr>
+        <tr>
+            <td colspan="2">Questions:</td>
+            <td>¿Cuáles son los límites de escalado automático aceptables en costo?</td>
+        </tr>
+        <tr>
+            <td colspan="2">Issues:</td>
+            <td>Riesgo de saturación si la infraestructura cloud no escala a tiempo.</td>
+        </tr>
+    </body>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="3">Scenario Refinement for Scenario 3</th>
+        </tr>
+    </thead>
+    <body>
+        <tr>
+            <td colspan="2">Scenarios:</td>
+            <td>Usuario hace una consulta frecuente al chatbot.</td>
+        </tr>
+        <tr>
+            <td colspan="2">Business Goals:</td>
+            <td>Proporcionar experiencia de atención rápida y confiable.</td>
+        </tr>
+        <tr>
+            <td colspan="2">Relevant Quality Attributes:</td>
+            <td>Rendimiento.</td>
+        </tr>
+        <tr>
+            <td rowspan="7">Scenario Components</td>
+        </tr>
+        <tr>
+            <td>Stimulus:</td>
+            <td>Usuario ingresa pregunta común.</td>
+        </tr>
+        <tr>
+            <td>Stimulus Source:</td>
+            <td>Usuario final.</td>
+        </tr>
+        <tr>
+            <td>Environment:</td>
+            <td>Producción, app web.</td>
+        </tr>
+        <tr>
+            <td>Artifact (if Known)</td>
+            <td>Chatbot + motor NLP + base de conocimientos.</td>
+        </tr>
+        <tr>
+            <td>Response:</td>
+            <td>Chatbot responde de forma precisa y rápida.
+</td>
+        </tr>
+        <tr>
+            <td>Response Measure:</td>
+            <td>Tiempo de respuesta p95 < 3 s.</td>
+        </tr>
+        <tr>
+            <td colspan="2">Questions:</td>
+            <td>¿Qué ocurre con consultas complejas que requieren soporte humano?</td>
+        </tr>
+        <tr>
+            <td colspan="2">Issues:</td>
+            <td>Latencia si el motor NLP está sobrecargado.</td>
+        </tr>
+    </body>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="3">Scenario Refinement for Scenario 4</th>
+        </tr>
+    </thead>
+    <body>
+        <tr>
+            <td colspan="2">Scenarios:</td>
+            <td>El chatbot no entiende la consulta y no hay agentes disponibles.</td>
+        </tr>
+        <tr>
+            <td colspan="2">Business Goals:</td>
+            <td>Garantizar continuidad de atención para no perder usuarios.</td>
+        </tr>
+        <tr>
+            <td colspan="2">Relevant Quality Attributes:</td>
+            <td>Disponibilidad.</td>
+        </tr>
+        <tr>
+            <td rowspan="7">Scenario Components</td>
+        </tr>
+        <tr>
+            <td>Stimulus:</td>
+            <td>Usuario recibe respuesta “intención no reconocida” y no hay agentes conectados.</td>
+        </tr>
+        <tr>
+            <td>Stimulus Source:</td>
+            <td>Usuario final.</td>
+        </tr>
+        <tr>
+            <td>Environment:</td>
+            <td>Producción, fuera de horario laboral.</td>
+        </tr>
+        <tr>
+            <td>Artifact (if Known)</td>
+            <td>Chatbot, integración con sistema de soporte humano.</td>
+        </tr>
+        <tr>
+            <td>Response:</td>
+            <td>Opción de dejar mensaje/ticket con confirmación de respuesta < 24 h.</td>
+        </tr>
+        <tr>
+            <td>Response Measure:</td>
+            <td>100% consultas no resueltas quedan registradas y con ETA informado.</td>
+        </tr>
+        <tr>
+            <td colspan="2">Questions:</td>
+            <td>¿Cómo garantizar respuesta real dentro de las 24 h?</td>
+        </tr>
+        <tr>
+            <td colspan="2">Issues:</td>
+            <td>Riesgo de frustración del usuario si no se cumple SLA.</td>
+        </tr>
+    </body>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="3">Scenario Refinement for Scenario 5</th>
+        </tr>
+    </thead>
+    <body>
+        <tr>
+            <td colspan="2">Scenarios:</td>
+            <td>Chatbot recibe mensaje ambiguo y el NLP debe interpretarlo.</td>
+        </tr>
+        <tr>
+            <td colspan="2">Business Goals:</td>
+            <td>Mejorar exactitud de interpretación para evitar errores en respuestas.</td>
+        </tr>
+        <tr>
+            <td colspan="2">Relevant Quality Attributes:</td>
+            <td>Exactitud (NLP).</td>
+        </tr>
+        <tr>
+            <td rowspan="7">Scenario Components</td>
+        </tr>
+        <tr>
+            <td>Stimulus:</td>
+            <td>Usuario envía mensaje con intención ambigua.</td>
+        </tr>
+        <tr>
+            <td>Stimulus Source:</td>
+            <td>Usuario final.</td>
+        </tr>
+        <tr>
+            <td>Environment:</td>
+            <td>Producción, interacción normal.</td>
+        </tr>
+        <tr>
+            <td>Artifact (if Known)</td>
+            <td>Motor NLP del chatbot.</td>
+        </tr>
+        <tr>
+            <td>Response:</td>
+            <td>El motor NLP identifica intención con confianza ≥ 85% o solicita aclaración.</td>
+        </tr>
+        <tr>
+            <td>Response Measure:</td>
+            <td>≥ 85% precisión en intenciones reconocidas; si confianza < 60%, se pide reformulación.</td>
+        </tr>
+        <tr>
+            <td colspan="2">Questions:</td>
+            <td>¿Qué dataset es necesario para mantener precisión ≥ 85%?</td>
+        </tr>
+        <tr>
+            <td colspan="2">Issues:</td>
+            <td>Riesgo de sesgos en el modelo NLP; costo de reentrenamiento frecuente.</td>
+        </tr>
+    </body>
+</table>
+
 ## 4.2. Strategic-Level Domain-Driven Design.
 
 ### 4.2.1. EventStorming.
