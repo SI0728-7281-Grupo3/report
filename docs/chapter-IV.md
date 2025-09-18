@@ -607,7 +607,7 @@ El diagrama de contexto detalla las **interacciones** entre los actores y el sis
 ### 4.3.2. Software Architecture Container Level Diagrams.
 El diagrama de contenedores describe los **bounded contexts / microservicios**, el **API Gateway**, los **frontends** (Web/Mobile) y las **persistencias**. Permite entender responsabilidades y límites de cada contenedor.
 
-![System Container Diagram](../assets/img/chapter-IV-j/C4%20-%20Diagrams/System%20Context%20Diagram.png)
+![System Container Diagram](../assets/img/chapter-IV-j/C4%20-%20Diagrams/System%20Container%20Diagram.png)
 
 ---
 
