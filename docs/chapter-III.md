@@ -2,6 +2,7 @@
 
 ## 3.1. To-Be Scenario Mapping
 
+[![to-be-scenario-mapping.jpg](https://i.postimg.cc/brfxgZrz/to-be-scenario-mapping.jpg)](https://postimg.cc/dknZttGX)
 
 ## 3.2. User Stories
 
