@@ -74,48 +74,123 @@ Las restricciones representan características no negociables impuestas por el c
 ### 4.1.3. Architectural Drivers Backlog.
 
 <table>
-    <tr>
-        <th>Driver ID</th>
-        <th>Titulo de Driver</th>
-        <th>Descripción </th>
-        <th>Importancia para Stakeholders (High, Medium, Low)</th>
-        <th>Impacto en Architecture Technical Complexity (High, Medium, Low)</th>
-    </tr>
-    <tr>
-        <td>QA-SEC-01</td>
-        <td>Seguridad en acceso al API</td>
-        <td>Garantizar autenticación y autorización robusta para proteger recursos críticos del sistema.</td>
-        <td>High</td><td>High</td>
-    </tr>
-    <tr>
-        <td>QA-SCA-01</td>
-        <td>Escalabilidad bajo alta concurrencia</td>
-        <td>El sistema debe manejar múltiples solicitudes simultáneas sin caída del servicio.</td>
-        <td>High</td><td>High</td>
-    </tr>
-    <tr>
-        <td>QA-PERF-01</td>
-        <td>Rendimiento de chatbot</td>
-        <td>El chatbot debe responder consultas frecuentes en menos de 3 segundos (p95).</td>
-        <td>High</td><td>High</td>
-    </tr>
-    <tr>
-        <td>QA-AV-01</td>
-        <td>Continuidad de atención vía chatbot/soporte humano</td>
-        <td>El sistema debe garantizar atención incluso si el bot falla, derivando al soporte humano.</td>
-        <td>High</td><td>Medium</td>
-    </tr>
-    <tr>
-        <td>QA-NLP-01</td>
-        <td>Exactitud en interpretación del NLP</td>
-        <td>El motor NLP debe identificar intenciones con ≥85% de confianza.</td>
-        <td>High</td><td>Medium</td>
-    </tr>
-    
+    <thead>
+        <tr>
+            <th>Driver ID</th>
+            <th>Titulo de Driver</th>
+            <th>Descripción </th>
+            <th>Importancia para Stakeholders (High, Medium, Low)</th>
+            <th>Impacto en Architecture Technical Complexity (High, Medium, Low)</th>
+        </tr>
+    </thead>
+    <body>
+        <tr>
+            <td>QA-SEC-01</td>
+            <td>Seguridad en acceso al API</td>
+            <td>Garantizar autenticación y autorización robusta para proteger recursos críticos del sistema.</td>
+            <td>High</td><td>High</td>
+        </tr>
+        <tr>
+            <td>QA-SCA-01</td>
+            <td>Escalabilidad bajo alta concurrencia</td>
+            <td>El sistema debe manejar múltiples solicitudes simultáneas sin caída del servicio.</td>
+            <td>High</td><td>High</td>
+        </tr>
+        <tr>
+            <td>QA-PERF-01</td>
+            <td>Rendimiento de chatbot</td>
+            <td>El chatbot debe responder consultas frecuentes en menos de 3 segundos (p95).</td>
+            <td>High</td><td>High</td>
+        </tr>
+        <tr>
+            <td>QA-AV-01</td>
+            <td>Continuidad de atención vía chatbot/soporte humano</td>
+            <td>El sistema debe garantizar atención incluso si el bot falla, derivando al soporte humano.</td>
+            <td>High</td><td>Medium</td>
+        </tr>
+        <tr>
+            <td>QA-NLP-01</td>
+            <td>Exactitud en interpretación del NLP</td>
+            <td>El motor NLP debe identificar intenciones con ≥85% de confianza.</td>
+            <td>High</td><td>Medium</td>
+        </tr>
+    </body>
 </table>
 
+### 4.1.4. Architectural Design Decisions. 
 
-### 4.1.4. Architectural Design Decisions. Carlos
+<table>
+    <thead>
+        <tr>
+            <th rowspan="2">Drive ID</th>
+            <th rowspan="2">Titulo de Driver</th>
+            <th colspan="2">MVC</th>
+            <th colspan="2">Capas</th>
+            <th colspan="2">Cliente-Servidor</th>
+        </tr>
+        <tr>
+            <th>Pros</th>
+            <th>Contras</th>
+            <th>Pros</th>
+            <th>Contras</th>
+            <th>Pros</th>
+            <th>Contras</th>
+        </tr>
+    </thead>
+    <body>
+        <tr>
+            <td>QA-SEC-01</td>
+            <td>Seguridad en acceso al API</td>
+            <td>Separación clara de responsabilidades; facilita integrar validaciones en controladores; frameworks maduros (Spring, Django).</td>
+            <td>Seguridad depende de configuración adicional (middlewares, filtros); no es intrínsecamente seguro.</td>
+            <td>Seguridad puede centralizarse en la capa de negocio/servicios; permite aislar la lógica de autorización.</td>
+            <td>Posible sobrecarga en validaciones repetidas entre capas; mayor complejidad en trazabilidad de accesos.</td>
+            <td>Control centralizado de accesos en el servidor; fácil de auditar; clientes no exponen lógica sensible.</td>
+            <td>Escalabilidad limitada si todo pasa por un servidor central; el cliente depende totalmente de la robustez del servidor.</td>
+        </tr>
+        <tr>
+            <td>QA-SCA-01</td>
+            <td>Escalabilidad bajo alta concurrencia</td>
+            <td>Fácil escalado horizontal de controladores; frameworks ofrecen soporte a múltiples requests concurrentes.</td>
+            <td>No maneja concurrencia masiva por sí solo; requiere balanceadores externos.</td>
+            <td>Permite distribuir carga entre capas (ej. balancear capa web y capa de datos); flexible para crecer.</td>
+            <td>Cada capa añade latencia; complejidad en coordinar escalado independiente.</td>
+            <td>Modelo simple; clientes múltiples pueden conectarse a un servidor.</td>
+            <td>El servidor es cuello de botella; escalabilidad limitada sin replicación o clusterización.</td>
+        </tr>
+        <tr>
+            <td>QA-PERF-01</td>
+            <td>Rendimiento de chatbot</td>
+            <td>Controladores ligeros permiten respuestas rápidas; caching fácil en capa de presentación/control.</td>
+            <td>Si la lógica NLP es pesada, MVC no mitiga la latencia; depende del backend.</td>
+            <td>Optimización por capas (capa de aplicación puede cachear, capa de datos optimizar consultas).</td>
+            <td>Latencia añadida si las capas no están bien optimizadas; riesgo de sobreingeniería.</td>
+            <td>Comunicación directa cliente-servidor minimiza intermediarios; rápido en escenarios simples.</td>
+            <td>No soporta fácilmente concurrencia alta; depende de la potencia del servidor.</td>
+        </tr>
+        <tr>
+            <td>QA-AV-01</td>
+            <td>Continuidad de atención vía chatbot/soporte humano</td>
+            <td>Permite redirigir tráfico desde controlador a chatbot o soporte humano sin romper flujo.</td>
+            <td>Manejo de fallback puede complejizarse; no está diseñado para resiliencia.</td>
+            <td>Cada capa puede manejar fallbacks (aplicación → soporte humano); facilita desacoplar chatbot de soporte.</td>
+            <td>Riesgo de latencia por pasos extra; aumenta puntos de falla intermedios.</td>
+            <td>Sencillo: si el servidor falla, se deriva a otro canal humano.</td>
+            <td>Depende de disponibilidad del servidor principal; no asegura continuidad automatizada.</td>
+        </tr>
+        <tr>
+            <td>QA-NLP-01</td>
+            <td>Exactitud en interpretación del NLP</td>
+            <td>Controladores permiten encapsular y probar distintos modelos NLP en el backend; fácil integración.</td>
+            <td>No facilita combinar múltiples motores NLP; poca flexibilidad en flujo ML complejo.</td>
+            <td>La capa de negocio puede concentrar lógica NLP y facilitar reentrenamiento; escalable en la capa de aplicación.</td>
+            <td>Aumenta latencia si el flujo atraviesa varias capas; más difícil debug de errores NLP.</td>
+            <td>NLP centralizado en el servidor, simplifica mantenimiento y mejora exactitud al usar un modelo único.</td>
+            <td>Escalabilidad y tiempos de respuesta limitados; el servidor es único punto de falla.</td>
+        </tr>
+    </body>
+</table>
+
 ### 4.1.5. Quality Attribute Scenario Refinements. Carlos
 ## 4.2. Strategic-Level Domain-Driven Design.
 
