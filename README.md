@@ -248,10 +248,12 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
       </td> 
     </tr>
     <!-- Estudiante 5 TB1-->
-    <tr>   
+    <tr>
        <td>
+ <b>Hidalgo Bustamante Josue Omar:
+      </b>
       <b>TB1:
-      </b> <br> 
+      </b> Para esta entrega conversé con un segmento objetivo 1, que comprendió la propuesta y el rumbo de las funcionalidades de la aplicación. En las reuniones logré explicar con claridad cómo debíamos desarrollar el proyecto con el equipo.Además trabajé en EventStorming, Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases y Context Mapping, desarrollando cada apartado con sus respectivos diagramas, decisiones estratégicas y escenarios narrados para sustentar el diseño a nivel estratégico de la arquitectura. <br> 
       <b>TP1:
       </b><br>
       <b>TB2:
@@ -330,8 +332,10 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
     <!-- Estudiante 5 TB1-->
     <tr>   
       <td>
+ <b>Hidalgo Bustamante Josue Omar:
+      </b>
       <b>TB1:
-      </b> <br> 
+      </b> En esta entrega redacté con claridad y precisión, comunicando la idea del proyecto de forma comprensible para el público general; trabajé en EventStorming, Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases y Context Mapping, desarrollando cada apartado con sus respectivos diagramas, decisiones estratégicas y escenarios narrados para sustentar el diseño a nivel estratégico de la arquitectura. <br> 
       <b>TP1:
       </b><br>
       <b>TB2:
