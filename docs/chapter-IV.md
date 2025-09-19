@@ -192,6 +192,9 @@ Las restricciones representan características no negociables impuestas por el c
 </table>
 
 ### 4.1.5. Quality Attribute Scenario Refinements.
+Tras culminar el Quality Attribute Workshop (QAW), el equipo priorizó los escenarios de atributos de calidad que representan los principales riesgos y preocupaciones arquitectónicas para nuestra plataforma ReStyle. La discusión se centró en los drivers seleccionados
+Durante el proceso, se refinaron los escenarios considerando los objetivos de negocio, las fuentes de estímulos más probables, los artefactos involucrados y las respuestas esperadas con medidas cuantitativas. El resultado es la versión final de escenarios refinados, organizados en orden de prioridad según impacto en stakeholders y complejidad técnica.
+
 <table>
     <thead>
         <tr>
