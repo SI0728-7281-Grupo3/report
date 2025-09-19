@@ -1307,3 +1307,7 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
 </table>
 
 ## 3.4. Impact Mapping
+
+<img src="../assets/img/chapter-III/impact_map_1.png" alt="Impact Map Clientes">
+
+<img src="../assets/img/chapter-III/impact_map_2.png" alt="Impact Map Remodeladores">
