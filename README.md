@@ -198,7 +198,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
         <b>Cantoral Sedamano, Alexander Alberto TB1: 
         </b>Para esta entrega pude conversar con uno de los segmentos objetivos, personas no tan técnicas y pudo entender la idea y a donde apuntaba la aplicación en features. En las reuniones se me entendió de como se tenía que desarrollar el proyecto con mis compañeros.<br>
         <b>Cantoral Sedamano, Alexander Alberto TP:
-        </b> <br>
+        </b> En esta entrega se desarrollo una primera version de la aplicación donde se organizo y desarrolló en equipo la misma. Donde nuestra comunicación fue clave.
+        <br>
         <b>Cantoral Sedamano, Alexander Alberto TB2:
         </b> <br>
         <b>Cantoral Sedamano, Alexander Alberto TF1:
@@ -206,6 +207,7 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
         </td>
         <td rowspan="6"> 
          <b>TB1: Como equipo, desarrollamos las distintas secciones del proyecto ReStyle, desde la definición de requerimientos y user stories hasta la elaboración de los diagramas arquitectónicos y de despliegue. Durante las presentaciones, comunicamos con objetividad nuestras ideas y resultados, adaptando el lenguaje según la audiencia, de manera que tanto públicos técnicos como no técnicos comprendieran el propósito, alcance y beneficios del sistema. Esto nos permitió transmitir de forma clara y efectiva el valor del proyecto en el marco de la ingeniería de software.</b><br>
+         <b>TP: Como equipo,</b><br>
       </td>   
     </tr>
     <!-- Estudiante 2 TB1 --> 
@@ -279,7 +281,7 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
       <td>
         <b>Cantoral Sedamano, Alexander Alberto TB1: 
         </b>Tanto para la entrevista como con mis compañeros se le pudo explicar lo que se tenía que lograr para esta entrega en cuestión de puntos. Con el entrevista fue un tanto diferente al chatear porque era más complicado pero con mímicas fue más sencillo en la videollamada.<br>
-        <b>Cantoral Sedamano, Alexander Alberto TP:
+        <b>Cantoral Sedamano, Alexander Alberto TP: Comunique mis ideas en el desarrollo del backend y su despliegue para coordinar con mis compañeros. También para coordinar el como conectar la LP con la aplicacion web y  móvil.
         </b> <br>
         <b>Cantoral Sedamano, Alexander Alberto TB2:
         </b> <br>
