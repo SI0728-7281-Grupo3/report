@@ -373,7 +373,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
         </td>
         <td rowspan="6"> 
          <b>TB1: Como equipo, desarrollamos las distintas secciones del proyecto ReStyle, desde la definición de requerimientos y user stories hasta la elaboración de los diagramas arquitectónicos y de despliegue. Durante las presentaciones, comunicamos con objetividad nuestras ideas y resultados, adaptando el lenguaje según la audiencia, de manera que tanto públicos técnicos como no técnicos comprendieran el propósito, alcance y beneficios del sistema. Esto nos permitió transmitir de forma clara y efectiva el valor del proyecto en el marco de la ingeniería de software.</b><br>
-         <b>TP: Como equipo,</b><br>
+                  <b>TP:</b> Como equipo, comunicamos oralmente de forma objetiva y adaptada a audiencias técnicas y no técnicas. Las presentaciones y reuniones permitieron explicar la arquitectura de los bounded contexts, las style guidelines y el despliegue (backend, front y landing page), facilitando la coordinación, la toma de decisiones y el avance del desarrollo.
+</b><br>
       </td>   
     </tr>
     <!-- Estudiante 2 TB1 --> 
@@ -382,7 +383,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
       <b>Valenzuela Vallejos, Stefano Alessandro TB1:
       </b>Me encargué de la sección Attribute-Driven Design Inputs y de los diagramas arquitectónicos del proyecto. Al presentarlos, comuniqué con objetividad los resultados y decisiones de diseño, adaptando el lenguaje tanto a públicos técnicos como no técnicos, logrando transmitir claramente el aporte de la arquitectura al desarrollo de ReStyle.<br> 
       <b>Valenzuela Vallejos, Stefano Alessandro TP1:
-      </b><br>
+            </b>Participé en la revisión y presentación de la arquitectura de los bounded contexts, contribuí a la definición de las style guidelines y colaboré en el despliegue del proyecto (backend, front y landing page).<br>
+      <br>
       <b>Valenzuela Vallejos, Stefano Alessandro TB2:
       </b><br>
       <b>Valenzuela Vallejos, Stefano Alessandro TF:
@@ -395,7 +397,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
       <b>Chavez Rojas, Carlos Raul Guillermo TB1:
       </b>En esta entrega me enfoqué en comunicar con claridad los avances del trabajo. Realicé una entrevista a uno de los segmentos objetivo y participé en la elaboración de varios artefactos como User Persona, User Task Matrix, User Journey Mapping, Empathy Maps y As-Is Scenario Mapping. Además, trabajé en el Architectural Drivers Backlog, las Architectural Design Decisions y los Quality Attribute Scenario Refinements, lo que me permitió transmitir de manera objetiva las necesidades de los usuarios y las decisiones clave del proyecto.<br> 
       <b>Chavez Rojas, Carlos Raul Guillermo TP1:
-      </b><br>
+            </b>Participé en la revisión y presentación de la arquitectura de los bounded contexts, contribuí a la definición de las style guidelines y colaboré en el despliegue del proyecto (backend, front y landing page).<br>
+      <br>
       <b>Chavez Rojas, Carlos Raul Guillermo TB2:
       </b><br>
       <b>Chavez Rojas, Carlos Raul Guillermo TF:
@@ -408,7 +411,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
       <b>Ruiz Blas Luciano Stefano TB1:
       </b> Logre comunicar el mensaje que plasme en mi trabajo. Realizando los User Person, pude conocer más a nuestros usuarios logrando asi hacerles llegar mejor el mensaje.<br> 
       <b>TP1:
-      </b><br>
+      </b>Participé en la revisión y presentación de la arquitectura de los bounded contexts, contribuí a la definición de las style guidelines y colaboré en el despliegue del proyecto (backend, front y landing page).<br>
+      <br>
       <b>TB2:
       </b><br>
       <b>TF:
@@ -423,7 +427,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
       <b>TB1:
       </b> Para esta entrega conversé con un segmento objetivo 1, que comprendió la propuesta y el rumbo de las funcionalidades de la aplicación. En las reuniones logré explicar con claridad cómo debíamos desarrollar el proyecto con el equipo.Además trabajé en EventStorming, Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases y Context Mapping, desarrollando cada apartado con sus respectivos diagramas, decisiones estratégicas y escenarios narrados para sustentar el diseño a nivel estratégico de la arquitectura. <br> 
       <b>TP1:
-      </b><br>
+            </b>Participé en la revisión y presentación de la arquitectura de los bounded contexts, contribuí a la definición de las style guidelines y colaboré en el despliegue del proyecto (backend, front y landing page).<br>
+      <br>
       <b>TB2:
       </b><br>
       <b>TF:
@@ -456,6 +461,7 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
         </td>
         <td rowspan="6"> 
          <b>TB1: Como equipo, redactamos cada parte del informe de manera clara y objetiva, cuidando que la documentación refleje tanto los aspectos técnicos como el impacto práctico del proyecto ReStyle. La escritura se trabajó pensando en diferentes audiencias, lo que nos permitió comunicar nuestros resultados de forma efectiva a públicos de distintas especialidades y niveles jerárquicos dentro del marco del desarrollo en ingeniería.</b><br>
+        <b>TP:</b> Como equipo, la documentación escrita fue clara, precisa y accesible para distintos públicos. Se documentó de forma ordenada la arquitectura de los bounded contexts, las style guidelines y el proceso de despliegue (backend, front y landing page), mejorando la trazabilidad, el mantenimiento y la transferencia del conocimiento.
       </td>   
     </tr>
     <!-- Estudiante 2 TB1 --> 
@@ -464,7 +470,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
       <b>Valenzuela Vallejos, Stefano Alessandro TB1:
       </b>Me encargué de la sección Attribute-Driven Design Inputs y de los diagramas arquitectónicos del proyecto. Al presentarlos, comuniqué con objetividad los resultados y decisiones de diseño, adaptando el lenguaje tanto a públicos técnicos como no técnicos, logrando transmitir claramente el aporte de la arquitectura al desarrollo de ReStyle.<br> 
       <b>Valenzuela Vallejos, Stefano Alessandro TP1:
-      </b><br>
+            </b>Participé en la documentación escrita de la arquitectura de los bounded contexts, redacté partes de las style guidelines y documenté el proceso de despliegue del proyecto (backend, front y landing page).<br>
+      <br>
       <b>Valenzuela Vallejos, Stefano Alessandro TB2:
       </b><br>
       <b>Valenzuela Vallejos, Stefano Alessandro TF:
@@ -477,7 +484,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
       <b>Chavez Rojas, Carlos Raul Guillermo TB1:
       </b>En esta entrega comuniqué los resultados con objetividad, presentando de forma clara la entrevista realizada al segmento objetivo y los artefactos desarrollados (User Persona, User Task Matrix, User Journey Mapping, Empathy Maps y As-Is Scenario Mapping). Además, documenté el Architectural Drivers Backlog, las Design Decisions y los Quality Attribute Scenario Refinements con un lenguaje accesible para diferentes especialidades y niveles jerárquicos, facilitando la comprensión de los avances del proyecto.<br> 
       <b>Chavez Rojas, Carlos Raul Guillermo TP1:
-      </b><br>
+      </b>Participé en la documentación escrita de la arquitectura de los bounded contexts, redacté partes de las style guidelines y documenté el proceso de despliegue del proyecto (backend, front y landing page).<br>
+      <br>
       <b>Chavez Rojas, Carlos Raul Guillermo TB2:
       </b><br>
       <b>Chavez Rojas, Carlos Raul Guillermo TF:
@@ -490,7 +498,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
       <b>Ruiz Blas Luciano Stefano TB1:
       </b>En esta entrega logré redactar de manera clara y precisa. Logre redactar la idea de nuestro proyecto de manera que el publico en general lo pueda entender. Además realice el Design Purpose y el Strategic-Level Attribute-Driven Design de manera entendible para el público en general.  <br> 
       <b>TP1:
-      </b><br>
+            </b>Participé en la documentación escrita de la arquitectura de los bounded contexts, redacté partes de las style guidelines y documenté el proceso de despliegue del proyecto (backend, front y landing page).<br>
+      <br>
       <b>TB2:
       </b><br>
       <b>TF:
@@ -505,7 +514,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
       <b>TB1:
       </b> En esta entrega redacté con claridad y precisión, comunicando la idea del proyecto de forma comprensible para el público general; trabajé en EventStorming, Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases y Context Mapping, desarrollando cada apartado con sus respectivos diagramas, decisiones estratégicas y escenarios narrados para sustentar el diseño a nivel estratégico de la arquitectura. <br> 
       <b>TP1:
-      </b><br>
+      </b>En esta entrega logré redactar de manera clara y precisa. Logre redactar la idea de nuestro proyecto de manera que el publico en general lo pueda entender. Además realice el Design Purpose y el Strategic-Level Attribute-Driven Design de manera entendible para el público en general.  <br> 
+      <br>
       <b>TB2:
       </b><br>
       <b>TF:
@@ -513,16 +523,4 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
       </td> 
     </tr>
         <!-- Estudiante 6 TB1-->
-    <tr>   
-      <td>
-      <b>TB1:
-      </b> <br> 
-      <b>TP1:
-      </b><br>
-      <b>TB2:
-      </b><br>
-      <b>TF:
-      </b>
-      </td> 
-    </tr>
 </table>
