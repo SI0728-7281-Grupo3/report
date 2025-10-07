@@ -262,6 +262,11 @@ El esquema funcionará como punto de referencia para el diseño visual y la impl
 
 ![Images](../assets/img/chapter-VI/landing-page-footer.png)
 
+**Enlaces del proyecto (referencias rápidas):**
+- Landing Page: https://si0728-7281-grupo3.github.io/landingpage/
+- Front (App web): https://restyle-1asi0728-7281.netlify.app
+- Backend (Swagger / API): https://restyle-platform-bed4c3b3f3eug0ak.canadacentral-01.azurewebsites.net/swagger-ui/index.html
+
 ## 6.4. Applications UX/UI Design
 
 ### 6.4.1. Applications Wireframes
@@ -425,3 +430,8 @@ Los Wireflows se emplean principalmente en el diseño UX o experiencia de usuari
 #### Web Applications Wireflow Diagrams
 
 ![Wireflows](../assets/img/chapter-VI/wireflow-diagram.png)
+
+
+**Enlaces de desarrollo y API:**
+- Front (Interfaz/Web): https://restyle-1asi0728-7281.netlify.app
+- Backend (Documentación API - Swagger): https://restyle-platform-bed4c3b3f3eug0ak.canadacentral-01.azurewebsites.net/swagger-ui/index.html

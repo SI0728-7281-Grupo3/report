@@ -592,6 +592,7 @@ Durante el proceso, se refinaron los escenarios considerando los objetivos de ne
 ## 4.3. Software Architecture
 Esta sección presenta la arquitectura de ReStyle siguiendo C4. Incluye el panorama global del ecosistema (System Landscape), el contexto del sistema (System Context) y el desglose de contenedores internos (Container). Al final se deja el espacio para el diagrama de despliegue (Deployment).
 
+Structurizr: https://structurizr.com/workspace/82630/dsl
 
 ### 4.3.1. Software Architecture System Landscape Diagram.
 El diagrama de landscape muestra los **actores principales** (Propietario, Profesional, Administrador), el **sistema ReStyle** y los **sistemas externos** (pasarela de pagos, identidad, almacenamiento de objetos, etc.), así como sus relaciones a alto nivel.
