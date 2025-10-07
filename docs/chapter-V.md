@@ -153,9 +153,23 @@ Diagrama de clases — modelo de dominio del contexto:
 
 #### 5.1.6.2. Bounded Context Database Design Diagram
 
+Propósito: gestionar cuentas, roles/estado y el perfil base del usuario.
+
+Tablas “dueñas”
+
+- users — identidad de cuenta, credenciales, rol y estado.
+
+- profiles — datos de perfil (display_name, bio, phone, ciudad, lat/lng).
+
+- Catálogos: roles, user_statuses.
+
+![BD-User](../assets/img/chapter-V/Diagrams-BC/user%20management/BD-user.png)
 
 
 
+
+
+---
 ## 5.2. Bounded Context: Discovery Context
 
 ### 5.2.1. Domain Layer
@@ -294,9 +308,18 @@ Diagrama de clases — modelo de dominio del contexto:
 
 #### 5.2.6.2. Bounded Context Database Design Diagram
 
+Propósito: ofrecer una vista pública indexable para matching y búsquedas.
 
+Tablas “dueñas”
+- public_profiles — read model público (título, rating, ciudad, lat/lng).
+- public_profile_skills — habilidades visibles para búsqueda.
+- skills — catálogo de skills.
 
+![BD-Discovery1](../assets/img/chapter-V/Diagrams-BC/discovery%20context/BD-Discovery1.png)
 
+![BD-Discovery2](../assets/img/chapter-V/Diagrams-BC/discovery%20context/BD-Discovery2.png)
+
+---
 
 ## 5.3. Bounded Context: Project & Quotation Context
 
@@ -443,9 +466,29 @@ Diagrama de clases — modelo de dominio del contexto:
 [Diagrama de Clases (PlantUML)](https://www.plantuml.com/plantuml/uml/bLRTRjis5BxNKnnum2OtTRTXM2-4DQihoPY7e6dZPBjco6EPgqIg9ENEAmpi8VQ4Uv9H4Ys7jBKcLnRF3x_pdU_mmA-r8SeqLHdf3rpKH94Az8Om-OcB0jQarFZ0GqkYzTmOnUyRWqignOh_XV1TLEBQW96WUB4nmBX2QhWKaU6cH7Ydv1_M05_3-qOQqdeWbSBWdmR-_ViVo6H5k80hiaC5QOi16IU5HOoYcj0Ff42OkA1lOLuK2WjYK4_WgopByyK2FaS0A9eARl1ZWzgiB4gZEpF0s_ptxdUL_f9dTrTvrftUtrtVkizvckRl3eUR_DSyFHpI-Tiql-fJzb44VGSEX1oOWva1Pv30tTqoSsVvIQ1Q1iQ-9GciZB8jTaQ6cYfUjvq9NRgdalZKd9Cg90RPt5X_PhzkUONELIjSerB8MdleVlMg-xa8cCJzVMd5fiwlwGPPK-9lN7CJC-iytlGS3DADu9GJiMGzoQb5sahEN3gfwt8tY1v_T5-ZuPHYRHuVhz0M_wXuJxuXOLGvrVTZUMAk9CFoL5HIoKPq8Y3b5IaFyZHAeQ2xKxaDuQKEpUDgkivW2_j6oXA9y7Hq_lWytzjU9b9sAZwHj2Uoxt73SRvYXRLK9gGe6qDbXOFPPw6GIiLkkiouly3UIZnM-zETa6zHc7ORB1QBbzcFy7daeQPzVrq3BiuJlXYUBGHcsibfoNfSzoDjNXsQCy1jhJa46wbXlBNxqocs9BUSFG0Qdi4ZmSBfFGypFupWqs52tLg5DJTISTGGBuL1jIOKzTHgcBzS_E0sEZyuOEaBEUJlXc8qsMBiW249X9-UM5pMcWlsPhTayV0Msj3hRX6JyYS_vz9Bkcwd9FPN_7EeBJzoN-BFxJrNN9ipT-nzQaE3nrWDVRPN3i7JXuV7iHd2VIAkCfiMwZPmy3A3ylsf7-FGpRwzpe-UdbYUMfcVVNcOj6-E_n90OTdLhZUyrX1JMNKbMaltvyFNftty-ZZP6eXW_SFLqoW8dNm_WMUp6KoUJOvIGF8W-_yoWgMSE9JeUDDiTXbMby0zbb8K-bP6mGLVYBOjSTiIksq9M76jBKnOuuiNboDhCsbpZ0w1RSB8wdCf7YaR7MwkyRXmzGnnbestGnfD2Zp7P7nn93O90qJlCOQHfxH7Xt_8YLwZO4rL_WS0)
 
 #### 5.3.6.2. Bounded Context Database Design Diagram
+Propósito: orquestar el ciclo de vida del proyecto y su estado operativo.
 
+Tablas “dueñas”
 
+- project_requests — solicitud del propietario (estado y datos).
 
+- technical_visits — visitas técnicas planificadas.
+
+- quotations — cotizaciones de remodeladores (estado de cotización).
+
+- project_executions — contrato en ejecución (status, progress).
+
+- milestones — hitos de ejecución.
+
+- reviews — feedback del cliente al cerrar.
+
+- issues — incidencias durante la ejecución.
+
+- Catálogos: request_statuses, quotation_statuses, execution_statuses.
+
+![bd-quotetiton](../assets/img/chapter-V/Diagrams-BC/quoteiton/BD-quoteiton.png)
+
+---
 
 ## 5.4. Bounded Context: Payment Context
 
@@ -596,10 +639,21 @@ Diagrama de clases — modelo de dominio del contexto:
 
 #### 5.4.6.2. Bounded Context Database Design Diagram
 
+Propósito: gestionar cobros, conciliación y suscripciones.
 
+Tablas “dueñas”
 
+- payments — orden de pago (estado, referencia externa, idempotency).
 
+- charges — cargos/intent de procesador.
 
+- subscriptions — suscripción a planes (freemium/premium).
+
+- Catálogos: payment_statuses, subscription_statuses.
+
+![BD-Subs](../assets/img/chapter-V/Diagrams-BC/subscriptions/BD-subscription.png)
+
+---
 ##  5.5. Bounded Context: Execution & Feedback Context
 
 #### 5.5.1. Domain Layer
@@ -775,7 +829,17 @@ Diagrama de clases — modelo de dominio del contexto:
 
 #### 5.5.6.2. Bounded Context Database Design Diagram
 
+Propósito: administrar activos multimedia vinculados a usuarios/proyectos.
 
+Tablas “dueñas”
+
+- media_assets — metadatos de objetos (URL, tipo, dueño).
+
+- portfolio_items — asociación de media al portafolio público del usuario.
+
+![BD-Portafolio](../assets/img/chapter-V/Diagrams-BC/execution%20feedback/BD-Portafolio.png)
+
+---
 
 ## 5.6. Bounded Context: Subscription & Notification Context
 
@@ -945,3 +1009,18 @@ Diagrama de clases — modelo de dominio del contexto:
 [Diagrama de Clases (PlantUML)](https://www.plantuml.com/plantuml/uml/l5RlRjis4F_kfo0yOBFRsKtNhHkC8gjZoQc0n37YEDW70mrDdHqk4gcH9xVU460FiIVSaupweqGdMq0nO0iGcBm_lD_T_OxYUulSO1f7R96khJ0oGQdLO19nQpt9juR77ViWLSBTYjbx7kfFKctPXaSMQXgHEOmHZLod287GQY5_1tRIYM2333KpSdkFB9G6H1QXWn8Z847PrsocKMwauFbseXN2PsH___aNytJCfM8NV0-6vU1OXQwJSF70jy2wjpnAWLsjVmM1bhrYlafZssLV-VaV-wF32fZiJ4QHI-8Iy5w7kPonWGFv08gDs0ADKvR2nEYT3C4qvUuS_9uANxAOsuTUlovzx5H1IMvp0nime0GyHKyjc21qlijbu9KoSS-LWiWwwOMq-AuuzhJKRWpybe8I-oQC93_Tzaht9tM6x4ph2BYge84h4Md20ZccjaGrdjm4jtw-d8yNDn-zPR6PZ6SJ_-B2Bt3wlyo3QxUk7KcIlTadLPh-vJYuo5V1xEDuFi-NYyj54MAv-D1s2CKrzsTUC3illFtPJRwOZeCAqRK_Bk0yrjWntcuDR3b2GGsKA25ZX-Vv_dHQOmVXPDKUILfpl5r9n5LJPWlSeoD5VhOm2E4OdP774Mva3ALAEVgNN3sc5bm9YABZlcl2yH7bV64pAFX2eFM40OumYSD-gUK2vSw9ScBlj0nBkG45dnh24b8FDXl8t80WQzXAE-SMlHHwX9WjCzFU2WD29X8KDckF6V561roikiNtaUOX7PwgOTIDDgoe42qwBMZCpSC259BgbF8fbn64FGFSwkVRfZAiM4iu-68meErZ8zfUQjvztMNQkNHFXiCNNLh34LErhQsDHtd3-ZjGc8t5T3fzw_tGCXRZaXFLvVcIsPgMzk5bEIjKfeL8ZJciukFHUDSPr_wtQ9Dohlx3U9HTeB0AHVhJE9OmdIYQD_s_Wb4myuk04FP-GJZ7w6yOvDHY44jhtPcKjCFXQGl3Hfa7sXPpGf1suvR-LkPL6IhpW_QqMnvMiBIj3zSr9DfAr4Q2PRr08PWD5s3xsUlaxVHD-VsHbO85DBdIU_zCIBw3NlEpqc_iIzkDLE7PFWXxikfYPdYLc_3eNTtZbBWiSsRt2C7xvLkarIrl71JErBKzQiuHcd-jhAtvgyOjtQTxcl_ry-pq3kVeMvQuHl5r13y_PLWxYcGu1nKwqf_j9yNK7NrdqHFQaoHFmiD4QIVQotdySNbQhrRYnCxbk6M_JLERN_ECBhLy2uT3riRQaNE0mzcX1MYtfu2ePwKxzEwy1nMcSTHvzSgv3E6pjEYQmuGEmUqxTtTtJhEH4IGSxqTCZ5PPcUsAxtW4goi5dd5CPWEsLExNM1doaCt1f5nn5WARI0T7Shloj4XZK6XNvn8_fElL8ZZvyRkV1kx_zU3Sf8b-iygAPt0LQc5NZYy9WXdS3kEm3Tq_xTU130000C0WV-jxV6MHbtcPbtdPvsLUvcLUvcLUvcLUvcK1)
 
 #### 5.6.6.2. Bounded Context Database Design Diagram
+Propósito: orquestar envíos (email/sms/push) y preferencias del usuario.
+
+Tablas “dueñas”
+
+- notification_preferences — canales y frecuencia por usuario.
+
+- notifications — cola de notificaciones (tipo, estado, canal, intentos).
+
+- subscriptions - subcripciones de usuarios.
+
+- Catálogos: notification_types, notification_statuses.
+
+
+
+![BD-Subs](../assets/img/chapter-V/Diagrams-BC/subscriptions/BD-subs.png)
