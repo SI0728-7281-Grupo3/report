@@ -433,5 +433,6 @@ Los Wireflows se emplean principalmente en el diseño UX o experiencia de usuari
 
 
 **Enlaces de desarrollo y API:**
+- Landing Page: https://si0728-7281-grupo3.github.io/landingpage/
 - Front (Interfaz/Web): https://restyle-1asi0728-7281.netlify.app
 - Backend (Documentación API - Swagger): https://restyle-platform-bed4c3b3f3eug0ak.canadacentral-01.azurewebsites.net/swagger-ui/index.html
