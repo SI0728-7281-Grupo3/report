@@ -28,7 +28,7 @@
  </center> 
 <center>
 
-### Setiembre 2025
+### Octubre 2025
 ### Ciclo: 2025-02
 ### NRC: 7281
 
@@ -170,6 +170,115 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
     4.3.3. [Software Architecture Deployment Diagrams]()
 
 5. [Capítulo V: Tactical-Level Software Design](docs/chapter-V.md#capítulo-v-tactical-level-software-design)
+
+    5.1. [Bounded Context: User Management](docs/chapter-V.md#51-bounded-context-user-management)
+
+    5.1.1. [Domain Layer](docs/chapter-V.md#511-domain-layer)
+
+    5.1.2. [Interface Layer](docs/chapter-V.md#512-interface-layer)
+
+    5.1.3. [Application Layer](docs/chapter-V.md#513-application-layer)
+
+    5.1.4. [Infrastructure Layer](docs/chapter-V.md#514-infrastructure-layer)
+
+    5.1.5. [Bounded Context Software Architecture Component Level Diagrams](docs/chapter-V.md#515-bounded-context-software-architecture-component-level-diagrams)
+
+    5.1.6. [Bounded Context Software Architecture Code Level Diagrams](docs/chapter-V.md#516-bounded-context-software-architecture-code-level-diagrams)
+
+    5.1.6.1. [Bounded Context Domain Layer Class Diagrams](docs/chapter-V.md#5161-bounded-context-domain-layer-class-diagrams)
+
+    5.1.6.2. [Bounded Context Database Design Diagram](docs/chapter-V.md#5162-bounded-context-database-design-diagram)
+
+    5.2. [Bounded Context: Discovery Context](docs/chapter-V.md#52-bounded-context-discovery-context)
+
+    5.2.1. [Domain Layer](docs/chapter-V.md#521-domain-layer)
+
+    5.2.2. [Interface Layer](docs/chapter-V.md#522-interface-layer)
+
+    5.2.3. [Application Layer](docs/chapter-V.md#523-application-layer)
+
+    5.2.4. [Infrastructure Layer](docs/chapter-V.md#524-infrastructure-layer)
+
+    5.2.5. [Bounded Context Software Architecture Component Level Diagrams](docs/chapter-V.md#525-bounded-context-software-architecture-component-level-diagrams)
+
+    5.2.6. [Bounded Context Software Architecture Code Level Diagrams](docs/chapter-V.md#526-bounded-context-software-architecture-code-level-diagrams)
+
+    5.2.6.1. [Bounded Context Domain Layer Class Diagrams](docs/chapter-V.md#5261-bounded-context-domain-layer-class-diagrams)
+
+    5.2.6.2. [Bounded Context Database Design Diagram](docs/chapter-V.md#5262-bounded-context-database-design-diagram)
+
+    5.3. [Bounded Context: Project & Quotation Context](docs/chapter-V.md#53-bounded-context-project--quotation-context)
+
+    5.3.1. [Domain Layer](docs/chapter-V.md#531-domain-layer)
+
+    5.3.2. [Interface Layer](docs/chapter-V.md#532-interface-layer)
+
+    5.3.3. [Application Layer](docs/chapter-V.md#533-application-layer)
+
+    5.3.4. [Infrastructure Layer](docs/chapter-V.md#534-infrastructure-layer)
+
+    5.3.5. [Bounded Context Software Architecture Component Level Diagrams](docs/chapter-V.md#535-bounded-context-software-architecture-component-level-diagrams)
+
+    5.3.6. [Bounded Context Software Architecture Code Level Diagrams](docs/chapter-V.md#536-bounded-context-software-architecture-code-level-diagrams)
+
+    5.3.6.1. [Bounded Context Domain Layer Class Diagrams](docs/chapter-V.md#5361-bounded-context-domain-layer-class-diagrams)
+
+    5.3.6.2. [Bounded Context Database Design Diagram](docs/chapter-V.md#5362-bounded-context-database-design-diagram)
+
+    5.4. [Bounded Context: Payment Context](docs/chapter-V.md#54-bounded-context-payment-context)
+
+    5.4.1. [Domain Layer](docs/chapter-V.md#541-domain-layer)
+
+    5.4.2. [Interface Layer](docs/chapter-V.md#542-interface-layer)
+
+    5.4.3. [Application Layer](docs/chapter-V.md#543-application-layer)
+
+    5.4.4. [Infrastructure Layer](docs/chapter-V.md#544-infrastructure-layer)
+
+    5.4.5. [Bounded Context Software Architecture Component Level Diagrams](docs/chapter-V.md#545-bounded-context-software-architecture-component-level-diagrams)
+
+    5.4.6. [Bounded Context Software Architecture Code Level Diagrams](docs/chapter-V.md#546-bounded-context-software-architecture-code-level-diagrams)
+
+    5.4.6.1. [Bounded Context Domain Layer Class Diagrams](docs/chapter-V.md#5461-bounded-context-domain-layer-class-diagrams)
+
+    5.4.6.2. [Bounded Context Database Design Diagram](docs/chapter-V.md#5462-bounded-context-database-design-diagram)
+
+    5.5. [Bounded Context: Execution & Feedback Context](docs/chapter-V.md#55-bounded-context-execution--feedback-context)
+
+    5.5.1. [Domain Layer](docs/chapter-V.md#551-domain-layer)
+
+    5.5.2. [Interface Layer](docs/chapter-V.md#552-interface-layer)
+
+    5.5.3. [Application Layer](docs/chapter-V.md#553-application-layer)
+
+    5.5.4. [Infrastructure Layer](docs/chapter-V.md#554-infrastructure-layer)
+
+    5.5.5. [Bounded Context Software Architecture Component Level Diagrams](docs/chapter-V.md#555-bounded-context-software-architecture-component-level-diagrams)
+
+    5.5.6. [Bounded Context Software Architecture Code Level Diagrams](docs/chapter-V.md#556-bounded-context-software-architecture-code-level-diagrams)
+
+    5.5.6.1. [Bounded Context Domain Layer Class Diagrams](docs/chapter-V.md#5561-bounded-context-domain-layer-class-diagrams)
+
+    5.5.6.2. [Bounded Context Database Design Diagram](docs/chapter-V.md#5562-bounded-context-database-design-diagram)
+
+    5.6. [Bounded Context: Subscription & Notification Context](docs/chapter-V.md#56-bounded-context-subscription--notification-context)
+
+    5.6.1. [Domain Layer](docs/chapter-V.md#561-domain-layer)
+
+    5.6.2. [Interface Layer](docs/chapter-V.md#562-interface-layer)
+
+    5.6.3. [Application Layer](docs/chapter-V.md#563-application-layer)
+
+    5.6.4. [Infrastructure Layer](docs/chapter-V.md#564-infrastructure-layer)
+
+    5.6.5. [Bounded Context Software Architecture Component Level Diagrams](docs/chapter-V.md#565-bounded-context-software-architecture-component-level-diagrams)
+
+    5.6.6. [Bounded Context Software Architecture Code Level Diagrams](docs/chapter-V.md#566-bounded-context-software-architecture-code-level-diagrams)
+
+    5.6.6.1. [Bounded Context Domain Layer Class Diagrams](docs/chapter-V.md#5661-bounded-context-domain-layer-class-diagrams)
+
+    5.6.6.2. [Bounded Context Database Design Diagram](docs/chapter-V.md#5662-bounded-context-database-design-diagram)
+
 
     5.1. [Bounded Context: User Management](docs/chapter-V.md#51-bounded-context-user-management)
 
