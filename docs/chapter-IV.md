@@ -502,6 +502,10 @@ Durante el proceso, se refinaron los escenarios considerando los objetivos de ne
 
 <img src="..\assets/img/chapter-IV-j/4.1.png" alt="EventStorming — tablero general" width="800">
 
+
+Enlace de Visualización al Bounded Context: https://excalidraw.com/#json=LQmy5U2BpRAYacc-bwFAf,EpVVVOKYAwgiVZkNRUwkOw
+
+
 ---
 
 ### 4.2.2. Candidate Context Discovery.
