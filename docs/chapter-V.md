@@ -1022,5 +1022,4 @@ Tablas “dueñas”
 - Catálogos: notification_types, notification_statuses.
 
 
-
 ![BD-Subs](../assets/img/chapter-V/Diagrams-BC/subscriptions/BD-subs.png)
