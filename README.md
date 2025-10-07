@@ -43,7 +43,7 @@
 | Versión | Fecha      | Autor                                                                          | Descripción de modificación                                                                                      |
 |---------|------------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
 | 1.0     | 10/09/2025 | - Alexander Cantoral<br> - Carlos Chávez <br> - Josue Hidalgo <br> - Luciano Ruiz<br> - Stefano Valenzuela | Se creo la ramificación del repositorio y se adicionó los documentos en su versión inicial previa a la investigacón |
-
+| 2.0     | 06/10/2025 | - Alexander Cantoral<br> - Carlos Chávez <br> - Josue Hidalgo <br> - Luciano Ruiz<br> - Stefano Valenzuela | Primera fase en producción del proyecto e incorporacion de la arquitectura por cada bounded context |
 
 ### Project Report Collaboration Insights
 
@@ -168,6 +168,63 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
     4.3.2. [Software Architecture Container Level Diagrams]()
 
     4.3.3. [Software Architecture Deployment Diagrams]()
+
+5. [Capítulo V: Tactical-Level Software Design](docs/chapter-V.md#capítulo-v-tactical-level-software-design)
+
+    5.1. [Bounded Context: User Management](docs/chapter-V.md#51-bounded-context-user-management)
+
+    5.1.1. [Domain Layer](docs/chapter-V.md#511-domain-layer)
+
+    5.1.2. [Interface Layer](docs/chapter-V.md#512-interface-layer)
+
+    5.1.3. [Application Layer](docs/chapter-V.md#513-application-layer)
+
+    5.1.4. [Infrastructure Layer](docs/chapter-V.md#514-infrastructure-layer)
+
+    5.1.5. [Bounded Context Software Architecture Component Level Diagrams](docs/chapter-V.md#515-bounded-context-software-architecture-component-level-diagrams)
+
+    5.1.6. [Bounded Context Software Architecture Code Level Diagrams](docs/chapter-V.md#516-bounded-context-software-architecture-code-level-diagrams)
+
+    5.1.6.1. [Bounded Context Domain Layer Class Diagrams](docs/chapter-V.md#5161-bounded-context-domain-layer-class-diagrams)
+
+    5.1.6.2. [Bounded Context Database Design Diagram](docs/chapter-V.md#5162-bounded-context-database-design-diagram)
+
+
+6. [Capítulo VI: Solution UX Design](docs/chapter-VI.md#capítulo-vi-solution-ux-design)
+
+    6.1. [Style Guidelines](docs/chapter-VI.md#61-style-guidelines)
+
+    6.1.1. [General Style Guidelines](docs/chapter-VI.md#611-general-style-guidelines)
+
+    6.1.2. [Web, Mobile & Devices Style Guidelines](docs/chapter-VI.md#612-web-mobile--devices-style-guidelines)
+
+    6.2. [Information Architecture](docs/chapter-VI.md#62-information-architecture)
+
+    6.2.1. [Organization Systems](docs/chapter-VI.md#621-organization-systems)
+
+    6.2.2. [Labeling Systems](docs/chapter-VI.md#622-labeling-systems)
+
+    6.2.3. [Searching Systems](docs/chapter-VI.md#623-searching-systems)
+
+    6.2.4. [SEO Tags and Meta Tags](docs/chapter-VI.md#624-seo-tags-and-meta-tags)
+
+    6.2.5. [Navigation Systems](docs/chapter-VI.md#625-navigation-systems)
+
+    6.3. [Landing Page UI Design](docs/chapter-VI.md#63-landing-page-ui-design)
+
+    6.3.1. [Landing Page Wireframe](docs/chapter-VI.md#631-landing-page-wireframe)
+
+    6.3.2. [Landing Page Mock-up](docs/chapter-VI.md#632-landing-page-mock-up)
+
+    6.4. [Applications UX/UI Design](docs/chapter-VI.md#64-applications-uxui-design)
+
+    6.4.1. [Applications Wireframes](docs/chapter-VI.md#641-applications-wireframes)
+
+    6.4.2. [Applications Wireflow Diagrams](docs/chapter-VI.md#642-applications-wireflow-diagrams)
+
+    6.4.3. [Applications Mock-ups](docs/chapter-VI.md#643-applications-mock-ups)
+
+        
 <br>
 
 ## Student Outcome
