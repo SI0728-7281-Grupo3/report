@@ -432,9 +432,7 @@ Los Wireflows se emplean principalmente en el diseño UX o experiencia de usuari
 ![Wireflows](../assets/img/chapter-VI/wireflow-diagram.png)
 
 
-**Enlaces de desarrollo y API:**
-- Front (Interfaz/Web): https://restyle-1asi0728-7281.netlify.app
-- Backend (Documentación API - Swagger): https://restyle-platform-bed4c3b3f3eug0ak.canadacentral-01.azurewebsites.net/swagger-ui/index.html
+
 
 
 ## 6.5. Conclusiones
@@ -469,5 +467,5 @@ A continuación se listan todos los enlaces y artefactos relevantes adjuntados a
   - Backend (Swagger / API): https://restyle-platform-bed4c3b3f3eug0ak.canadacentral-01.azurewebsites.net/swagger-ui/index.html
 
 - Diagramas (Capítulo V)
-  - Enlaces en las Capturas de los diagramas del Capítulo V.
+  - Diagramas de clases - Enlaces en las Capturas de los Diagramas del Capítulo V.
   - Structurizr: https://structurizr.com/workspace/82630/dsl
