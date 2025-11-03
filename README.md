@@ -333,7 +333,50 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
 
     6.4.3. [Applications Mock-ups](docs/chapter-VI.md#643-applications-mock-ups)
 
-        
+7. [Capítulo VII: Product Implementation, Validation & Deployment](docs/chapter-VII.md#capítulo-vii-product-implementation-validation--deployment)
+
+    7.1. [Software Configuration Management](docs/chapter-VII.md#71-software-configuration-management)
+
+    7.1.1. [Software Development Environment Configuration](docs/chapter-VII.md#711-software-development-environment-configuration)
+
+    7.1.2. [Source Code Management](docs/chapter-VII.md#712-source-code-management)
+
+    7.1.3. [Source Code Style Guide & Conventions](docs/chapter-VII.md#713-source-code-style-guide--conventions)
+
+    7.1.4. [Software Deployment Configuration](docs/chapter-VII.md#714-software-deployment-configuration)
+
+    7.2. [Solution Implementation](docs/chapter-VII.md#72-solution-implementation)
+
+    7.2.1. [Sprint 1](docs/chapter-VII.md#721-sprint-1)
+
+    7.2.1.1. [Sprint Planning 1](docs/chapter-VII.md#7211-sprint-planning-1)
+
+    7.2.1.2. [Sprint Backlog 1](docs/chapter-VII.md#7212-sprint-backlog-1)
+
+    7.2.1.3. [Development Evidence for Sprint Review](docs/chapter-VII.md#7213-development-evidence-for-sprint-review)
+
+    7.2.1.4. [Testing Suite Evidence for Sprint Review](docs/chapter-VII.md#7214-testing-suite-evidence-for-sprint-review)
+
+    7.2.1.5. [Execution Evidence for Sprint Review](docs/chapter-VII.md#7215-execution-evidence-for-sprint-review)
+
+    7.2.1.6. [Services Documentation Evidence for Sprint Review](docs/chapter-VII.md#7216-services-documentation-evidence-for-sprint-review)
+
+    7.2.1.7. [Software Deployment Evidence for Sprint Review](docs/chapter-VII.md#7217-software-deployment-evidence-for-sprint-review)
+
+    7.2.1.8. [Team Collaboration Insights during Sprint](docs/chapter-VII.md#7218-team-collaboration-insights-during-sprint)
+
+    7.3. [Validation Interviews](docs/chapter-VII.md#73-validation-interviews)
+
+    7.3.1. [Diseño de Entrevistas](docs/chapter-VII.md#731-diseño-de-entrevistas)
+
+    7.3.2. [Registro de Entrevistas](docs/chapter-VII.md#732-registro-de-entrevistas)
+
+    7.3.3. [Evaluaciones según heurísticas](docs/chapter-VII.md#733-evaluaciones-según-heurísticas)
+
+    7.4. [Video About-the-Product](docs/chapter-VII.md#74-video-about-the-product)
+
+    Avance de Conclusiones, Bibliografía y Anexos. (Ver sección final del Capítulo VII)
+
 <br>
 
 ## Student Outcome
