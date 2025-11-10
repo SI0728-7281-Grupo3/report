@@ -383,6 +383,55 @@ Se invitará al remodelador a crear un perfil de servicio, revisar cómo se mues
 
 #### 7.3.3. Evaluaciones según heurísticas
 
+**Usability** \- **Inclusive Design** \- **Information Architecture**
+
+| CARRERA | Ingeniería de Software |
+| ----- | ----- |
+| **CURSO** | 1ASI0728 |
+| **SECCIÓN** | 7281 |
+| **PROFESORES** | Berrocal Navarro, Richard Leonardo |
+| **CLIENTE(S)** | - |
+
+##### **SITE o APP A EVALUAR:**
+
+**Landing Page y Prototipo de App Web**
+
+### **TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+1. Visualización y navegación del Landing Page.
+2. Exploración de funcionalidades en el prototipo de la app.
+3. Registro real de usuario.
+4. Flujo del tipo de usuario designado. 
+
+**ESCALA DE SEVERIDAD:**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+| ----- | ----- |
+| 1 | Problema superficial: ocurre con muy poca frecuencia y no interfiere significativamente con la tarea. |
+| 2 | Problema menor: ocurre ocasionalmente y dificulta un poco la tarea; prioridad baja de corrección. |
+| 3 | Problema mayor: ocurre frecuentemente o impide avanzar sin ayuda; prioridad alta de corrección. |
+| 4 | Problema muy grave: bloquea por completo la tarea; debe corregirse antes del lanzamiento. |
+
+---
+#### **TABLA RESUMEN:**
+
+---
+
+#### **DESCRIPCIÓN DE PROBLEMAS:**
+##### **PROBLEMA \#1:**
+
+* **Severidad:** 
+
+* **Heurística violada:** 
+
+* **Descripción:** 
+
+* **Recomendación:**
+
+---
 
 
 ## 7.4. Video About-the-Product
