@@ -69,7 +69,7 @@ Pautas generales para mantener la legibilidad y calidad del código:
 - Nomenclatura: nombres en inglés, descriptivos y consistentes; usar camelCase en JS/TS, PascalCase en clases Java/TS.
 
 Especificaciones por lenguaje (resumen):
-- HTML: DOCTYPE HTML5, atributos con comillas dobles, mantener <title>, líneas en blanco entre secciones.
+- HTML: DOCTYPE HTML5, atributos con comillas dobles, mantener , líneas en blanco entre secciones.
 - CSS: uso de shorthand, punto y coma en declaraciones, espacio después de ":".
 - JavaScript / TypeScript: punto y coma al final, espacios alrededor de operadores, funciones con llave en la misma línea.
 - Java: clases como sustantivos en PascalCase, métodos en camelCase, tratar excepciones con justificación.
@@ -113,26 +113,165 @@ Notas:
 
 #### 7.2.1.2. Sprint Backlog 1
 
-Sprint # | Sprint 1
----|---
-User Story Id | User Story Title | Work-Item Id | Work-Item Title | Description | Estimation (Hours) | Assigned To | Status
-US-001 |  | WI-001 |  |  |  |  | To-do / InProcess / ToReview / Done
-US-002 |  | WI-002 |  |  |  |  | To-do / InProcess / ToReview / Done
-US-003 |  | WI-003 |  |  |  |  | To-do / InProcess / ToReview / Done
-US-004 |  | WI-004 |  |  |  |  | To-do / InProcess / ToReview / Done
-US-005 |  | WI-005 |  |  |  |  | To-do / InProcess / ToReview / Done
+Durante el desarrollo de este Sprint nos enfocamos en los despliegues de los entregables: Landing page, Web services, Frontend web application y Mobile application.
 
-(Agregar/duplicar filas según sea necesario.)
+<table>
+  <tr>
+    <td> <strong>Sprint #</strong></td>
+    <td colspan="7"> <strong>Sprint 1</strong> </td>
+  </tr>
+
+  <tr>
+    <td colspan="2"> <strong>User Story</strong></td>
+    <td colspan="6"> <strong>Work-item / Task</strong></td>
+  </tr>
+
+  <tr>
+    <td> <strong>ID</strong> </td>
+    <td> <strong>Title</strong></td>
+    <td> <strong>ID</strong> </td>
+    <td> <strong>Title</strong></td>
+    <td> <strong>Description</strong></td>
+    <td> <strong>Estimation (Hours)</strong></td>
+    <td> <strong>Assigned To</strong></td>
+    <td> <strong>Status (To-do / In-Process / To-Review / Done)</strong></td>
+  </tr>
+
+  <!-- US-001 Landing Page -->
+  <tr>
+    <td rowspan="3">US-001</td>
+    <td rowspan="3">Implementación y despliegue de Landing Page</td>
+    <td>UT-01</td>
+    <td>Crear repositorio de landing page y ramas</td>
+    <td>Crear el repositorio dentro de la organización en GitHub y establecer GitFlow</td>
+    <td>1</td>
+    <td>Alexander Alberto Cantoral Sedamano</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>UT-02</td>
+    <td>Implementación del Landing Page</td>
+    <td>Implementar la landing page con contenido del proyecto</td>
+    <td>2</td>
+    <td>Luciano Stefano Ruiz Blas</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>UT-03</td>
+    <td>Despliegue del Landing Page</td>
+    <td>Desplegar la landing page mediante GitHub Pages</td>
+    <td>1</td>
+    <td>Stefano Alessandro Valenzuela Vallejos</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US-002 Web Services -->
+  <tr>
+    <td rowspan="3">US-002</td>
+    <td rowspan="3">Implementación y despliegue de Web Services</td>
+    <td>UT-01</td>
+    <td>Crear repositorio de web services y ramas</td>
+    <td>Crear repositorio en la organización y configurar pipeline CI</td>
+    <td>1</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>UT-02</td>
+    <td>Implementación de Web Services</td>
+    <td>Desarrollar endpoints necesarios y pruebas básicas</td>
+    <td>2</td>
+    <td>Alexander Alberto Cantoral Sedamano</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>UT-03</td>
+    <td>Despliegue de Web Services</td>
+    <td>Desplegar los web services en un hosting (Azure / App Service)</td>
+    <td>1</td>
+    <td>Carlos Raúl Guillermo Chávez Rojas</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US-003 Frontend Web Application -->
+  <tr>
+    <td rowspan="3">US-003</td>
+    <td rowspan="3">Implementación y despliegue de Frontend Web Application</td>
+    <td>UT-01</td>
+    <td>Crear repositorio de Frontend y ramas</td>
+    <td>Crear repositorio en la organización y configurar CI/CD (Netlify / Vercel)</td>
+    <td>1</td>
+    <td>Carlos Raúl Guillermo Chávez Rojas</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>UT-02</td>
+    <td>Implementación del Frontend</td>
+    <td>Desarrollar interfaces y conectar con API</td>
+    <td>2</td>
+    <td>Stefano Alessandro Valenzuela Vallejos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>UT-03</td>
+    <td>Despliegue del Frontend</td>
+    <td>Desplegar la aplicación web en hosting público</td>
+    <td>1</td>
+    <td>Luciano Stefano Ruiz Blas</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US-004 Mobile Application -->
+  <tr>
+    <td rowspan="3">US-004</td>
+    <td rowspan="3">Implementación y despliegue de Mobile Application</td>
+    <td>UT-01</td>
+    <td>Crear repositorio de Mobile y ramas</td>
+    <td>Crear repositorio y configurar workflow para builds (APK/IPA)</td>
+    <td>1</td>
+    <td>Stefano Alessandro Valenzuela Vallejos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>UT-02</td>
+    <td>Implementación del Mobile</td>
+    <td>Desarrollar pantallas principales y funciones básicas</td>
+    <td>2</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>UT-03</td>
+    <td>Despliegue del Mobile</td>
+    <td>Publicar release (APK) en GitHub Releases</td>
+    <td>1</td>
+    <td>Alexander Alberto Cantoral Sedamano</td>
+    <td>Done</td>
+  </tr>
+</table>
+
+Notas:
+- Estimaciones aproximadas; ajustar según la planificación real.
+- Estado marcado como "Done" para las tareas completadas en este Sprint; actualizar según avance real.
 
 #### 7.2.1.3. Development Evidence for Sprint Review
 
-Registro de commits y evidencias relacionados al Sprint (rellenar con enlaces reales):
+Registro de commits relevantes del repositorio report (capturas del historial de commits).
 
-Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date)
----|---|---|---|---|---
-user/repositoryname | feature/branch-name | 14ca4e3 | feat: breve descripción | Descripción extendida del cambio y referencias a issues/PRs. | YYYY-MM-DD
+Repository | Branch | Commit Id | Commit Message | Author | Date | URL
+---|---|---|---|---|---|---
+SI0728-7281-Grupo3/report | — | 8584c1d | Update chapter-VII.md | AlessandroUPC | 2025-11-10 | https://github.com/SI0728-7281-Grupo3/report/commit/8584c1d7e47b130c047422cdc91c235baefec1e6
+SI0728-7281-Grupo3/report | — | 574fc1c | feat: update model | AlessandroUPC | 2025-11-03 | https://github.com/SI0728-7281-Grupo3/report/commit/574fc1c
+SI0728-7281-Grupo3/report | dev-stef / develop | 539772a | Merge pull request #14 from SI0728-7281-Grupo3/dev-stef | AlessandroUPC (authored) | 2025-11-02 | https://github.com/SI0728-7281-Grupo3/report/commit/539772a
+SI0728-7281-Grupo3/report | dev-stef / develop | 5e9d1c8 | Merge branch 'develop' into dev-stef | AlessandroUPC (authored) | 2025-10-08 | https://github.com/SI0728-7281-Grupo3/report/commit/5e9d1c8
+SI0728-7281-Grupo3/report | — | 815333f | Update chapter-VI.md | AlessandroUPC | 2025-10-07 | https://github.com/SI0728-7281-Grupo3/report/commit/815333f
+SI0728-7281-Grupo3/report | — | 2ce7f62 | Create chapter-V.md | AlessandroUPC | 2025-10-04 | https://github.com/SI0728-7281-Grupo3/report/commit/2ce7f62
+SI0728-7281-7281-Grupo3/report | develop | 61795bc | Merge branch 'develop' of https://github.com/SI0728-7281-Grupo3/report into develop | AlessandroUPC | 2025-09-18 | https://github.com/SI0728-7281-7281-Grupo3/report/commit/61795bc
+SI0728-7281-Grupo3/report | develop-carlos | 24f7190 | feat: Impact Mapping added | CarlosChavez19 | 2025-09-18 | https://github.com/SI0728-7281-Grupo3/report/commit/24f7190
 
-(Incluir PRs, enlaces a issues y capturas de demo.)
+Notas:
+- Añadir o actualizar filas con más commits si se requiere trazabilidad adicional.
+- Para cada fila se recomienda enlazar también al Pull Request asociado (si existe) y a las issues referenciadas en el mensaje del commit.
 
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review
 - Resultados de pruebas unitarias, integración y pruebas end-to-end. Referenciar reportes de CI (links) y capturas de la ejecución.
@@ -153,14 +292,98 @@ user/repositoryname | feature/branch-name | 14ca4e3 | feat: breve descripción |
 
 ## 7.3. Validation Interviews
 
-### 7.3.1. Diseño de Entrevistas
-- Objetivos, guion de preguntas y criterios de selección de participantes.
 
-### 7.3.2. Registro de Entrevistas
-- Resumen de respuestas, transcripciones y enlaces a grabaciones/archivos.
+#### 7.3.1. Diseño de Entrevistas
 
-### 7.3.3. Evaluaciones según heurísticas
-- Resultados de evaluación heurística (Nielsen) y recomendaciones de mejora.
+#### **Segmento Objetivo 1: Contratistas en búsqueda de servicios de remodelación**
+
+**Propósito de la entrevista:**  
+Recolectar la opinión directa de contratistas o propietarios que desean contratar servicios de remodelación a través de la plataforma. Se busca conocer sus expectativas, problemas actuales en la búsqueda y contratación de remodeladores, así como validar si la solución de Restyle facilita una experiencia más eficiente, confiable y personalizada.
+
+**Preguntas demográficas:**
+1. ¿Cuál es su nombre completo?
+2. ¿Cuál es su edad?
+3. ¿En qué distrito reside?
+4. ¿Cuál es su ocupación actual?
+5. ¿Con qué frecuencia requiere servicios de remodelación?
+
+**Interacción con la aplicación web:**  
+Se invitará al entrevistado a utilizar la funcionalidad de búsqueda personalizada por ubicación y tipo de servicio, explorar perfiles de remodeladores, leer reseñas y simular una programación de consulta. Se observará su navegación y reacciones frente a cada función.
+
+**Preguntas sobre la experiencia con la web:**
+- ¿Le resultó intuitivo buscar remodeladores según su necesidad?
+- ¿Considera útil poder filtrar por especialidades o ubicación?
+- ¿Le parecieron útiles las opiniones y calificaciones de otros usuarios?
+- ¿Programaría una consulta desde la plataforma en una situación real?
+- ¿Qué elementos o funcionalidades cree que mejorarían la experiencia?
+
+---
+
+### **Segmento Objetivo 2: Remodeladores registrados en la plataforma**
+
+**Propósito de la entrevista:**  
+Comprender la experiencia del remodelador al utilizar la plataforma Restyle para ofrecer sus servicios. Se evaluará la facilidad para crear un perfil profesional, recibir solicitudes de consulta, gestionar opiniones de clientes y la percepción general del sistema como canal de captación de clientes.
+
+**Preguntas demográficas:**
+1. ¿Cuál es su nombre completo?
+2. ¿Qué tipo de servicios de remodelación ofrece?
+3. ¿En qué distritos trabaja actualmente?
+4. ¿Cuántos años de experiencia tiene en el rubro?
+5. ¿Trabaja de forma independiente o con una empresa?
+
+**Interacción con la aplicación web:**  
+Se invitará al remodelador a crear un perfil de servicio, revisar cómo se muestran sus datos al público, visualizar críticas de usuarios y probar la función de gestión de consultas programadas.
+
+**Preguntas sobre la experiencia con la web:**
+- ¿Fue sencillo crear y personalizar su perfil como remodelador?
+- ¿Considera adecuada la forma en que los clientes pueden contactarlo?
+- ¿Cree que las reseñas y valoraciones afectan positivamente su visibilidad?
+- ¿Recibir solicitudes desde la plataforma le resulta útil para captar clientes?
+- ¿Qué mejoras o funcionalidades adicionales le gustaría ver como profesional?
+
+#### 7.3.2. Registro de Entrevistas
+
+**Entrevistas a remodeladores:** 
+
+|**Entrevistado 1** |**InnovaInteriores** |
+| :-: | :-: |
+|Edad |53 |
+|Distrito |Pueblo Libre |
+|![](../assets/img/chapter-VI/Aspose.Words.5b04100b-0033-4714-8f4a-ec9c90bb3554.043.png) |La entrevistada nos comenta que la landing page es clara y concisa, el diseño y paleta de colores son similares para la landing page y la aplicación móvil, lo cual habla de que se mantiene una imagen coherente de marca. La aplicación móvil desearía que se añada una descripción de la empresa en el HOME y que el botón de eliminar cuente con un mensaje de confirmación para verificar si se desea borrar un proyecto antes de borrarlo por error.  |
+|Timing:0:00-8:05 |[URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EWhw1hIvQPROrW67I7w5xtIB-Nc06JsHrfXsDsqGQt76Hg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jv8PrW) |
+|**Entrevistado 2** |Carlos Mendez |
+|Edad |60 |
+|Distrito |Lima |
+|![](../assets/img/chapter-VI/Aspose.Words.5b04100b-0033-4714-8f4a-ec9c90bb3554.044.png) |En la entrevista se comenta que los estilos están bien. Sin embargo en su dispositivo móvil la Landing Page se deforma un poco, comentando que eso se debería mejorar. Por parte del aplicativo móvil, no tuvo observaciones importantes, además de mejorar los colores. |
+|Timing: 0:00-14:20 |[URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EWG8dXHp4fdHjiUEy5zSTWcBO_xB8IU9W93xSuM7j90EJg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Wsf9S3) |
+|**Entrevistado 3** |Diego Bastidas |
+|Edad |24 |
+|Distrito |Lince |
+|![](../assets/img/chapter-VI/entrevistacap6.png) |Durante la entrevista, Diego resaltó que la estructura general de la landing page es funcional, pero mencionó que el tamaño de las imágenes podría optimizarse para una carga más rápida. En cuanto a la aplicación móvil, sugirió que sería útil contar con un buscador para filtrar proyectos por nombre o cliente, y que los botones deberían tener mayor contraste para mejorar la accesibilidad visual. Consideró positivo que ambos productos mantengan una identidad visual coherente. |
+|Timing: 0:00 – 7:15 |[URL](https://drive.google.com/drive/folders/165Am15Cz-OB2JEjjMgpaPgiS8IG0_B6a?usp=sharing) |
+
+**Entrevistas a contratistas:** 
+
+|**Entrevistado 1** |**Jakeline Morey** |
+| :-: | :-: |
+|Edad |50 |
+|Distrito |Miraflores |
+|![](../assets/img/chapter-VI/Aspose.Words.5b04100b-0033-4714-8f4a-ec9c90bb3554.045.png) |La entrevistada opina que la landing page es profesional y fácil de entender. Nos menciona que el botón call to action es llamativo y cumple su propósito. La aplicación móvil le parece profesional y entendible. También comenta que le gustaría ver otra paleta de colores para el fondo del home, también comenta que no encuentra mucho propósito en una aplicación móvil dedicada al rubro y que preferiría utilizar una aplicación web. |
+|Timing:0:00 – 7:02 |[URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EXFVBPw31vhNm8JgK1kX7wcBDcj5nyBO_LXvUSXAGDtvgA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=shMOut) |
+|**Entrevistado 2** | **Leonardo Moreno**|
+|Edad |25|
+|Distrito |Pueblo Libre |
+|![](../assets/img/chapter-VI/video-validacion-leonardo.png)|El entrevistado opina que tanto la página web como la landing page presentan un diseño minimalista y profesional. Destacó la paleta de colores seleccionada y la buena distribución de la información, lo que facilita la navegación para los usuarios. Además, señaló que la página muestra claramente sus funcionalidades y ofrece un acceso sencillo tanto para personas familiarizadas con la tecnología como para aquellas con poca experiencia en su uso. | 
+|Timing: 0:00-5:36 |[URL](https://drive.google.com/drive/folders/165Am15Cz-OB2JEjjMgpaPgiS8IG0_B6a?usp=sharing) |
+|**Entrevistado 3** | **Fabian Reyes**|
+|Edad |20|
+|Distrito | San Martin de Porres|
+|![](../assets/img/chapter-VI/Fabian-Contratista.png)|Fabián exploró las funcionalidades del sitio web: vio los remodeladores disponibles, interactuó con uno y solicitó una cotización para negociar. También usó la función de búsqueda para encontrar uno específico. Le pareció que la web es muy buena, aunque sugirió mejoras en el diseño.|
+|Timing: 00:00 – 08:05 |[URL](https://drive.google.com/drive/folders/165Am15Cz-OB2JEjjMgpaPgiS8IG0_B6a?usp=sharing) |
+
+#### 7.3.3. Evaluaciones según heurísticas
+
+
 
 ## 7.4. Video About-the-Product
 - Enlace al video demostrativo y guion breve. (Incluir URL y timestamp de secciones clave.)
