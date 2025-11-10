@@ -2,164 +2,213 @@
 
 ## 7.1. Software Configuration Management
 
+En este punto del informe se describen las decisiones y los principios que ayudarán al equipo a garantizar la coherencia durante el desarrollo de la solución.
+
 ### 7.1.1. Software Development Environment Configuration
 
-Herramientas y plataformas utilizadas para la gestión del proyecto, requisitos, diseño, desarrollo y documentación.
+En este apartado se listan las aplicaciones y productos de software usados durante el ciclo del proyecto, organizados por disciplina.
 
 Project Management:
-- Trello: Utilizado para la gestión de tareas y proyectos. Facilitó la asignación de tareas, el seguimiento de avances y la definición de prioridades de forma colaborativa. https://trello.com/signup
-- Miro: Usado para la planificación visual del proyecto, incluyendo mapas mentales y diagramas de flujo para organizar ideas y procesos. https://miro.com/signup
-- OneDrive: Utilizado para el almacenamiento y colaboración de documentos, archivos y recursos relacionados con el proyecto (sustituye el uso de Google Drive). https://www.microsoft.com/microsoft-365/onedrive/
-- GitHub Desktop: Permitió la gestión de versiones del código fuente de manera eficiente, asegurando la colaboración fluida entre los miembros del equipo. https://desktop.github.com/
+- Trello: Gestión de tareas y proyectos. https://trello.com/signup
+- Miro: Planificación visual, mapas mentales y diagramas. https://miro.com/signup
+- OneDrive: Almacenamiento y colaboración de documentos y recursos del proyecto (sustituye a Google Drive). https://www.microsoft.com/microsoft-365/onedrive/
+- GitHub Desktop: Gestión local de repositorios y sincronización con GitHub. https://desktop.github.com/
 
 Requirements Management:
-- Lucidchart: Usado para diagramar flujos y procesos relacionados con los requisitos de la aplicación. https://www.lucidchart.com/users/register
-- Google Forms: Utilizado para recolectar retroalimentación y realizar encuestas que ayudaron a capturar necesidades de los usuarios y del cliente. https://www.google.com/forms/about/
+- Lucidchart: Diagramado de flujos y requisitos. https://www.lucidchart.com/users/register
+- Google Forms: Recolección de feedback y encuestas. https://www.google.com/forms/about/
 
 Product UX/UI Design:
-- Figma: Herramienta clave para el diseño de la interfaz de usuario y experiencia de usuario. Se crearon prototipos y wireframes que guiaron el desarrollo. https://www.figma.com/signup
-- Canva: Usado para generar elementos gráficos adicionales como íconos, banners y recursos visuales. https://www.canva.com/signup
+- Uxpressia: Mapas de impacto, Personas y Journey Maps. https://uxpressia.com
+- Miro: Pizarra colaborativa para ideación y workshops. https://miro.com
+- Figma: Prototipos, wireframes y diseños de UI. https://www.figma.com/signup
+- Lucidchart / Overflow: Diagramación de flujos y userflows. https://www.lucidchart.com / https://overflow.io
 
 Software Development:
-- Entorno de Desarrollo Integrado (IDE):
-  - Visual Studio Code: Principal herramienta para el desarrollo. https://code.visualstudio.com/download
-  - Android Studio: Usado para emulación y pruebas en Android. https://developer.android.com/studio
-- Control de Versiones: Git, con integración a GitHub para colaboración, ramas y merges. https://git-scm.com/downloads
+- IDEs:
+  - Visual Studio Code: principal IDE del equipo. https://code.visualstudio.com/download
+  - Android Studio: emulación y pruebas móviles Android. https://developer.android.com/studio
+- Control de Versiones: Git con integración a GitHub. https://git-scm.com/downloads
 - Gestión de Dependencias:
-  - Flutter Pub / Pub.dev: Para gestionar paquetes y bibliotecas. https://pub.dev/
+  - Flutter Pub / Pub.dev (cuando aplica): https://pub.dev/
 - Herramientas de Construcción:
-  - Gradle: Utilizado para la construcción y empaquetado cuando aplica. https://docs.gradle.org/current/userguide/userguide.html
+  - Gradle (cuando aplica): https://docs.gradle.org/current/userguide/userguide.html
+
+Software Testing:
+- Lenguaje Gherkin para especificaciones ejecutables (BDD) y pruebas automatizadas.
 
 Software Documentation:
-- GitHub: Utilizado para documentar procesos mediante README.md y repositorios del proyecto. https://github.com/join
-- Structurizr: Empleada para documentar la arquitectura de la solución técnica. https://structurizr.com/
-
-Notas:
-- Estas herramientas describen el entorno de trabajo recomendado y evidencian las plataformas usadas por el equipo durante el desarrollo y la colaboración.
+- GitHub: documentación en README.md y wikis. https://github.com/join
+- Structurizr: documentación de arquitectura. https://structurizr.com/
 
 ### 7.1.2. Source Code Management
-- Branching model (GitFlow).
-- Reglas de pull request y revisión de código.
-- Protección de ramas y políticas de merge.
+
+Descripción del SCM adoptado y repositorios relevantes.
+
+- Modelo de ramas: GitFlow (main, develop, feature/*, release/*, hotfix/*).
+- Reglas: Pull requests con revisión por pares, CI en cada PR y protección de ramas.
+- Organización / Repositorios (ejemplos):
+  - Organización: SI0728-7281-Grupo3 - https://github.com/SI0728-7281-Grupo3
+  - Landing page: https://github.com/SI0728-7281-Grupo3/landingpage
+  - Frontend: https://github.com/SI0728-7281-Grupo3/frontend-main
+  - Backend: https://github.com/SI0728-7281-Grupo3/backend-main
+  - Mobile: https://github.com/SI0728-7281-Grupo3/mobile-main
+
+GitFlow y convenciones:
+- Ramas principales: main, develop.
+- Ramas de soporte: feature/* (desde develop -> a develop), release/*, hotfix/* (desde main).
+- Nomenclatura de features: feature/<short-desc>
+- Commits: utilizar Conventional Commits (feat, fix, chore, docs, refactor, test, etc.)
 
 ### 7.1.3. Source Code Style Guide & Conventions
-- Guías de estilo (ESLint/Prettier, PEP8, convenciones de commits).
-- Plantillas de commit y mensajes.
+
+Pautas generales para mantener la legibilidad y calidad del código:
+
+- Linters y formatters: ESLint + Prettier para JS/TS, formato consistente para HTML/CSS, reglas de estilo para Java/Flutter según linters oficiales.
+- Convenciones de commits: Conventional Commits.
+- Nomenclatura: nombres en inglés, descriptivos y consistentes; usar camelCase en JS/TS, PascalCase en clases Java/TS.
+
+Especificaciones por lenguaje (resumen):
+- HTML: DOCTYPE HTML5, atributos con comillas dobles, mantener <title>, líneas en blanco entre secciones.
+- CSS: uso de shorthand, punto y coma en declaraciones, espacio después de ":".
+- JavaScript / TypeScript: punto y coma al final, espacios alrededor de operadores, funciones con llave en la misma línea.
+- Java: clases como sustantivos en PascalCase, métodos en camelCase, tratar excepciones con justificación.
+- Gherkin: Given-When-Then con sangría clara; uso de tablas para valores; reducción de ruido con valores por defecto entre comillas simples.
+
+(Ver sección completa de convenciones en la documentación del repo para ejemplos y plantillas.)
 
 ### 7.1.4. Software Deployment Configuration
-- Pipeline CI/CD (herramientas y pasos).
-- Variables de entorno y gestión de secretos.
-- Estrategias de despliegue (blue/green, rolling).
+
+Pautas de CI/CD, gestión de secretos y estrategias de despliegue:
+
+- Pipelines: cada repositorio debe incluir pipeline CI que ejecute lint, tests y build. PRs ejecutan CI; merges a main disparan CD.
+- Variables y secretos: uso de GitHub Secrets / KeyVault / Azure App Configuration según entorno.
+- Estrategias de despliegue: rolling/blue-green para servicios críticos; Canary releases para funciones nuevas.
+- Documentación de pasos de despliegue en cada repo (README / docs/deploy.md).
 
 ## 7.2. Solution Implementation
 
 ### 7.2.1. Sprint 1
 
 #### 7.2.1.1. Sprint Planning 1
-Se inicia la sección con una introducción y a continuación se coloca el cuadro de resumen del sprint planning meeting:
+
 Sprint # | Sprint 1
 ---|---
-<b>Sprint Planning Background | 
+Sprint Planning Background |
 Date | YYYY-MM-DD
 Time | HH:MM AM/PM
 Location | (Descripción de la ubicación de la reunión, física o virtual)
 Prepared By | Jiménez Rosas, Arturo Eduardo
 Attendees (planning meeting) | Jiménez Rosas, Arturo Eduardo / Rodríguez Peña, Jorge Andrés / ...
-Sprint n−1 — Review Summary | (Resumen del Sprint anterior: resultados entregados, feedback del Product Owner, comentarios del equipo)
-Sprint n−1 — Retrospective Summary | (Lecciones aprendidas, aciertos y oportunidades de mejora en el proceso)
-<b>Sprint Goal & User Stories |
-Sprint n Goal | (Definir el Goal del Sprint n y la métrica de cumplimiento.)
-Sprint n Velocity | (Velocidad establecida para el Sprint n en Story Points — cuántos SP puede aceptar el equipo.)
-Sum of Story Points | (Suma total de Story Points comprometidos en este Sprint n.)
+Sprint n−1 — Review Summary | (Resumen del Sprint anterior: resultados entregados, feedback del Product Owner)
+Sprint n−1 — Retrospective Summary | (Lecciones aprendidas y oportunidades de mejora)
+Sprint n Goal | (Definir el objetivo del Sprint n y la métrica de cumplimiento)
+Sprint n Velocity | (Velocidad en Story Points que el equipo puede aceptar)
+Sum of Story Points | (Suma total de Story Points comprometidos)
+
+Notas:
+- Definir criterios de aceptación antes de cerrar la planificación.
+- Identificar dependencias y asignar responsables.
+- Registrar enlaces a tablero, issues y PRs en "Development Evidence".
 
 #### 7.2.1.2. Sprint Backlog 1
-A continuación, la estructura de la tabla de control de estado para un Sprint:
 
-Sprint # | Sprint 1 || | | | | 
----|---|---|---|---|---|---
-<b>User Story Id | <b>User Story Title | <b>Work-Item Id | <b>Work-Item Title | <b>Description | <b>Estimation (Hours) | <b>Assigned To | <b>Status
-US-001 |  | WI-001 |  |  |  | To-do / InProcess / ToReview / Done
-US-002 |  | WI-002 |  |  |  | To-do / InProcess / ToReview / Done
-US-003 |  | WI-003 |  |  |  | To-do / InProcess / ToReview / Done
-US-004 |  | WI-004 |  |  |  | To-do / InProcess / ToReview / Done
-US-005 |  | WI-005 |  |  |  | To-do / InProcess / ToReview / Done
-US-006 |  | WI-006 |  |  |  | To-do / InProcess / ToReview / Done
+Sprint # | Sprint 1
+---|---
+User Story Id | User Story Title | Work-Item Id | Work-Item Title | Description | Estimation (Hours) | Assigned To | Status
+US-001 |  | WI-001 |  |  |  |  | To-do / InProcess / ToReview / Done
+US-002 |  | WI-002 |  |  |  |  | To-do / InProcess / ToReview / Done
+US-003 |  | WI-003 |  |  |  |  | To-do / InProcess / ToReview / Done
+US-004 |  | WI-004 |  |  |  |  | To-do / InProcess / ToReview / Done
+US-005 |  | WI-005 |  |  |  |  | To-do / InProcess / ToReview / Done
 
+(Agregar/duplicar filas según sea necesario.)
 
 #### 7.2.1.3. Development Evidence for Sprint Review
-Registro de commits y evidencias relacionados al Sprint (rellenar con enlaces a repositorios, PRs y commits).
+
+Registro de commits y evidencias relacionados al Sprint (rellenar con enlaces reales):
 
 Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date)
 ---|---|---|---|---|---
-user/repositoryname | feature/branch-name | 14ca4e3 | feat: título corto del cambio | Descripción extendida del commit (qué y por qué). | YYYY-MM-DD
-user/repositoryname | feature/branch-name | 2b7f9a1 | fix: corrección pequeña | Detalles de la corrección y referencias a issues/PRs. | YYYY-MM-DD
-user/repositoryname | develop | a9d4c33 | chore: tareas de mantenimiento | Tareas relacionadas con dependencia/scripts/configuración. | YYYY-MM-DD
-user/repositoryname | release/v1.0 | 5f1b0d2 | docs: actualización de la documentación | Archivos modificados: README.md, docs/chapter-VII.md. | YYYY-MM-DD
-user/repositoryname | main | e3c7b12 | merge: merge feature/xyz into main | Merge PR #123 — incluye feature xyz y pruebas asociadas. | YYYY-MM-DD
+user/repositoryname | feature/branch-name | 14ca4e3 | feat: breve descripción | Descripción extendida del cambio y referencias a issues/PRs. | YYYY-MM-DD
+
+(Incluir PRs, enlaces a issues y capturas de demo.)
 
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review
-- Pruebas automatizadas (unit, integration) y resultados.
+- Resultados de pruebas unitarias, integración y pruebas end-to-end. Referenciar reportes de CI (links) y capturas de la ejecución.
 
 #### 7.2.1.5. Execution Evidence for Sprint Review
-- Logs, capturas y demo funcional.
+- Logs, capturas de pantalla, enlaces a demos y vídeos de la funcionalidad implementada.
 
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review
-- Documentación de APIs y servicios (Swagger / OpenAPI links).
+- Endpoints documentados en Swagger / OpenAPI. Incluir URL de Swagger en el anexo.
 
 #### 7.2.1.7. Software Deployment Evidence for Sprint Review
-- Despliegues realizados y URLs (staging/production).
+- Despliegues realizados (staging/production) y URL de acceso. Incluir capturas y fecha/hora.
 
 #### 7.2.1.8. Team Collaboration Insights during Sprint
 - Retrospectiva breve y lecciones aprendidas.
 
-(Replicar estructura para Sprint 2..N según avance)
+(Replicar estructura para Sprint 2..N según avance.)
 
 ## 7.3. Validation Interviews
 
 ### 7.3.1. Diseño de Entrevistas
-- Objetivos de validación y guion de preguntas.
+- Objetivos, guion de preguntas y criterios de selección de participantes.
 
 ### 7.3.2. Registro de Entrevistas
-- Resumen de respuestas, audios/transcripciones y enlace a evidencias.
+- Resumen de respuestas, transcripciones y enlaces a grabaciones/archivos.
 
 ### 7.3.3. Evaluaciones según heurísticas
-- Resultados de evaluación heurística y acciones recomendadas.
+- Resultados de evaluación heurística (Nielsen) y recomendaciones de mejora.
 
 ## 7.4. Video About-the-Product
-- Enlace al video demostrativo y breve guion.
-
+- Enlace al video demostrativo y guion breve. (Incluir URL y timestamp de secciones clave.)
 
 ## 7.5. Conclusiones
 
-En base al trabajo realizado en las secciones previas (requerimientos, diseño UX/UI y arquitectura), se presentan las siguientes conclusiones resumidas y accionables:
+En base al trabajo realizado en las secciones previas, se presentan las siguientes conclusiones y recomendaciones:
 
-- La solución propuesta (ReStyle) cubre las necesidades principales de los dos segmentos objetivo: contratistas (buscadores de servicios) y remodeladores (prestadores). Las funcionalidades clave son: búsqueda filtrada, portafolios, gestión de solicitudes/cotizaciones, seguimiento por hitos y chatbot de apoyo.
-- El diseño UX prioriza coherencia visual, legibilidad y accesibilidad (esquema tipográfico, paleta y sistema de espaciado). Estas decisiones facilitan la adopción por usuarios con distintas habilidades digitales.
-- La arquitectura definida (bounded contexts + APIs) soporta escalabilidad y separación de responsabilidades: Identity & Profiles, Discovery, Project & Quotation, Execution & Feedback, Payment, Subscriptions & Notifications.
-- La implementación práctica exige prioridades técnicas: (1) API REST segura e idempotente; (2) índice público para discovery (read-model/Elastic o Postgres+GIS); (3) integración con PSP para flujos de pagos y webhooks; (4) worker/cola para procesos asíncronos (notificaciones, reindex).
-- El esquema de datos simplificado (SQL entregado) permite arrancar con un modelo relacional sólido y evolucionar hacia índices / read-models cuando la carga lo requiera.
-- Recomendación inmediata: implementar un plan de pruebas (usabilidad, cargas p95) y una guía mínima de despliegue que incluya claves de seguridad (idempotency, validación de webhooks, encriptación de tokens).
+- La solución propuesta cubre las necesidades principales de los segmentos objetivo y prioriza funcionalidades esenciales: búsqueda, portafolios, solicitudes/cotizaciones, seguimiento por hitos.
+- El diseño UX favorece coherencia, accesibilidad y adaptabilidad a dispositivos.
+- La arquitectura en bounded contexts garantiza separación de responsabilidades y escalabilidad.
+- Recomendaciones: (1) API segura e idempotente; (2) read-model para discovery; (3) integración robusta con PSP y validación de webhooks; (4) cola/worker para tareas asíncronas.
+- Implementar plan de pruebas, validación de rendimiento y guía de despliegue segura.
 
 ## 7.6. Bibliografía
 
-- INEI. Censos y estadísticas nacionales (referencias citadas en Capítulo I). https://www.inei.gob.pe  
-- Ipsos Perú. Estudio Construcción 2018. https://www.ipsos.com  
-- Microsoft News Center LATAM — Aceleración digital (citado en Capítulo I). https://news.microsoft.com/latam  
+- INEI. https://www.inei.gob.pe  
+- Ipsos Perú. https://www.ipsos.com  
+- Microsoft News Center LATAM. https://news.microsoft.com/latam  
 - Apple Human Interface Guidelines. https://developer.apple.com/design/human-interface-guidelines/  
-- Material Design (Google) / Material You. https://material.io  
+- Material Design. https://material.io  
 - PostgreSQL Documentation. https://www.postgresql.org/docs/  
-- Nielsen Norman Group — Usability & UX guidance. https://www.nngroup.com  
+- Nielsen Norman Group. https://www.nngroup.com
 
+## 7.7. Anexos
 
-## 7.5. Anexos
+Enlaces y artefactos relevantes del proyecto:
 
-A continuación se listan todos los enlaces y artefactos relevantes adjuntados al proyecto.
+- Despliegues / Aplicaciones:
+  - Landing Page (repo): https://github.com/SI0728-7281-Grupo3/landingpage
+  - Frontend (repo): https://github.com/SI0728-7281-Grupo3/frontend-main
+  - Backend (repo): https://github.com/SI0728-7281-Grupo3/backend-main
+  - Mobile (repo): https://github.com/SI0728-7281-Grupo3/mobile-main
 
-- Despliegues / Aplicaciones
-  - Landing Page (GitHub Pages): https://si0728-7281-grupo3.github.io/landingpage/
-  - Front (Web app - Netlify): https://restyle-1asi0728-7281.netlify.app
-  - Backend (Swagger / API): https://restyle-platform-bed4c3b3f3eug0ak.canadacentral-01.azurewebsites.net/swagger-ui/index.html
+- Diagramas y documentación:
+  - Diagramas del Capítulo V: report/assets/img/chapter-V/Diagrams-BC/
+  - Vertabelo project: vertabelo-db-diagram/diagrams/vertabelo/vertabelo-project.vdb
+  - SQL exports: vertabelo-db-diagram/diagrams/exports/ (erd.sql, erd.xml, erd.json)
+  - Esquemas SQL: vertabelo-db-diagram/sql/schema/01_schema.sql, vertabelo-db-diagram/sql/schema/02_simple_schema.sql
 
-- Diagramas (Capítulo V)
-  - Diagramas de clases - Enlaces en las Capturas de los Diagramas del Capítulo V.
-  - Structurizr: https://structurizr.com/workspace/82630/dsl
+- Repositorios (ejemplos):
+  - Organización / repos: ver sección 7.1.2 (URLs)
+
+- Checklist de entrega mínima:
+  - Endpoints documentados en Swagger.
+  - Esquema SQL aplicado en staging.
+  - Webhooks con verificación HMAC y pruebas de idempotencia.
+  - Worker/cola configurada para tareas asíncronas.
+  - Plan de pruebas de usabilidad y pruebas de rendimiento básicas.
+
+-- Fin de Capítulo VII
