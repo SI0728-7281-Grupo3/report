@@ -274,25 +274,91 @@ Notas:
 - Para cada fila se recomienda enlazar también al Pull Request asociado (si existe) y a las issues referenciadas en el mensaje del commit.
 
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review
-- Resultados de pruebas unitarias, integración y pruebas end-to-end. Referenciar reportes de CI (links) y capturas de la ejecución.
+
+Resumen de suites ejecutadas y evidencias (según Chapter VI).
+
+| Módulo | Suite / Caso | Tipo | Resultado | Evidencia |
+|---|---|---|---|---|
+| IAM | AuthenticationControllerIntegrationTest | Integración | Passed | ![](../assets/img/chapter-VI/Aspose.Words.bb7577dd-9c3b-4e15-abce-c33e2c653247.010.png) |
+| Business | BusinessesControllerIntegrationTest | Integración | Passed | ![](../assets/img/chapter-VI/Aspose.Words.bb7577dd-9c3b-4e15-abce-c33e2c653247.005.png) |
+| Projects | ProjectsControllerIntegrationTest | Integración | Passed | ![](../assets/img/chapter-VI/Aspose.Words.bb7577dd-9c3b-4e15-abce-c33e2c653247.016.png) |
+| Reviews | ReviewsControllerIntegrationTest | Integración | Passed | ![](../assets/img/chapter-VI/Aspose.Words.bb7577dd-9c3b-4e15-abce-c33e2c653247.029.png) |
+| BDD (Jest-Cucumber) | Crear proyecto (remodelador) | BDD/E2E | Passed | ![](../assets/img/chapter-VI/carbon%20(8).png) ![](../assets/img/chapter-VI/carbon%20(7).png) |
+| BDD (Jest-Cucumber) | Agregar reseña (contratista) | BDD/E2E | Passed | ![](../assets/img/chapter-VI/carbon%20(4).png) ![](../assets/img/chapter-VI/carbon%20(5).png) |
+| API | Sign-up, Sign-in, Businesses, Projects, Reviews | API/Manual | Passed | ![](../assets/img/chapter-VI/1.png) ![](../assets/img/chapter-VI/2.png) ![](../assets/img/chapter-VI/3.png) ![](../assets/img/chapter-VI/5.png) ![](../assets/img/chapter-VI/6.png) |
+
+Fecha de ejecución: 2025-11-10 (GMT-5). Ambiente: local + CI. Resultado global: Passed.
 
 #### 7.2.1.5. Execution Evidence for Sprint Review
-- Logs, capturas de pantalla, enlaces a demos y vídeos de la funcionalidad implementada.
+
+Evidencias de funcionamiento de cada componente (ver 7.2.1.7 para URLs de despliegue).
+
+###### Implemented Landing Page Evidence
+<img src="../assets/img/chapter-V/landing1.png">
+<img src="../assets/img/chapter-V/landing2.png">
+<img src="../assets/img/chapter-V/landing3.png">
+<img src="../assets/img/chapter-V/landing4.png">
+<img src="../assets/img/chapter-V/landing5.png">
+<img src="../assets/img/chapter-V/landing6.png">
+<img src="../assets/img/chapter-V/landing7.png">
+
+###### Implemented Frontend-Web Application Evidence
+<img src="../assets/img/chapter-V/frontend.png">
+<img src="../assets/img/chapter-V/frontend1.png">
+<img src="../assets/img/chapter-V/frontend2.png">
+<img src="../assets/img/chapter-V/frontend3.png">
+
+###### Implemented Native-Mobile Application Evidence
+Demo: [Link de Stream](https://upcedupe-my.sharepoint.com/personal/u202118315_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202118315%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202501%2D1asi0732%2D4430%2Destrellados%2Dmobile%2Ddemo%2Dsprint%2D1%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4ac5181d%2Da628%2D448e%2Db47e%2D6e75b9c14b40&isDarkMode=false)
+<img src="../assets/img/chapter-V/release-mobile2.png">
+
+###### Implemented RESTful API and/or Serverless Backend Evidence
+<img src="../assets/img/chapter-V/web-service1.png">
+<img src="../assets/img/chapter-V/web-service2.png">
+<img src="../assets/img/chapter-V/web-service3.png">
+<img src="../assets/img/chapter-V/web-service4.png">
 
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review
-- Endpoints documentados en Swagger / OpenAPI. Incluir URL de Swagger en el anexo.
+
+Documentación de la API en Swagger/OpenAPI:
+- Swagger UI: https://restyle-web-services-cyf0axfvakcxaehd.brazilsouth-01.azurewebsites.net/swagger-ui/index.html
+
+Capturas de la documentación:
+<img src="../assets/img/chapter-VII/web-service1.png">
+<img src="../assets/img/chapter-VII/web-service2.png">
+<img src="../assets/img/chapter-VII/web-service3.png">
+<img src="../assets/img/chapter-VII/web-service4.png">
 
 #### 7.2.1.7. Software Deployment Evidence for Sprint Review
-- Despliegues realizados (staging/production) y URL de acceso. Incluir capturas y fecha/hora.
+
+Despliegues realizados y accesos. Actualizar fechas/horas según última publicación.
+
+| Ambiente | Componente | URL | Deploy by | Fecha/Hora (GMT-5) | Evidencia |
+|---|---|---|---|---|---|
+| Production (GitHub Pages) | Landing Page | [ACTUALIZAR_URL] | Equipo | YYYY-MM-DD HH:mm | Ver 7.2.1.5 (landing1–7.png) |
+| Production (Netlify) | Frontend Web | https://restyle-frontend.netlify.app/home | Equipo | YYYY-MM-DD HH:mm | Ver 7.2.1.5 (frontend.png–3.png) |
+| Production (Azure App Service) | Backend API (Swagger) | https://restyle-web-services-cyf0axfvakcxaehd.brazilsouth-01.azurewebsites.net/swagger-ui/index.html | Equipo | YYYY-MM-DD HH:mm | Ver 7.2.1.5 (web-service1–4.png) |
+| Release (GitHub Releases) | Mobile APK | https://github.com/SI732-ExpDesign-Team/mobile/releases/download/v0.2.0-alpha/ReStyle.apk | Equipo | YYYY-MM-DD HH:mm | Ver 7.2.1.5 (release-mobile2.png) |
+
+Notas:
+- Si las URLs de despliegue difieren, reemplazar por las de la organización SI0728-7281-Grupo3.
+- Incluir la fecha/hora exacta del último deploy y la persona responsable en cada fila.
 
 #### 7.2.1.8. Team Collaboration Insights during Sprint
-- Retrospectiva breve y lecciones aprendidas.
+En esta entrega, nuestra meta principal fue la implementación y despliegue de las soluciones de software. Para llevar a cabo este objetivo, hicimos uso de diversas herramientas como GitHub, Visual Studio Code, WebStorm y otros. A continuación, vamos a presentar los diagramas de flujo que representan los commits realizados por cada miembro del equipo:
 
-(Replicar estructura para Sprint 2..N según avance.)
+Repositorio de project-report:
+<img src="../assets/img/chapter-VII/insight1.png"> 
+Repositorio de landing page:
+<img src="../assets/img/chapter-VII/insight2.png"> 
+Repositorio de frontend:
+<img src="../assets/img/chapter-VII/insight3.png"> 
+Repositorio de web services:
+<img src="../assets/img/chapter-VII/insight4.png"> 
+Repositorio de mobile:
+<img src="../assets/img/chapter-VII/insight5.png"> 
 
 ## 7.3. Validation Interviews
-
-
 #### 7.3.1. Diseño de Entrevistas
 
 #### **Segmento Objetivo 1: Contratistas en búsqueda de servicios de remodelación**
