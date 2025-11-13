@@ -486,7 +486,15 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 
 ## 7.4. Video About-the-Product
-- Enlace al video demostrativo y guion breve. (Incluir URL y timestamp de secciones clave.)
+<b>ReStyle</b>
+¿Tienes ganas de remodelar o reparar algún espacio de tu hogar?
+ReStyle es la mejor aplicación para encontrar al profesional ideal en proyectos de remodelación y reparación de interiores del hogar. Conectamos tus ideas con expertos altamente calificados para transformar tu hogar en el espacio que siempre has deseado, tu proyecto ideal podría estar a un click de distancia.
+
+¿Eres un experto en la remodelación o reparación de espacios del hogar?
+ReStyle es el mejor amigo de los profesionales en remodelación y reparación de espacios del hogar, únete a nosotros para compartir tus mejores proyectos y servicios, potencia al máximo el alcance de tu empresa.
+
+<b>Video About-the-Product:</b>
+<img src="../assets/img/chapter-VII/Abouttheproduct.png"> 
 
 ## 7.5. Conclusiones
 
