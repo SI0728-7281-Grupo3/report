@@ -94,22 +94,17 @@ Pautas de CI/CD, gestión de secretos y estrategias de despliegue:
 
 Sprint # | Sprint 1
 ---|---
-Sprint Planning Background |
-Date | YYYY-MM-DD
-Time | HH:MM AM/PM
-Location | (Descripción de la ubicación de la reunión, física o virtual)
-Prepared By | Jiménez Rosas, Arturo Eduardo
-Attendees (planning meeting) | Jiménez Rosas, Arturo Eduardo / Rodríguez Peña, Jorge Andrés / ...
-Sprint n−1 — Review Summary | (Resumen del Sprint anterior: resultados entregados, feedback del Product Owner)
-Sprint n−1 — Retrospective Summary | (Lecciones aprendidas y oportunidades de mejora)
-Sprint n Goal | (Definir el objetivo del Sprint n y la métrica de cumplimiento)
-Sprint n Velocity | (Velocidad en Story Points que el equipo puede aceptar)
-Sum of Story Points | (Suma total de Story Points comprometidos)
-
-Notas:
-- Definir criterios de aceptación antes de cerrar la planificación.
-- Identificar dependencias y asignar responsables.
-- Registrar enlaces a tablero, issues y PRs en "Development Evidence".
+Sprint Planning Background | Sprint de implementación y despliegue inicial (Landing, Backend API, Frontend Web y Mobile APK). Preparar demo, URLs públicas y documentación de evidencias.
+Date | 2025-10-03
+Time | 07:00 PM (GMT-5)
+Location | Reunión virtual por Microsoft Teams
+Prepared By | Stefano Alessandro Valenzuela Vallejos
+Attendees (planning meeting) | Alexander Alberto Cantoral Sedamano / Carlos Raúl Guillermo Chávez Rojas / Josue Omar Hidalgo Bustamante / Luciano Stefano Ruiz Blas / Stefano Alessandro Valenzuela Vallejos
+Sprint n−1 — Review Summary | N/A (primer sprint del proyecto)
+Sprint n−1 — Retrospective Summary | N/A (primer sprint del proyecto)
+Sprint n Goal | Publicar en producción los cuatro componentes con CI básico y documentar evidencias en el Capítulo VII. Métrica: 100% de tareas de despliegue “Done”, 4 URLs operativas y registradas.
+Sprint n Velocity | 16 SP
+Sum of Story Points | 16 SP
 
 #### 7.2.1.2. Sprint Backlog 1
 
