@@ -250,9 +250,6 @@ Durante el desarrollo de este Sprint nos enfocamos en los despliegues de los ent
   </tr>
 </table>
 
-Notas:
-- Estimaciones aproximadas; ajustar según la planificación real.
-- Estado marcado como "Done" para las tareas completadas en este Sprint; actualizar según avance real.
 
 #### 7.2.1.3. Development Evidence for Sprint Review
 
@@ -269,13 +266,9 @@ SI0728-7281-Grupo3/report | — | 2ce7f62 | Create chapter-V.md | AlessandroUPC 
 SI0728-7281-7281-Grupo3/report | develop | 61795bc | Merge branch 'develop' of https://github.com/SI0728-7281-Grupo3/report into develop | AlessandroUPC | 2025-09-18 | https://github.com/SI0728-7281-7281-Grupo3/report/commit/61795bc
 SI0728-7281-Grupo3/report | develop-carlos | 24f7190 | feat: Impact Mapping added | CarlosChavez19 | 2025-09-18 | https://github.com/SI0728-7281-Grupo3/report/commit/24f7190
 
-Notas:
-- Añadir o actualizar filas con más commits si se requiere trazabilidad adicional.
-- Para cada fila se recomienda enlazar también al Pull Request asociado (si existe) y a las issues referenciadas en el mensaje del commit.
-
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review
 
-Resumen de suites ejecutadas y evidencias (según Chapter VI).
+Resumen de suites ejecutadas y evidencias.
 
 | Módulo | Suite / Caso | Tipo | Resultado | Evidencia |
 |---|---|---|---|---|
@@ -294,29 +287,28 @@ Fecha de ejecución: 2025-11-10 (GMT-5). Ambiente: local + CI. Resultado global:
 Evidencias de funcionamiento de cada componente (ver 7.2.1.7 para URLs de despliegue).
 
 ###### Implemented Landing Page Evidence
-<img src="../assets/img/chapter-V/landing1.png">
-<img src="../assets/img/chapter-V/landing2.png">
-<img src="../assets/img/chapter-V/landing3.png">
-<img src="../assets/img/chapter-V/landing4.png">
-<img src="../assets/img/chapter-V/landing5.png">
-<img src="../assets/img/chapter-V/landing6.png">
-<img src="../assets/img/chapter-V/landing7.png">
+<img src="../assets/img/chapter-VII/landing1.png">
+<img src="../assets/img/chapter-VII/landing2.png">
+<img src="../assets/img/chapter-VII/landing3.png">
+<img src="../assets/img/chapter-VII/landing4.png">
+<img src="../assets/img/chapter-VII/landing5.png">
+<img src="../assets/img/chapter-VII/landing6.png">
+<img src="../assets/img/chapter-VII/landing7.png">
 
 ###### Implemented Frontend-Web Application Evidence
-<img src="../assets/img/chapter-V/frontend.png">
-<img src="../assets/img/chapter-V/frontend1.png">
-<img src="../assets/img/chapter-V/frontend2.png">
-<img src="../assets/img/chapter-V/frontend3.png">
+<img src="../assets/img/chapter-VII/frontend.png">
+<img src="../assets/img/chapter-VII/frontend1.png">
+<img src="../assets/img/chapter-VII/frontend2.png">
 
 ###### Implemented Native-Mobile Application Evidence
-Demo: [Link de Stream](https://upcedupe-my.sharepoint.com/personal/u202118315_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202118315%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202501%2D1asi0732%2D4430%2Destrellados%2Dmobile%2Ddemo%2Dsprint%2D1%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4ac5181d%2Da628%2D448e%2Db47e%2D6e75b9c14b40&isDarkMode=false)
-<img src="../assets/img/chapter-V/release-mobile2.png">
+Demo: [Link dek APK](https://github.com/SI0728-7281-Grupo3/front-mobile/releases/download/TB2/re-style.apk )
+<img src="../assets/img/chapter-VII/release-mobile2.png">
 
 ###### Implemented RESTful API and/or Serverless Backend Evidence
-<img src="../assets/img/chapter-V/web-service1.png">
-<img src="../assets/img/chapter-V/web-service2.png">
-<img src="../assets/img/chapter-V/web-service3.png">
-<img src="../assets/img/chapter-V/web-service4.png">
+<img src="../assets/img/chapter-VII/web-service1.png">
+<img src="../assets/img/chapter-VII/web-service2.png">
+<img src="../assets/img/chapter-VII/web-service3.png">
+<img src="../assets/img/chapter-VII/web-service4.png">
 
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -335,14 +327,12 @@ Despliegues realizados y accesos. Actualizar fechas/horas según última publica
 
 | Ambiente | Componente | URL | Deploy by | Fecha/Hora (GMT-5) | Evidencia |
 |---|---|---|---|---|---|
-| Production (GitHub Pages) | Landing Page | [ACTUALIZAR_URL] | Equipo | YYYY-MM-DD HH:mm | Ver 7.2.1.5 (landing1–7.png) |
+| Production (GitHub Pages) | Landing Page | https://si0728-7281-grupo3.github.io/landingpage/#about-the-app | Equipo | YYYY-MM-DD HH:mm | Ver 7.2.1.5 (landing1–7.png) |
 | Production (Netlify) | Frontend Web | https://restyle-frontend.netlify.app/home | Equipo | YYYY-MM-DD HH:mm | Ver 7.2.1.5 (frontend.png–3.png) |
 | Production (Azure App Service) | Backend API (Swagger) | https://restyle-web-services-cyf0axfvakcxaehd.brazilsouth-01.azurewebsites.net/swagger-ui/index.html | Equipo | YYYY-MM-DD HH:mm | Ver 7.2.1.5 (web-service1–4.png) |
 | Release (GitHub Releases) | Mobile APK | https://github.com/SI732-ExpDesign-Team/mobile/releases/download/v0.2.0-alpha/ReStyle.apk | Equipo | YYYY-MM-DD HH:mm | Ver 7.2.1.5 (release-mobile2.png) |
 
-Notas:
-- Si las URLs de despliegue difieren, reemplazar por las de la organización SI0728-7281-Grupo3.
-- Incluir la fecha/hora exacta del último deploy y la persona responsable en cada fila.
+
 
 #### 7.2.1.8. Team Collaboration Insights during Sprint
 En esta entrega, nuestra meta principal fue la implementación y despliegue de las soluciones de software. Para llevar a cabo este objetivo, hicimos uso de diversas herramientas como GitHub, Visual Studio Code, WebStorm y otros. A continuación, vamos a presentar los diagramas de flujo que representan los commits realizados por cada miembro del equipo:

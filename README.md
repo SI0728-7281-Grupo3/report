@@ -24,11 +24,11 @@
 * **Josue Omar Hidalgo Bustamante  U202119880**
 * **Luciano Stefano Ruiz Blas    U20211f978**
 * **Stefano Alessandro Valenzuela Vallejos    U202214695**
-* 
+
  </center> 
 <center>
 
-### Octubre 2025
+### Noviembre 2025
 ### Ciclo: 2025-02
 ### NRC: 7281
 
@@ -42,9 +42,9 @@
 
 | Versión | Fecha      | Autor                                                                          | Descripción de modificación                                                                                      |
 |---------|------------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
-| 1.0     | 10/09/2025 | - Alexander Cantoral<br> - Carlos Chávez <br> - Josue Hidalgo <br> - Luciano Ruiz<br> - Stefano Valenzuela | Se creo la ramificación del repositorio y se adicionó los documentos en su versión inicial previa a la investigacón |
-| 2.0     | 06/10/2025 | - Alexander Cantoral<br> - Carlos Chávez <br> - Josue Hidalgo <br> - Luciano Ruiz<br> - Stefano Valenzuela | Primera fase en producción del proyecto e incorporacion de la arquitectura por cada bounded context |
-
+| 1.0     | 10/09/2025 | - Alexander Cantoral<br> - Carlos Chávez <br> - Josue Hidalgo <br> - Luciano Ruiz<br> - Stefano Valenzuela | Se creo la ramificación del repositorio y se adicionó los documentos en su versión inicial previa a la investigacón. |
+| 2.0     | 06/10/2025 | - Alexander Cantoral<br> - Carlos Chávez <br> - Josue Hidalgo <br> - Luciano Ruiz<br> - Stefano Valenzuela | Primera fase en producción del proyecto e incorporacion de la arquitectura por cada bounded context. |
+| 3.0     | 13/11/2025 | - Alexander Cantoral<br> - Carlos Chávez <br> - Josue Hidalgo <br> - Luciano Ruiz<br> - Stefano Valenzuela | Despliegue de servicios principales del sistema. |
 ### Project Report Collaboration Insights
 
 URL del repositorio para el reporte del proyecto: https://github.com/SI0728-7281-Grupo3 
@@ -374,8 +374,10 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
     7.3.3. [Evaluaciones según heurísticas](docs/chapter-VII.md#733-evaluaciones-según-heurísticas)
 
     7.4. [Video About-the-Product](docs/chapter-VII.md#74-video-about-the-product)
+    7.5. [Conclusiones](docs/chapter-VII.md#75-conclusiones)
+    7.6. [Bibliografía](docs/chapter-VII.md#76-bibliografía)
+    7.7. [Anexos](docs/chapter-VII.md#77-anexos)
 
-    Avance de Conclusiones, Bibliografía y Anexos. (Ver sección final del Capítulo VII)
 
 <br>
 
@@ -384,7 +386,7 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
 <table>
   <thead>
     <tr>
-      <th>Criterio especifico</th>
+      <th>Criterio específico</th>
       <th>Acciones realizadas</th>
       <th>Conclusiones</th>
     </tr>
@@ -410,14 +412,15 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
         </b> En esta entrega se desarrollo una primera version de la aplicación donde se organizo y desarrolló en equipo la misma. Donde nuestra comunicación fue clave.
         <br>
         <b>Cantoral Sedamano, Alexander Alberto TB2:
-        </b> <br>
+        </b> En el Sprint 1 lideré la demo del backend y del mobile: expliqué los endpoints implementados, el flujo de autenticación y el proceso de publicación del APK en GitHub Releases. Coordiné el handoff backend–frontend y respondí preguntas del PO sobre despliegue y evidencias.
+        <br>
         <b>Cantoral Sedamano, Alexander Alberto TF1:
         </b>
         </td>
         <td rowspan="6"> 
-         <b>TB1: Como equipo, desarrollamos las distintas secciones del proyecto ReStyle, desde la definición de requerimientos y user stories hasta la elaboración de los diagramas arquitectónicos y de despliegue. Durante las presentaciones, comunicamos con objetividad nuestras ideas y resultados, adaptando el lenguaje según la audiencia, de manera que tanto públicos técnicos como no técnicos comprendieran el propósito, alcance y beneficios del sistema. Esto nos permitió transmitir de forma clara y efectiva el valor del proyecto en el marco de la ingeniería de software.</b><br>
-                  <b>TP:</b> Como equipo, comunicamos oralmente de forma objetiva y adaptada a audiencias técnicas y no técnicas. Las presentaciones y reuniones permitieron explicar la arquitectura de los bounded contexts, las style guidelines y el despliegue (backend, front y landing page), facilitando la coordinación, la toma de decisiones y el avance del desarrollo.
-</b><br>
+         <b>TB1:</b> Como equipo, desarrollamos las distintas secciones del proyecto ReStyle, desde la definición de requerimientos y user stories hasta la elaboración de los diagramas arquitectónicos y de despliegue. Durante las presentaciones, comunicamos con objetividad nuestras ideas y resultados, adaptando el lenguaje según la audiencia, de manera que tanto públicos técnicos como no técnicos comprendieran el propósito, alcance y beneficios del sistema. Esto nos permitió transmitir de forma clara y efectiva el valor del proyecto en el marco de la ingeniería de software.<br>
+         <b>TP:</b> Como equipo, comunicamos oralmente de forma objetiva y adaptada a audiencias técnicas y no técnicas. Las presentaciones y reuniones permitieron explicar la arquitectura de los bounded contexts, las style guidelines y el despliegue (backend, front y landing page), facilitando la coordinación, la toma de decisiones y el avance del desarrollo.<br>
+         <b>TB2:</b> En el Sprint 1 articulamos oralmente las evidencias de implementación (repositorios, CI/CD, endpoints, APK, landing y frontend en producción) mediante la demo conjunta. La comunicación permitió validar el cumplimiento del objetivo del sprint, recoger feedback de mejora (UX y accesibilidad) y alinear las prioridades para el siguiente sprint.
       </td>   
     </tr>
     <!-- Estudiante 2 TB1 --> 
@@ -429,7 +432,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
             </b>Participé en la revisión y presentación de la arquitectura de los bounded contexts, contribuí a la definición de las style guidelines y colaboré en el despliegue del proyecto (backend, front y landing page).<br>
       <br>
       <b>Valenzuela Vallejos, Stefano Alessandro TB2:
-      </b><br>
+      </b> Conduje la demo del frontend y de la landing en producción. Expliqué la estructura de módulos, la integración con la API y el pipeline de build (web y mobile), atendiendo feedback del PO y acordando mejoras visuales y de accesibilidad.
+      <br>
       <b>Valenzuela Vallejos, Stefano Alessandro TF:
       </b>
       </td>  
@@ -443,7 +447,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
             </b>Participé en la revisión y presentación de la arquitectura de los bounded contexts, contribuí a la definición de las style guidelines y colaboré en el despliegue del proyecto (backend, front y landing page).<br>
       <br>
       <b>Chavez Rojas, Carlos Raul Guillermo TB2:
-      </b><br>
+      </b> Presenté el despliegue del backend en Azure App Service y el estado de CI/CD del frontend. Expliqué variables de entorno, protección de ramas y verificación en Swagger; participé en la demo de integración y resolví dudas de disponibilidad del servicio.
+      <br>
       <b>Chavez Rojas, Carlos Raul Guillermo TF:
       </b>
       </td>  
@@ -457,7 +462,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
       </b>Participé en la revisión y presentación de la arquitectura de los bounded contexts, contribuí a la definición de las style guidelines y colaboré en el despliegue del proyecto (backend, front y landing page).<br>
       <br>
       <b>TB2:
-      </b><br>
+      </b> Mostré la implementación de la landing y el despliegue del frontend en Netlify. Justifiqué decisiones de contenido/UX y expuse criterios de aceptación; recogí observaciones de responsive y accesibilidad para el siguiente sprint.
+      <br>
       <b>TF:
       </b>
       </td> 
@@ -473,7 +479,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
             </b>Participé en la revisión y presentación de la arquitectura de los bounded contexts, contribuí a la definición de las style guidelines y colaboré en el despliegue del proyecto (backend, front y landing page).<br>
       <br>
       <b>TB2:
-      </b><br>
+      </b> Expliqué la creación del repositorio de servicios y su pipeline de CI, además del avance de pantallas móviles. Guié la prueba de endpoints desde Swagger/Postman y levanté feedback técnico para próximas iteraciones.
+      <br>
       <b>TF:
       </b>
       </td>  
@@ -498,13 +505,15 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
         <b>Cantoral Sedamano, Alexander Alberto TP: Comunique mis ideas en el desarrollo del backend y su despliegue para coordinar con mis compañeros. También para coordinar el como conectar la LP con la aplicacion web y  móvil.
         </b> <br>
         <b>Cantoral Sedamano, Alexander Alberto TB2:
-        </b> <br>
+        </b> Documenté en el Capítulo VII las secciones de Sprint Backlog, commits y despliegues; añadí enlaces de repos y actualicé convenciones. Registré pasos para publicar el APK y describí los endpoints implementados en el backend.
+        <br>
         <b>Cantoral Sedamano, Alexander Alberto TF1:
         </b>
         </td>
         <td rowspan="6"> 
-         <b>TB1: Como equipo, redactamos cada parte del informe de manera clara y objetiva, cuidando que la documentación refleje tanto los aspectos técnicos como el impacto práctico del proyecto ReStyle. La escritura se trabajó pensando en diferentes audiencias, lo que nos permitió comunicar nuestros resultados de forma efectiva a públicos de distintas especialidades y niveles jerárquicos dentro del marco del desarrollo en ingeniería.</b><br>
-        <b>TP:</b> Como equipo, la documentación escrita fue clara, precisa y accesible para distintos públicos. Se documentó de forma ordenada la arquitectura de los bounded contexts, las style guidelines y el proceso de despliegue (backend, front y landing page), mejorando la trazabilidad, el mantenimiento y la transferencia del conocimiento.
+         <b>TB1:</b> Como equipo, redactamos cada parte del informe de manera clara y objetiva, cuidando que la documentación refleje tanto los aspectos técnicos como el impacto práctico del proyecto ReStyle. La escritura se trabajó pensando en diferentes audiencias, lo que nos permitió comunicar nuestros resultados de forma efectiva a públicos de distintas especialidades y niveles jerárquicos dentro del marco del desarrollo en ingeniería.<br>
+         <b>TP:</b> Como equipo, la documentación escrita fue clara, precisa y accesible para distintos públicos. Se documentó de forma ordenada la arquitectura de los bounded contexts, las style guidelines y el proceso de despliegue (backend, front y landing page), mejorando la trazabilidad, el mantenimiento y la transferencia del conocimiento.<br>
+         <b>TB2:</b> Consolidamos en el Capítulo VII la evidencia del Sprint 1: Sprint Backlog, tabla de commits, pruebas, despliegues y entrevistas de validación. Se estandarizaron URLs, convenciones y anexos, fortaleciendo la trazabilidad y facilitando revisiones futuras; la redacción mantiene enfoque técnico claro y accesible.
       </td>   
     </tr>
     <!-- Estudiante 2 TB1 --> 
@@ -516,7 +525,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
             </b>Participé en la documentación escrita de la arquitectura de los bounded contexts, redacté partes de las style guidelines y documenté el proceso de despliegue del proyecto (backend, front y landing page).<br>
       <br>
       <b>Valenzuela Vallejos, Stefano Alessandro TB2:
-      </b><br>
+      </b> Actualicé la documentación del frontend (README, scripts y variables) y de la landing; agregué capturas y evidencias en 7.2.1.5. Redacté notas de CI para mobile y un checklist de revisión visual.
+      <br>
       <b>Valenzuela Vallejos, Stefano Alessandro TF:
       </b>
       </td>  
@@ -530,7 +540,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
       </b>Participé en la documentación escrita de la arquitectura de los bounded contexts, redacté partes de las style guidelines y documenté el proceso de despliegue del proyecto (backend, front y landing page).<br>
       <br>
       <b>Chavez Rojas, Carlos Raul Guillermo TB2:
-      </b><br>
+      </b> Redacté la guía de despliegue del backend en Azure (comando de inicio, secrets) y la matriz de enlaces de repos. Ajusté los links del Capítulo VII e incorporé capturas de Swagger y verificación post-deploy.
+      <br>
       <b>Chavez Rojas, Carlos Raul Guillermo TF:
       </b>
       </td> 
@@ -544,7 +555,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
             </b>Participé en la documentación escrita de la arquitectura de los bounded contexts, redacté partes de las style guidelines y documenté el proceso de despliegue del proyecto (backend, front y landing page).<br>
       <br>
       <b>TB2:
-      </b><br>
+      </b> Redacté el contenido y la estructura de la landing y la guía de publicación en GitHub Pages; actualicé imágenes y rutas. Documenté paso a paso el deploy del frontend en Netlify y registré incidencias de responsive.
+      <br>
       <b>TF:
       </b>
       </td> 
@@ -560,7 +572,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
       </b>En esta entrega logré redactar de manera clara y precisa. Logre redactar la idea de nuestro proyecto de manera que el publico en general lo pueda entender. Además realice el Design Purpose y el Strategic-Level Attribute-Driven Design de manera entendible para el público en general.  <br> 
       <br>
       <b>TB2:
-      </b><br>
+      </b> Documenté la creación del repositorio de backend, el pipeline de CI y las pruebas ejecutadas; registré endpoints verificados y convenciones de ramas. Actualicé referencias en Anexos y en la sección 7.1.2.
+      <br>
       <b>TF:
       </b>
       </td> 
