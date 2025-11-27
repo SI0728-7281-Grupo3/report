@@ -398,39 +398,39 @@ Se invitará al remodelador a crear un perfil de servicio, revisar cómo se mues
 
 |**Entrevistado 1** |**InnovaInteriores** |
 | :-: | :-: |
-|Edad |53 |
-|Distrito |Pueblo Libre |
-|![](../assets/img/chapter-VI/Aspose.Words.5b04100b-0033-4714-8f4a-ec9c90bb3554.043.png) |La entrevistada nos comenta que la landing page es clara y concisa, el diseño y paleta de colores son similares para la landing page y la aplicación móvil, lo cual habla de que se mantiene una imagen coherente de marca. La aplicación móvil desearía que se añada una descripción de la empresa en el HOME y que el botón de eliminar cuente con un mensaje de confirmación para verificar si se desea borrar un proyecto antes de borrarlo por error.  |
-|Timing:0:00-8:05 |[URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EWhw1hIvQPROrW67I7w5xtIB-Nc06JsHrfXsDsqGQt76Hg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jv8PrW) |
-|**Entrevistado 2** |Carlos Mendez |
-|Edad |60 |
-|Distrito |Lima |
-|![](../assets/img/chapter-VI/Aspose.Words.5b04100b-0033-4714-8f4a-ec9c90bb3554.044.png) |En la entrevista se comenta que los estilos están bien. Sin embargo en su dispositivo móvil la Landing Page se deforma un poco, comentando que eso se debería mejorar. Por parte del aplicativo móvil, no tuvo observaciones importantes, además de mejorar los colores. |
-|Timing: 0:00-14:20 |[URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EWG8dXHp4fdHjiUEy5zSTWcBO_xB8IU9W93xSuM7j90EJg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Wsf9S3) |
-|**Entrevistado 3** |Diego Bastidas |
-|Edad |24 |
-|Distrito |Lince |
-|![](../assets/img/chapter-VI/entrevistacap6.png) |Durante la entrevista, Diego resaltó que la estructura general de la landing page es funcional, pero mencionó que el tamaño de las imágenes podría optimizarse para una carga más rápida. En cuanto a la aplicación móvil, sugirió que sería útil contar con un buscador para filtrar proyectos por nombre o cliente, y que los botones deberían tener mayor contraste para mejorar la accesibilidad visual. Consideró positivo que ambos productos mantengan una identidad visual coherente. |
-|Timing: 0:00 – 7:15 |[URL](https://drive.google.com/drive/folders/165Am15Cz-OB2JEjjMgpaPgiS8IG0_B6a?usp=sharing) |
+|Edad | |
+|Distrito | |
+|![]() | |
+|Timing: | [URL]() |
+|**Entrevistado 2** |**Carlos Mendez** |
+|Edad | |
+|Distrito | |
+|![]() | |
+|Timing: | [URL]() |
+|**Entrevistado 3** |**Diego Bastidas** |
+|Edad | |
+|Distrito | |
+|![]() | |
+|Timing: | [URL]() |
 
 **Entrevistas a contratistas:** 
 
 |**Entrevistado 1** |**Jakeline Morey** |
 | :-: | :-: |
-|Edad |50 |
-|Distrito |Miraflores |
-|![](../assets/img/chapter-VI/Aspose.Words.5b04100b-0033-4714-8f4a-ec9c90bb3554.045.png) |La entrevistada opina que la landing page es profesional y fácil de entender. Nos menciona que el botón call to action es llamativo y cumple su propósito. La aplicación móvil le parece profesional y entendible. También comenta que le gustaría ver otra paleta de colores para el fondo del home, también comenta que no encuentra mucho propósito en una aplicación móvil dedicada al rubro y que preferiría utilizar una aplicación web. |
-|Timing:0:00 – 7:02 |[URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EXFVBPw31vhNm8JgK1kX7wcBDcj5nyBO_LXvUSXAGDtvgA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=shMOut) |
-|**Entrevistado 2** | **Leonardo Moreno**|
-|Edad |25|
-|Distrito |Pueblo Libre |
-|![](../assets/img/chapter-VI/video-validacion-leonardo.png)|El entrevistado opina que tanto la página web como la landing page presentan un diseño minimalista y profesional. Destacó la paleta de colores seleccionada y la buena distribución de la información, lo que facilita la navegación para los usuarios. Además, señaló que la página muestra claramente sus funcionalidades y ofrece un acceso sencillo tanto para personas familiarizadas con la tecnología como para aquellas con poca experiencia en su uso. | 
-|Timing: 0:00-5:36 |[URL](https://drive.google.com/drive/folders/165Am15Cz-OB2JEjjMgpaPgiS8IG0_B6a?usp=sharing) |
-|**Entrevistado 3** | **Fabian Reyes**|
-|Edad |20|
-|Distrito | San Martin de Porres|
-|![](../assets/img/chapter-VI/Fabian-Contratista.png)|Fabián exploró las funcionalidades del sitio web: vio los remodeladores disponibles, interactuó con uno y solicitó una cotización para negociar. También usó la función de búsqueda para encontrar uno específico. Le pareció que la web es muy buena, aunque sugirió mejoras en el diseño.|
-|Timing: 00:00 – 08:05 |[URL](https://drive.google.com/drive/folders/165Am15Cz-OB2JEjjMgpaPgiS8IG0_B6a?usp=sharing) |
+|Edad | |
+|Distrito | |
+|![]() | |
+|Timing: | [URL]() |
+|**Entrevistado 2** |**Leonardo Moreno** |
+|Edad | |
+|Distrito | |
+|![]() | |
+|Timing: | [URL]() |
+|**Entrevistado 3** |**Fabian Reyes** |
+|Edad | |
+|Distrito | |
+|![]() | |
+|Timing: | [URL]() |
 
 #### 7.3.3. Evaluaciones según heurísticas
 
