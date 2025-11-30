@@ -1,15 +1,16 @@
+
+<p align = "center"> <img src = "https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img> </p>
 <center>
 
 # Universidad Peruana De Ciencas Aplicadas
 ## 1ASI0728 Arquitecturas De Software Emergentes
+## 202520
 ### INGENIERÍA DE SOFTWARE
 
 </center>
-
-<p align = "center"> <img src = "https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img> </p>
-
 <center>
 
+### NRC: 7281
 # Informe Trabajo Final
 ## Docente: Richard Leonardo Berrocal Navarro
 ## Startup: Estrellados
@@ -28,9 +29,9 @@
  </center> 
 <center>
 
-### Noviembre 2025
-### Ciclo: 2025-02
-### NRC: 7281
+### Diciembre 2025
+
+
 
 </center>
 
@@ -39,12 +40,12 @@
 <br>
 
 ## Registro de Versiones del Informe
-
 | Versión | Fecha      | Autor                                                                          | Descripción de modificación                                                                                      |
-|---------|------------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
-| 1.0     | 10/09/2025 | - Alexander Cantoral<br> - Carlos Chávez <br> - Josue Hidalgo <br> - Luciano Ruiz<br> - Stefano Valenzuela | Se creo la ramificación del repositorio y se adicionó los documentos en su versión inicial previa a la investigacón. |
-| 2.0     | 06/10/2025 | - Alexander Cantoral<br> - Carlos Chávez <br> - Josue Hidalgo <br> - Luciano Ruiz<br> - Stefano Valenzuela | Primera fase en producción del proyecto e incorporacion de la arquitectura por cada bounded context. |
+|---------|------------|---------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| 1.0     | 10/09/2025 | - Alexander Cantoral<br> - Carlos Chávez <br> - Josue Hidalgo <br> - Luciano Ruiz<br> - Stefano Valenzuela | Se creó la ramificación del repositorio y se añadieron los documentos en su versión inicial previa a la investigación. |
+| 2.0     | 06/10/2025 | - Alexander Cantoral<br> - Carlos Chávez <br> - Josue Hidalgo <br> - Luciano Ruiz<br> - Stefano Valenzuela | Primera fase en producción del proyecto e incorporación de la arquitectura por cada bounded context. |
 | 3.0     | 13/11/2025 | - Alexander Cantoral<br> - Carlos Chávez <br> - Josue Hidalgo <br> - Luciano Ruiz<br> - Stefano Valenzuela | Despliegue de servicios principales del sistema. |
+| 4.0     | 01/12/2025 | - Alexander Cantoral<br> - Carlos Chávez <br> - Josue Hidalgo <br> - Luciano Ruiz<br> - Stefano Valenzuela | Se culminó el desarrollo completo del servicio web, móvil y backend; además, se implementó un chatbot basado en inteligencia artificial. |
 ### Project Report Collaboration Insights
 
 URL del repositorio para el reporte del proyecto: https://github.com/SI0728-7281-Grupo3 
@@ -348,6 +349,22 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
     7.2. [Solution Implementation](docs/chapter-VII.md#72-solution-implementation)
 
     7.2.1. [Sprint 1](docs/chapter-VII.md#721-sprint-1)
+
+    7.2.1.1. [Sprint Planning 1](docs/chapter-VII.md#7211-sprint-planning-1)
+
+    7.2.1.2. [Sprint Backlog 1](docs/chapter-VII.md#7212-sprint-backlog-1)
+
+    7.2.1.3. [Development Evidence for Sprint Review](docs/chapter-VII.md#7213-development-evidence-for-sprint-review)
+
+    7.2.1.4. [Testing Suite Evidence for Sprint Review](docs/chapter-VII.md#7214-testing-suite-evidence-for-sprint-review)
+
+    7.2.1.5. [Execution Evidence for Sprint Review](docs/chapter-VII.md#7215-execution-evidence-for-sprint-review)
+
+    7.2.1.6. [Services Documentation Evidence for Sprint Review](docs/chapter-VII.md#7216-services-documentation-evidence-for-sprint-review)
+
+    7.2.1.7. [Software Deployment Evidence for Sprint Review](docs/chapter-VII.md#7217-software-deployment-evidence-for-sprint-review)
+
+    7.2.1.8. [Team Collaboration Insights during Sprint](docs/chapter-VII.md#7218-team-collaboration-insights-during-sprint)
 
     7.2.1.1. [Sprint Planning 1](docs/chapter-VII.md#7211-sprint-planning-1)
 

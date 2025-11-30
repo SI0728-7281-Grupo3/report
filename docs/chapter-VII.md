@@ -263,6 +263,8 @@ SI0728-7281-Grupo3/report | develop-carlos | 24f7190 | feat: Impact Mapping adde
 
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review
 
+CORREGIR CREAR ACCEPTANCE TEST
+
 Resumen de suites ejecutadas y evidencias.
 
 | Módulo | Suite / Caso | Tipo | Resultado | Evidencia |
@@ -323,8 +325,8 @@ Despliegues realizados y accesos. Actualizar fechas/horas según última publica
 | Ambiente | Componente | URL | Deploy by | Fecha/Hora (GMT-5) | Evidencia |
 |---|---|---|---|---|---|
 | Production (GitHub Pages) | Landing Page | https://si0728-7281-grupo3.github.io/landingpage/#about-the-app | Equipo | YYYY-MM-DD HH:mm | Ver 7.2.1.5 (landing1–7.png) |
-| Production (Netlify) | Frontend Web | https://restyle-frontend.netlify.app/home | Equipo | YYYY-MM-DD HH:mm | Ver 7.2.1.5 (frontend.png–3.png) |
-| Production (Azure App Service) | Backend API (Swagger) | https://restyle-web-services-cyf0axfvakcxaehd.brazilsouth-01.azurewebsites.net/swagger-ui/index.html | Equipo | YYYY-MM-DD HH:mm | Ver 7.2.1.5 (web-service1–4.png) |
+| Production (Netlify) | Frontend Web | https://restyle-frontend.netlify.app/ | Equipo | YYYY-MM-DD HH:mm | Ver 7.2.1.5 (frontend.png–3.png) |
+| Production (Azure App Service) | Backend API (Swagger) | https://restyle-platform-bed4c3b3f3eug0ak.canadacentral-01.azurewebsites.net/swagger-ui/index.html#/ | Equipo | YYYY-MM-DD HH:mm | Ver 7.2.1.5 (web-service1–4.png) |
 | Release (GitHub Releases) | Mobile APK | https://github.com/SI732-ExpDesign-Team/mobile/releases/download/v0.2.0-alpha/ReStyle.apk | Equipo | YYYY-MM-DD HH:mm | Ver 7.2.1.5 (release-mobile2.png) |
 
 
@@ -342,6 +344,193 @@ Repositorio de web services:
 <img src="../assets/img/chapter-VII/insight4.png"> 
 Repositorio de mobile:
 <img src="../assets/img/chapter-VII/insight5.png"> 
+
+### 7.2.2. Sprint 2
+
+#### 7.2.2.1. Sprint Planning 2
+
+Sprint # | Sprint 2
+---|---
+Sprint Planning Background | Sprint final: consolidación, pruebas finales y despliegue definitivo de Landing, Frontend Web, Backend API, Mobile (APK) e integración del chatbot con IA. Preparar demo final y documentación de entrega.
+Date | 2025-11-24
+Time | 07:00 PM (GMT-5)
+Location | Reunión virtual por Microsoft Teams
+Prepared By | Stefano Alessandro Valenzuela Vallejos
+Attendees (planning meeting) | Alexander Alberto Cantoral Sedamano / Carlos Raúl Guillermo Chávez Rojas / Josue Omar Hidalgo Bustamante / Luciano Stefano Ruiz Blas / Stefano Alessandro Valenzuela Vallejos
+Sprint n−1 — Review Summary | Resultados del Sprint 1: despliegues iniciales y evidencias registradas; base estable para integración.
+Sprint n−1 — Retrospective Summary | Mejoras: más pruebas automatizadas, pipeline de despliegue más robusto, definición de responsables de post-deploy.
+Sprint n Goal | Entregar en producción todos los componentes con QA aprobado, integrar chatbot IA y entregar documentación final y video demo. Métrica: 100% de endpoints documentados, demo funcional, chatbot integrado y 5 URLs operativas.
+Sprint n Velocity | 20 SP
+Sum of Story Points | 20 SP
+
+#### 7.2.2.2. Sprint Backlog 2
+
+<table>
+  <tr>
+    <td> <strong>Sprint #</strong></td>
+    <td colspan="7"> <strong>Sprint 2</strong> </td>
+  </tr>
+
+  <tr>
+    <td colspan="2"> <strong>User Story</strong></td>
+    <td colspan="6"> <strong>Work-item / Task</strong></td>
+  </tr>
+
+  <tr>
+    <td> <strong>ID</strong> </td>
+    <td> <strong>Title</strong></td>
+    <td> <strong>ID</strong> </td>
+    <td> <strong>Title</strong></td>
+    <td> <strong>Description</strong></td>
+    <td> <strong>Estimation (Hours)</strong></td>
+    <td> <strong>Assigned To</strong></td>
+    <td> <strong>Status (To-do / In-Process / To-Review / Done)</strong></td>
+  </tr>
+
+  <!-- US-005: Final Deployment -->
+  <tr>
+    <td rowspan="3">US-005</td>
+    <td rowspan="3">Despliegue final y hardening de infraestructura</td>
+    <td>UT-01</td>
+    <td>Pipeline CD final</td>
+    <td>Configurar y validar workflows de CI/CD para producción (frontend, backend, mobile)</td>
+    <td>6</td>
+    <td>Alexander Alberto Cantoral Sedamano</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>UT-02</td>
+    <td>Smoke tests post-deploy</td>
+    <td>Automatizar smoke tests y checklist de post-deploy</td>
+    <td>4</td>
+    <td>Carlos Raúl Guillermo Chávez Rojas</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>UT-03</td>
+    <td>Rollback & runbook</td>
+    <td>Documentar pasos de rollback y runbook de despliegue</td>
+    <td>3</td>
+    <td>Stefano Alessandro Valenzuela Vallejos</td>
+    <td>To-do</td>
+  </tr>
+
+  <!-- US-006: Chatbot IA -->
+  <tr>
+    <td rowspan="3">US-006</td>
+    <td rowspan="3">Integración de chatbot con IA</td>
+    <td>UT-01</td>
+    <td>Diseño e IA model</td>
+    <td>Definir flujo conversacional y seleccionar proveedor/modelo IA</td>
+    <td>4</td>
+    <td>Luciano Stefano Ruiz Blas</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>UT-02</td>
+    <td>Implementación backend</td>
+    <td>Crear endpoints y adaptadores para integración con servicio de IA</td>
+    <td>6</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>UT-03</td>
+    <td>Integración frontend/mobile</td>
+    <td>Agregar UI de chat en web y mobile y conectar con backend</td>
+    <td>5</td>
+    <td>Stefano Alessandro Valenzuela Vallejos</td>
+    <td>To-do</td>
+  </tr>
+
+  <!-- US-007: QA & Testing -->
+  <tr>
+    <td rowspan="3">US-007</td>
+    <td rowspan="3">Pruebas finales y aseguramiento de calidad</td>
+    <td>UT-01</td>
+    <td>Tests E2E completos</td>
+    <td>Crear/ejecutar suites E2E para flujos críticos (registro, búsqueda, contratación, chat)</td>
+    <td>6</td>
+    <td>Alexander Alberto Cantoral Sedamano</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>UT-02</td>
+    <td>Pruebas de carga básicas</td>
+    <td>Ejecutar pruebas de carga en endpoints críticos</td>
+    <td>4</td>
+    <td>Carlos Raúl Guillermo Chávez Rojas</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>UT-03</td>
+    <td>Corrección de bugs críticos</td>
+    <td>Resolver defectos encontrados en QA y preparar release candidate</td>
+    <td>6</td>
+    <td>Equipo</td>
+    <td>To-do</td>
+  </tr>
+
+  <!-- US-008: Documentación y entrega -->
+  <tr>
+    <td rowspan="3">US-008</td>
+    <td rowspan="3">Documentación final, demo y entrega</td>
+    <td>UT-01</td>
+    <td>OpenAPI / Postman</td>
+    <td>Actualizar Swagger/OpenAPI y exportar colección Postman</td>
+    <td>3</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>UT-02</td>
+    <td>Video demo y release notes</td>
+    <td>Grabar demo final, preparar release notes y CHANGELOG</td>
+    <td>4</td>
+    <td>Luciano Stefano Ruiz Blas</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>UT-03</td>
+    <td>Checklist de entrega</td>
+    <td>Verificar checklist mínimo: endpoints, despliegues, accesos y evidencias</td>
+    <td>2</td>
+    <td>Stefano Alessandro Valenzuela Vallejos</td>
+    <td>To-do</td>
+  </tr>
+</table>
+
+#### 7.2.2.3. Development Evidence for Sprint Review
+
+<!-- Estructura: commits, PRs, ramas, enlaces a repositorios -->
+
+#### 7.2.2.4. Testing Suite Evidence for Sprint Review
+
+<!-- Estructura: listas de suites/casos, tipo, resultados, evidencias (logs/capturas) -->
+
+#### 7.2.2.5. Execution Evidence for Sprint Review
+
+<!-- Estructura: capturas, videos, demo links, pasos de prueba manual -->
+
+#### 7.2.2.6. Services Documentation Evidence for Sprint Review
+
+<!-- Estructura: OpenAPI/Swagger, Postman collections, CHANGELOG, enlaces -->
+
+#### 7.2.2.7. Software Deployment Evidence for Sprint Review
+
+Despliegues realizados y accesos. Actualizar fechas/horas según última publicación.
+
+| Ambiente | Componente | URL | Deploy by | Fecha/Hora (GMT-5) | Evidencia |
+|---|---|---|---|---|---|
+| Production (GitHub Pages) | Landing Page | https://si0728-7281-grupo3.github.io/landingpage/#about-the-app | Equipo | YYYY-MM-DD HH:mm | Ver 7.2.1.5 (landing1–7.png) |
+| Production (Netlify) | Frontend Web | https://restyle-frontend.netlify.app/ | Equipo | YYYY-MM-DD HH:mm | Ver 7.2.1.5 (frontend.png–3.png) |
+| Production (Azure App Service) | Backend API (Swagger) | https://restyle-platform-bed4c3b3f3eug0ak.canadacentral-01.azurewebsites.net/swagger-ui/index.html#/ | Equipo | YYYY-MM-DD HH:mm | Ver 7.2.1.5 (web-service1–4.png) |
+| Release (GitHub Releases) | Mobile APK | https://github.com/SI732-ExpDesign-Team/mobile/releases/download/v0.2.0-alpha/ReStyle.apk | Equipo | YYYY-MM-DD HH:mm | Ver 7.2.1.5 (release-mobile2.png) |
+
+#### 7.2.2.8. Team Collaboration Insights during Sprint
+
+<!-- Estructura: herramientas, diagramas de contribución, resumen de comunicación y retrospective -->
+
 
 ## 7.3. Validation Interviews
 #### 7.3.1. Diseño de Entrevistas
@@ -543,3 +732,4 @@ Enlaces y artefactos relevantes del proyecto:
   - Plan de pruebas de usabilidad y pruebas de rendimiento básicas.
 
 -- Fin de Capítulo VII
+
