@@ -129,7 +129,7 @@ Durante el desarrollo de este Sprint nos enfocamos en los despliegues de los ent
     <td> <strong>Description</strong></td>
     <td> <strong>Estimation (Hours)</strong></td>
     <td> <strong>Assigned To</strong></td>
-    <td> <strong>Status (To-do / In-Process / To-Review / Done)</strong></td>
+    <td> <strong>Status (To- do / In-Process / To-Review / Done)</strong></td>
   </tr>
 
   <!-- US-001 Landing Page -->
@@ -398,7 +398,7 @@ Sum of Story Points | 20 SP
     <td> <strong>Description</strong></td>
     <td> <strong>Estimation (Hours)</strong></td>
     <td> <strong>Assigned To</strong></td>
-    <td> <strong>Status (To-do / In-Process / To-Review / Done)</strong></td>
+    <td> <strong>Status (To-Do / In-Process / To-Review / Done)</strong></td>
   </tr>
 
   <!-- US-005: Final Deployment -->
@@ -410,7 +410,7 @@ Sum of Story Points | 20 SP
     <td>Configurar y validar workflows de CI/CD para producción (frontend, backend, mobile)</td>
     <td>6</td>
     <td>Alexander Alberto Cantoral Sedamano</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>UT-02</td>
@@ -418,7 +418,7 @@ Sum of Story Points | 20 SP
     <td>Automatizar smoke tests y checklist de post-deploy</td>
     <td>4</td>
     <td>Carlos Raúl Guillermo Chávez Rojas</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>UT-03</td>
@@ -426,7 +426,7 @@ Sum of Story Points | 20 SP
     <td>Documentar pasos de rollback y runbook de despliegue</td>
     <td>3</td>
     <td>Stefano Alessandro Valenzuela Vallejos</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
 
   <!-- US-006: Chatbot IA -->
@@ -438,7 +438,7 @@ Sum of Story Points | 20 SP
     <td>Definir flujo conversacional y seleccionar proveedor/modelo IA</td>
     <td>4</td>
     <td>Luciano Stefano Ruiz Blas</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>UT-02</td>
@@ -446,7 +446,7 @@ Sum of Story Points | 20 SP
     <td>Crear endpoints y adaptadores para integración con servicio de IA</td>
     <td>6</td>
     <td>Josue Omar Hidalgo Bustamante</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>UT-03</td>
@@ -454,7 +454,7 @@ Sum of Story Points | 20 SP
     <td>Agregar UI de chat en web y mobile y conectar con backend</td>
     <td>5</td>
     <td>Stefano Alessandro Valenzuela Vallejos</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
 
   <!-- US-007: QA & Testing -->
@@ -466,7 +466,7 @@ Sum of Story Points | 20 SP
     <td>Crear/ejecutar suites E2E para flujos críticos (registro, búsqueda, contratación, chat)</td>
     <td>6</td>
     <td>Alexander Alberto Cantoral Sedamano</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>UT-02</td>
@@ -474,7 +474,7 @@ Sum of Story Points | 20 SP
     <td>Ejecutar pruebas de carga en endpoints críticos</td>
     <td>4</td>
     <td>Carlos Raúl Guillermo Chávez Rojas</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>UT-03</td>
@@ -482,7 +482,7 @@ Sum of Story Points | 20 SP
     <td>Resolver defectos encontrados en QA y preparar release candidate</td>
     <td>6</td>
     <td>Equipo</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
 
   <!-- US-008: Documentación y entrega -->
@@ -494,7 +494,7 @@ Sum of Story Points | 20 SP
     <td>Actualizar Swagger/OpenAPI y exportar colección Postman</td>
     <td>3</td>
     <td>Josue Omar Hidalgo Bustamante</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>UT-02</td>
@@ -502,7 +502,7 @@ Sum of Story Points | 20 SP
     <td>Grabar demo final, preparar release notes y CHANGELOG</td>
     <td>4</td>
     <td>Luciano Stefano Ruiz Blas</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>UT-03</td>
@@ -510,7 +510,7 @@ Sum of Story Points | 20 SP
     <td>Verificar checklist mínimo: endpoints, despliegues, accesos y evidencias</td>
     <td>2</td>
     <td>Stefano Alessandro Valenzuela Vallejos</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
 </table>
 
