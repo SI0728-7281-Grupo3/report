@@ -432,12 +432,13 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
         </b> En el Sprint 1 lideré la demo del backend y del mobile: expliqué los endpoints implementados, el flujo de autenticación y el proceso de publicación del APK en GitHub Releases. Coordiné el handoff backend–frontend y respondí preguntas del PO sobre despliegue y evidencias.
         <br>
         <b>Cantoral Sedamano, Alexander Alberto TF1:
-        </b>
+        </b>La comunicación escrita del proyecto fue clara y directa, lo que permitió explicar los resultados y el uso de la tecnología de inteligencia artificial a personas con distintos niveles técnicos. Gracias a esto, todos pudieron entender el alcance del trabajo y el proyecto se completó con éxito.
         </td>
         <td rowspan="6"> 
          <b>TB1:</b> Como equipo, desarrollamos las distintas secciones del proyecto ReStyle, desde la definición de requerimientos y user stories hasta la elaboración de los diagramas arquitectónicos y de despliegue. Durante las presentaciones, comunicamos con objetividad nuestras ideas y resultados, adaptando el lenguaje según la audiencia, de manera que tanto públicos técnicos como no técnicos comprendieran el propósito, alcance y beneficios del sistema. Esto nos permitió transmitir de forma clara y efectiva el valor del proyecto en el marco de la ingeniería de software.<br>
          <b>TP:</b> Como equipo, comunicamos oralmente de forma objetiva y adaptada a audiencias técnicas y no técnicas. Las presentaciones y reuniones permitieron explicar la arquitectura de los bounded contexts, las style guidelines y el despliegue (backend, front y landing page), facilitando la coordinación, la toma de decisiones y el avance del desarrollo.<br>
          <b>TB2:</b> En el Sprint 1 articulamos oralmente las evidencias de implementación (repositorios, CI/CD, endpoints, APK, landing y frontend en producción) mediante la demo conjunta. La comunicación permitió validar el cumplimiento del objetivo del sprint, recoger feedback de mejora (UX y accesibilidad) y alinear las prioridades para el siguiente sprint.
+         <BR><b>TF1:</b> Como equipo, logramos comunicar oralmente nuestras ideas y resultados de manera clara y objetiva durante todo el proyecto. Adaptamos nuestro lenguaje según el tipo de audiencia —técnica y no técnica—, lo que permitió que todos comprendieran el avance, las decisiones y la implementación de la solución. Gracias a esta comunicación efectiva, coordinamos mejor el desarrollo y logramos presentar un proyecto sólido y funcional.
       </td>   
     </tr>
     <!-- Estudiante 2 TB1 --> 
@@ -451,8 +452,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
       <b>Valenzuela Vallejos, Stefano Alessandro TB2:
       </b> Conduje la demo del frontend y de la landing en producción. Expliqué la estructura de módulos, la integración con la API y el pipeline de build (web y mobile), atendiendo feedback del PO y acordando mejoras visuales y de accesibilidad.
       <br>
-      <b>Valenzuela Vallejos, Stefano Alessandro TF:
-      </b>
+      <b>Valenzuela Vallejos, Stefano Alessandro TF1:
+      </b>Durante el desarrollo del proyecto, la documentación se redactó de manera ordenada y objetiva, facilitando que cualquier lector —técnico o no técnico— comprenda las decisiones tomadas y cómo se integró la IA. Esto contribuyó a presentar un trabajo final claro y bien sustentado.
       </td>  
     </tr>
     <!-- Estudiante 3 TB1-->
@@ -466,8 +467,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
       <b>Chavez Rojas, Carlos Raul Guillermo TB2:
       </b> Presenté el despliegue del backend en Azure App Service y el estado de CI/CD del frontend. Expliqué variables de entorno, protección de ramas y verificación en Swagger; participé en la demo de integración y resolví dudas de disponibilidad del servicio.
       <br>
-      <b>Chavez Rojas, Carlos Raul Guillermo TF:
-      </b>
+      <b>Chavez Rojas, Carlos Raul Guillermo TF1:
+      </b>La comunicación escrita fue fundamental para mostrar de forma sencilla los avances y resultados de la solución con IA. Esto permitió que diferentes públicos entiendan el aporte del proyecto y apoyó a que el trabajo final se cierre de manera exitosa.
       </td>  
     </tr>
     <!-- Estudiante 4 TB1-->
@@ -481,8 +482,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
       <b>TB2:
       </b> Mostré la implementación de la landing y el despliegue del frontend en Netlify. Justifiqué decisiones de contenido/UX y expuse criterios de aceptación; recogí observaciones de responsive y accesibilidad para el siguiente sprint.
       <br>
-      <b>TF:
-      </b>
+      <b>TF1:
+      </b>A través de una redacción simple y objetiva, se lograron transmitir las ideas principales del proyecto y justificar la implementación de la tecnología emergente. Esta claridad permitió que todas las áreas involucradas comprendan los resultados obtenidos.
       </td> 
     </tr>
     <!-- Estudiante 5 TB1-->
@@ -498,8 +499,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
       <b>TB2:
       </b> Expliqué la creación del repositorio de servicios y su pipeline de CI, además del avance de pantallas móviles. Guié la prueba de endpoints desde Swagger/Postman y levanté feedback técnico para próximas iteraciones.
       <br>
-      <b>TF:
-      </b>
+      <b>TF1:
+      </b>La documentación del proyecto se elaboró pensando en distintos tipos de lectores, lo que ayudó a comunicar de manera efectiva cómo se desarrolló e implementó la solución con IA. Gracias a esta comunicación clara, el proyecto pudo presentarse y concluirse adecuadamente.
       </td>  
     </tr>
     <tbody>
@@ -525,12 +526,13 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
         </b> Documenté en el Capítulo VII las secciones de Sprint Backlog, commits y despliegues; añadí enlaces de repos y actualicé convenciones. Registré pasos para publicar el APK y describí los endpoints implementados en el backend.
         <br>
         <b>Cantoral Sedamano, Alexander Alberto TF1:
-        </b>
+        </b>La comunicación escrita del proyecto fue clara y objetiva, lo que permitió explicar los resultados y la integración de la inteligencia artificial a cualquier tipo de lector, desde perfiles técnicos hasta no técnicos. Esto ayudó a que el trabajo final sea entendido y validado sin problemas.
         </td>
         <td rowspan="6"> 
          <b>TB1:</b> Como equipo, redactamos cada parte del informe de manera clara y objetiva, cuidando que la documentación refleje tanto los aspectos técnicos como el impacto práctico del proyecto ReStyle. La escritura se trabajó pensando en diferentes audiencias, lo que nos permitió comunicar nuestros resultados de forma efectiva a públicos de distintas especialidades y niveles jerárquicos dentro del marco del desarrollo en ingeniería.<br>
          <b>TP:</b> Como equipo, la documentación escrita fue clara, precisa y accesible para distintos públicos. Se documentó de forma ordenada la arquitectura de los bounded contexts, las style guidelines y el proceso de despliegue (backend, front y landing page), mejorando la trazabilidad, el mantenimiento y la transferencia del conocimiento.<br>
-         <b>TB2:</b> Consolidamos en el Capítulo VII la evidencia del Sprint 1: Sprint Backlog, tabla de commits, pruebas, despliegues y entrevistas de validación. Se estandarizaron URLs, convenciones y anexos, fortaleciendo la trazabilidad y facilitando revisiones futuras; la redacción mantiene enfoque técnico claro y accesible.
+         <b>TB2:</b> Consolidamos en el Capítulo VII la evidencia del Sprint 1: Sprint Backlog, tabla de commits, pruebas, despliegues y entrevistas de validación. Se estandarizaron URLs, convenciones y anexos, fortaleciendo la trazabilidad y facilitando revisiones futuras; la redacción mantiene enfoque técnico claro y accesible.<br>
+         <b>TF1:</b>Como equipo, redactamos la documentación del proyecto de forma clara, ordenada y objetiva, asegurándonos de que pueda ser entendida por públicos de distintas especialidades y niveles jerárquicos. La escritura permitió explicar correctamente el diseño, la arquitectura, las decisiones técnicas y la integración de la inteligencia artificial. Gracias a esta comunicación escrita consistente, el proyecto quedó bien sustentado y culminó exitosamente.
       </td>   
     </tr>
     <!-- Estudiante 2 TB1 --> 
@@ -544,8 +546,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
       <b>Valenzuela Vallejos, Stefano Alessandro TB2:
       </b> Actualicé la documentación del frontend (README, scripts y variables) y de la landing; agregué capturas y evidencias en 7.2.1.5. Redacté notas de CI para mobile y un checklist de revisión visual.
       <br>
-      <b>Valenzuela Vallejos, Stefano Alessandro TF:
-      </b>
+      <b>Valenzuela Vallejos, Stefano Alessandro TF1:
+      </b>Durante el desarrollo del proyecto, la documentación se redactó de forma simple y directa, facilitando que diferentes especialidades comprendan el avance y las decisiones tomadas. Esta claridad fue clave para cerrar el proyecto con éxito.
       </td>  
     </tr>
     <!-- Estudiante 3 TB1-->
@@ -559,8 +561,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
       <b>Chavez Rojas, Carlos Raul Guillermo TB2:
       </b> Redacté la guía de despliegue del backend en Azure (comando de inicio, secrets) y la matriz de enlaces de repos. Ajusté los links del Capítulo VII e incorporé capturas de Swagger y verificación post-deploy.
       <br>
-      <b>Chavez Rojas, Carlos Raul Guillermo TF:
-      </b>
+      <b>Chavez Rojas, Carlos Raul Guillermo TF1:
+      </b>La redacción del informe permitió comunicar los resultados de manera ordenada y entendible, mostrando con objetividad cómo se aplicó la tecnología de IA. Gracias a esto, el proyecto pudo evaluarse correctamente por distintos niveles jerárquicos.
       </td> 
     </tr>
     <!-- Estudiante 4 TB1-->
@@ -574,8 +576,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
       <b>TB2:
       </b> Redacté el contenido y la estructura de la landing y la guía de publicación en GitHub Pages; actualicé imágenes y rutas. Documenté paso a paso el deploy del frontend en Netlify y registré incidencias de responsive.
       <br>
-      <b>TF:
-      </b>
+      <b>TF1:
+      </b>El equipo logró expresar por escrito las ideas y resultados del proyecto de forma transparente y accesible. Esto permitió que personas con distintos conocimientos puedan entender el funcionamiento y el aporte de la solución desarrollada con IA.
       </td> 
     </tr>
     <!-- Estudiante 5 TB1-->
@@ -591,8 +593,8 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
       <b>TB2:
       </b> Documenté la creación del repositorio de backend, el pipeline de CI y las pruebas ejecutadas; registré endpoints verificados y convenciones de ramas. Actualicé referencias en Anexos y en la sección 7.1.2.
       <br>
-      <b>TF:
-      </b>
+      <b>TF1:
+      </b>La comunicación escrita fue fundamental para presentar el proyecto con claridad y justificar cada parte del desarrollo. Al redactar de forma objetiva, se logró que todos los involucrados, sin importar su rol, comprendan los resultados obtenidos.
       </td> 
     </tr>
         <!-- Estudiante 6 TB1-->
