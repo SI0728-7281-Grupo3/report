@@ -450,7 +450,7 @@ Sum of Story Points | 20 SP
   </tr>
   <tr>
     <td>UT-03</td>
-    <td>Integración frontend/mobile</td>
+    <td>Integración frontend</td>
     <td>Agregar UI de chat en web y mobile y conectar con backend</td>
     <td>5</td>
     <td>Stefano Alessandro Valenzuela Vallejos</td>
@@ -672,11 +672,6 @@ Se invitará al remodelador a crear un perfil de servicio, revisar cómo se mues
 |Edad | 26 |
 |Distrito | Lima |
 |Observaciones | Claudia quiere un portafolio público organizado por tipo de proyecto y con métricas (valoraciones, número de trabajos). También solicita filtros para priorizar solicitudes urgentes y acceso fácil al historial de clientes y comunicaciones. |
-|Timing: | [URL](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202214695_upc_edu_pe/IgCWom5vYPeeRYu7F6JBNSixAR_HciTHAc5wRXEij7njYlg?e=Nqugqy) |
-|**Entrevistado 3** |**Diego Bastidas** |
-|Edad | |
-|Distrito | |
-|![]() | |
 |Timing: | [URL](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202214695_upc_edu_pe/IgCWom5vYPeeRYu7F6JBNSixAR_HciTHAc5wRXEij7njYlg?e=Nqugqy) |
 
 **Entrevistas a contratistas:** 
