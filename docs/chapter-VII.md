@@ -694,10 +694,10 @@ Se invitará al remodelador a crear un perfil de servicio, revisar cómo se mues
 |Observaciones | Dylan solicita filtros por disponibilidad, tiempo estimado y calificaciones para reducir el tiempo de selección. Valora notificaciones push cuando un remodelador responde y respuestas rápidas prediseñadas. |
 |Cita destacada | "Quiero decidir rápido: disponibilidad, precio y reseñas son lo primero." |
 |Timing: | [URL](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202214695_upc_edu_pe/IgCWom5vYPeeRYu7F6JBNSixAR_HciTHAc5wRXEij7njYlg?e=Nqugqy) |
-|**Entrevistado 3** |**Fabian Reyes** |
-|Edad | |
-|Distrito | |
-|![]() | |
+|**Entrevistado 3** |**Alfredo Medina** |
+|Edad | 24|
+|Distrito | Comas|
+|Observaciones| Alfredo solicita temas nuevos, oscuro o claro, formas diferentes de ver la pagina princiapl y un diseño diferente para el perfil de cuenta |
 |Timing: | [URL](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202214695_upc_edu_pe/IgCWom5vYPeeRYu7F6JBNSixAR_HciTHAc5wRXEij7njYlg?e=Nqugqy) |
 
 
