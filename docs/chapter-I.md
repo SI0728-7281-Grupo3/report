@@ -13,7 +13,6 @@ Brindar soluciones tecnológicas innovadoras y de alta calidad que contribuyan a
 * **Visión:**
 Consolidarnos como referentes en innovación tecnológica, promoviendo el desarrollo de software eficiente, sostenible y con un impacto positivo en la sociedad.
 
-
 ### 1.1.2. Perfiles de integrantes del equipo
 
 <table style="text-align:center">
@@ -24,63 +23,88 @@ Consolidarnos como referentes en innovación tecnológica, promoviendo el desarr
             <th>Conocimientos</th>
         </tr>
     </thead>
-    <body >
+    <tbody>
         <tr>
             <!-- DATOS del integrante 1-->
             <td> 
-            <img src="" height="100" width="100"> 
+            <img src="https://i.postimg.cc/7P1MLbZH/foto-alexander-797.jpg" height="100" width="100"> 
             <br>Alexander Alberto Cantoral Sedamano U20181b152 
             </td>
             <!-- DESCRIPCIÓN del integrante 1-->
-            <td ></td>
+            <td >Estudiante de octavo ciclo de la carrera de ingeniería de software. Desarrollador FullStack especializado en React y Spring. Mis intereses son entender lo dificil. </td>
             <!-- CONOCIMIENTOS del integrante 1-->
-            <td></td>
+            <td>
+            Poseo conocimientos en diferentes frameworks que usan C#, JS y Java. Dicen que tengo madera de líder pero me considero más un agente de cambio. Siento que mis habilidades técnicas y blandas serán escenciales para un buen trabajo en equipo.
+            </td>
         </tr>
         <tr>
-            <!-- DATOS del integrante 2-->
             <td>
-            <img src="" height="100" width="80"> 
+            <img src="../assets/img/chapter-I/Foto_Carlos.jpeg" height="100" width="80"> 
             <br>Carlos Raúl Guillermo Chávez Rojas  U201910317
             </td>
-            <!-- DESCRIPCIÓN del integrante 2-->
-            <td></td>
-            <!-- CONOCIMIENTOS del integrante 2-->
-            <td></td>
+            <td>
+            Tengo 23 años y estudio la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me apasiona el mundo digital y la capacidad de la tecnología para solucionar problemas y crear nuevas experiencias. Soy una persona proactiva, responsable y con gran capacidad de aprendizaje. Tengo un fuerte interés por la investigación y la innovación, y estoy siempre buscando nuevas formas de mejorar mis habilidades y conocimientos.           
+            </td>
+            <td>
+            - Desarrollo Web con distintos frameworks para frontend y backend<br>
+            - Normativas ISO/EIC 27001 e ISO/IEC 25010<br>
+            - Analisis de datos<br>
+            - Diseño UX/UI<br>
+            </td>
         </tr>
         <tr>
             <!-- DATOS del integrante 3-->
             <td>
-            <img src="" height="100" width="100"> 
+            <img src="../assets/img/chapter-I/Foto_Josue.png" height="100" width="100"> 
             <br>Josue Omar Hidalgo Bustamante  U202119880
             </td>
-            <!-- DESCRIPCIÓN del integrante 3-->
-            <td></td>
-            <!-- CONOCIMIENTOS del integrante 3-->
-            <td></td>
+            Me llamo Josue Omar Hidalgo Bustamante, estudiante de Ingeniería de Software. Mi enfoque profesional está orientado al desarrollo de soluciones digitales que aborden diversas necesidades del mundo real. Puedo aportar al equipo a través de mi experiencia en programación con lenguajes como Java y Python, manejo de bases de datos, así como en la elaboración de documentación técnica y la aplicación de metodologías ágiles para la gestión de proyectos. 
+            <td>   Python, JavaScript, TypeScript,
+             MySQL, PostgreSQL, MongoDB,
+            Spring Boot, Flask,FastApi,Django ,
+            React, Flutter,
+            TailwindCSS, Bootstrap, CSS, HTML,
+            AWS, Docker, Kubernetes, Railway,
+            DDD, CQRS, Microservicios, Arquitectura C4, MQTT, RabbitMQ, REST APIs.</td>
+            <td> </td>
         </tr>
         <tr>
             <!-- DATOS del integrante 4-->
             <td>
-            <img src="" height="100" width="75">
+            <img src="../assets/img/chapter-I/Foto_Luciano.png" height="100" width="75">
             <br>Luciano Stefano Ruiz Blas    U20211f978
             </td>
-            <!-- DESCRIPCIÓN del integrante 4-->
-            <td></td>
-            <!-- CONOCIMIENTOS del integrante 4-->
+            <td>Apasionado por la inteligencia artificial y el desarrollo web. Entusiasta del trabajo en equipo y fiel creyente de la metodología ágil.
+            </td>
             <td>
+            Java, html, css, C++, C#, TypeScript, Python, SQL, tailwindcss, angular, boostrap, Springboot. 
             </td>
         </tr>
         <tr>
             <!-- DATOS del integrante 5-->
-            <td>
-           <img src="" height="100" width="100">
-            <br>Stefano Alessandro Valenzuela Vallejos    U202214695
-            </td>
-            <!-- DESCRIPCIÓN del integrante 5-->
-            <td></td>
-            <!-- CONOCIMIENTOS del integrante 5-->
-            <td></td>
-    </body>
+<td>
+   <img src="..\assets\img\chapter-I\Foto_Stefano.jpeg" height="100" width="100">
+   <br>Stefano Alessandro Valenzuela Vallejos    U202214695
+</td>
+
+<!-- DESCRIPCIÓN del integrante 5-->
+<td>
+   Estudiante de Ingeniería de Software en la UPC, perteneciente al tercio superior. 
+   Me especializo en Ciberseguridad, Redes y Análisis de Datos, con experiencia en auditoría de TI, 
+   cumplimiento normativo (ISA, SOX) y automatización de procesos. 
+   Me caracterizo por ser proactivo, con alta curiosidad técnica y compromiso con el aprendizaje continuo.
+</td>
+
+<!-- CONOCIMIENTOS del integrante 5-->
+<td>
+   - Auditoría de TI (SOC 1) y Ciberseguridad <br>
+   - Normativas ISO 31000 e ISO 27001 <br>
+   - Automatización con ACL Analytics y Python <br>
+   - Redes, gestión de incidentes y análisis de datos <br>
+   - Machine Learning aplicado a seguridad
+</td>
+
+    </tbody>
 </table>
 
 ## 1.2. Solution Profile

@@ -1,5 +1,5 @@
 # Capítulo II: Requirements Elicitation & Analysis.
-## 2.1. Competidores. 
+## 2.1. Competidores.
 En este apartado el equipo realizará investigaciones sobre nuestros potenciales competidores en el mercado.
 ### 2.1.1. Análisis competitivo.
 En este apartado el equipo realizará un analisis competitivo de nuestras 3 principales competidores identificados para
@@ -19,10 +19,10 @@ posteriormente identificar y plantear estrategias que habrá que poner en marcha
     <tbody style="text-align: center">
         <tr>
             <th colspan="2"></th>
-            <th><img src="../assets/img/chapter-II/restyle-logo.png" height="100" width="100"></th> 
-            <th><img src="../assets/img/chapter-II/aram.png" height="100" width="100"></th>
-            <th><img src="../assets/img/chapter-II/remodulatucasa.jpg" height="100" width="100"></th>
-            <th><img src="../assets/img/chapter-II/timbrit.jpg" height="100" width="100"></th>
+            <th><img src="https://i.postimg.cc/Nj00xB5R/restyle-logo.png" height="100" width="100"></th> 
+            <th><img src="https://i.postimg.cc/wj36m2GV/aram.png" width="100"></th>
+            <th><img src="https://i.postimg.cc/52GfqvcM/remodulatucasa.jpg" height="100" width="100"></th>
+            <th><img src="https://i.postimg.cc/wBmgWvHR/timbrit.jpg" height="100" width="100"></th>
         </tr>
         <!-- Este apartado pertenece al PERFIL se fucionó dos filas -->
         <tr>
@@ -230,55 +230,55 @@ En este punto el equipo realizará entrevistas a nuestros segmentos objetivos pr
 ## Segmento objetivo 1 (personas que remodelan su hogar)
 
 ### 1) Preguntas demográficas
-1. ¿Cuál es tu nombre?  
-2. ¿Qué edad tienes?  
-3. ¿Con qué género te identificas?  
-4. ¿De qué distrito resides?  
-5. ¿Cuál es tu estado civil?  
-6. ¿Cuál es tu nivel educativo más alto alcanzado?  
-7. ¿Cuál es tu ocupación?  
+1. ¿Cuál es tu nombre?
+2. ¿Qué edad tienes?
+3. ¿Con qué género te identificas?
+4. ¿De qué distrito resides?
+5. ¿Cuál es tu estado civil?
+6. ¿Cuál es tu nivel educativo más alto alcanzado?
+7. ¿Cuál es tu ocupación?
 
 ### 2) Preguntas sobre sus preferencias
-1. ¿Qué tipo de contenido consumes regularmente (libros, películas, música, etc.)?  
-2. ¿Qué redes sociales o plataformas digitales utilizas con mayor frecuencia?  
+1. ¿Qué tipo de contenido consumes regularmente (libros, películas, música, etc.)?
+2. ¿Qué redes sociales o plataformas digitales utilizas con mayor frecuencia?
 3. En una escala del 1 al 10, ¿qué tanto crees saber sobre el uso de aparatos tecnológicos? (celulares, laptop, computadora, etc.)
 
 ### 3) Preguntas sobre la solución
-1. ¿Has intentado contratar servicios de remodelación anteriormente? ¿Cuál fue tu experiencia?  
-2. ¿Qué te detiene o hace difícil encontrar un servicio de remodelación adecuado para tu hogar?  
-3. ¿Cómo describirías el proceso de encontrar y contratar un servicio de remodelación de hogares?  
-4. ¿Cuál es el principal problema que has encontrado al contratar servicios de remodelación?  
-5. ¿Has utilizado alguna aplicación o plataforma en línea para contratar servicios de remodelación? ¿Cómo fue tu experiencia?  
-6. ¿Cómo te sientes acerca de la transparencia en el proceso de contratación de servicios de remodelación?  
-7. ¿Crees que tener acceso a comentarios y puntuaciones de otros usuarios ayudaría en la selección de un servicio de remodelación?  
-8. ¿Qué funcionalidades esperarías encontrar en una aplicación o plataforma en línea para contratar servicios de remodelación?  
-9. ¿Te gustaría tener un seguimiento en tiempo real del estado de la remodelación de tu hogar? ¿Por qué?  
-10. Si tuvieras un asistente virtual dentro de la app que te diera presupuestos estimados, recomiende materiales y responda dudas 24/7, ¿en qué momentos del proceso lo usarías y para qué tareas específicas? 
+1. ¿Has intentado contratar servicios de remodelación anteriormente? ¿Cuál fue tu experiencia?
+2. ¿Qué te detiene o hace difícil encontrar un servicio de remodelación adecuado para tu hogar?
+3. ¿Cómo describirías el proceso de encontrar y contratar un servicio de remodelación de hogares?
+4. ¿Cuál es el principal problema que has encontrado al contratar servicios de remodelación?
+5. ¿Has utilizado alguna aplicación o plataforma en línea para contratar servicios de remodelación? ¿Cómo fue tu experiencia?
+6. ¿Cómo te sientes acerca de la transparencia en el proceso de contratación de servicios de remodelación?
+7. ¿Crees que tener acceso a comentarios y puntuaciones de otros usuarios ayudaría en la selección de un servicio de remodelación?
+8. ¿Qué funcionalidades esperarías encontrar en una aplicación o plataforma en línea para contratar servicios de remodelación?
+9. ¿Te gustaría tener un seguimiento en tiempo real del estado de la remodelación de tu hogar? ¿Por qué?
+10. Si tuvieras un asistente virtual dentro de la app que te diera presupuestos estimados, recomiende materiales y responda dudas 24/7, ¿en qué momentos del proceso lo usarías y para qué tareas específicas?
 ---
 
 ## Segmento objetivo 2 (empresas/proveedores de remodelación)
 
 ### 1) Preguntas demográficas
-1. ¿Cuál es tu nombre?  
-2. ¿Qué edad tienes?  
-3. ¿Con qué género te identificas?  
-4. ¿De qué distrito resides?  
-5. ¿Cuál es tu estado civil?  
-6. ¿Cuál es tu nivel educativo más alto alcanzado?  
+1. ¿Cuál es tu nombre?
+2. ¿Qué edad tienes?
+3. ¿Con qué género te identificas?
+4. ¿De qué distrito resides?
+5. ¿Cuál es tu estado civil?
+6. ¿Cuál es tu nivel educativo más alto alcanzado?
 7. ¿Cuál es tu ocupación?
 
 ### 2) Preguntas sobre la solución
-1. ¿Cuál es el mayor desafío que enfrenta su empresa al brindar servicios de remodelación?  
-2. ¿Cómo maneja su empresa la asignación de trabajos y la gestión de proyectos de remodelación?  
-3. ¿Cómo asegura su empresa la calidad del trabajo realizado por su personal?  
-4. ¿Cómo se comunica su empresa con los clientes durante el proceso de remodelación?  
-5. ¿Cómo maneja su empresa las quejas o problemas de los clientes durante el proceso de remodelación?  
-6. ¿Qué tipo de servicios de remodelación son más solicitados por sus clientes?  
-7. ¿Cómo maneja su empresa la capacitación y el desarrollo de habilidades de su personal de remodelación?  
-8. ¿Qué medidas toma su empresa para asegurar la seguridad de su personal durante los trabajos de remodelación?  
-9. ¿Cómo se diferencian los servicios de remodelación de su empresa de los de la competencia?  
-10. ¿Qué cambios o mejoras podría hacer su empresa en su proceso de remodelación para mejorar la satisfacción del cliente?  
-11. Si integráramos un chatbot que atienda consultas frecuentes de clientes usando su catálogo, disponibilidad y precios, ¿qué información autorizarían a usar y qué límites pondrían? 
+1. ¿Cuál es el mayor desafío que enfrenta su empresa al brindar servicios de remodelación?
+2. ¿Cómo maneja su empresa la asignación de trabajos y la gestión de proyectos de remodelación?
+3. ¿Cómo asegura su empresa la calidad del trabajo realizado por su personal?
+4. ¿Cómo se comunica su empresa con los clientes durante el proceso de remodelación?
+5. ¿Cómo maneja su empresa las quejas o problemas de los clientes durante el proceso de remodelación?
+6. ¿Qué tipo de servicios de remodelación son más solicitados por sus clientes?
+7. ¿Cómo maneja su empresa la capacitación y el desarrollo de habilidades de su personal de remodelación?
+8. ¿Qué medidas toma su empresa para asegurar la seguridad de su personal durante los trabajos de remodelación?
+9. ¿Cómo se diferencian los servicios de remodelación de su empresa de los de la competencia?
+10. ¿Qué cambios o mejoras podría hacer su empresa en su proceso de remodelación para mejorar la satisfacción del cliente?
+11. Si integráramos un chatbot que atienda consultas frecuentes de clientes usando su catálogo, disponibilidad y precios, ¿qué información autorizarían a usar y qué límites pondrían?
 
 ### 2.2.2. Registro de entrevistas.
 
@@ -288,88 +288,90 @@ Entrevista a Contratistas
 <table>
             <tr>
                 <th>Entrevistado 1</th>
-                <th></th>
+                <th>Josef Romero</th>
             <tr>
                 <th>Entrevistador </th>
-                <th></th>
+                <th>Luciano Ruiz</th>
             </tr>
             <tr>
                 <td>Edad: </td>
-                <td></td>
+                <td>23</td>
             </tr>
             <tr>
                 <td>Distrito</td>
-                <td></td>
+                <td>San Juan de Lurigancho</td>
             </tr>
             <tr>
-            <td><img src="" alt="Foto de entrevista"></td>
+            <td><img src="../assets/img/chapter-II/entrevista_segemento1_romero.png" alt="Foto de entrevista"></td>
             <td><strong>Resumen: </strong><br>
-            ---
+            Josef tuvo experiencia contratando un servicio de remodelación. A Josef le parece inconveniente que no haya una plataforma centralizada tipo marketplace para encontrar un buen servicio. A Josef le parece engorroso el proceso de encontrar servicios de remodelación de hogares. El principal problema que Josef tuvo al contratar un servicio de remodelación fueron los precios excesivos. Josef ha utilizado Facebook Marketplace para encontrar al carpintero que lo ayudó a encontrar al profesional de remodelación. Josef piensa que actualmente no hay suficiente transparencia en el mercado; le gustaría poder calificar el servicio, además de poder ver las calificaciones de todos los profesionales. A Josef le gustaría tener un seguimiento del estado actual de la remodelación. A Josef le parecería genial la idea del chatbot y lo usaría al inicio para comparar las cotizaciones con las del mercado actual.
             </td>
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
-                <td> 0:00 min</td>
+                <td> 0:03-3:58 min</td>
             </tr>
-            <tr>
+             <tr>
                 <td>URL de la entrevista</td>
-                <td><a href="">Link de entrevistas</a></td>
+                <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181b152_upc_edu_pe/ESda4ieKM_9Gs7g0EhKARr0BRrHPKE8unSplRAp_8cbMxw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=52TXwT">Link de entrevistas</a></td>
             </tr>
             <tr>
                 <th>Entrevistado 2</th>
-                <th></th>
+                <th>Ana morales</th>
             <tr>
                 <th>Entrevistador </th>
-                <th></th>
+                <th>Josue Omar Hidalgo Bustamnate</th>
             </tr>
             <tr>
                 <td>Edad</td>
-                <td></td>
+                <td>24</td>
             </tr>
             <tr>
                 <td>Distrito</td>
-                <td></td>
+                <td>Santiago de Surco</td>
             </tr>
             <tr>
-            <td><img src="" alt="Foto de entrevista"></td>
-                <td><strong>Resumen:</strong><br>---</td>
+            <td><img src="../assets/img/chapter-IV-j/interview_client.png" alt="Foto de entrevista"></td>
+                <td><strong>Resumen: </strong><br>Anna comento que  para remodelar el baño. Comparó 3 cotizaciones, agendó la visita técnica desde la app; autorizó el pago y la captura se realizó cuando se confirmó la fecha de inicio. Siguió el avance por hitos con fotos y dejó una reseña al cierre. Antes de la app le frustraban la poca transparencia en el desglose de costos, los precios y los tiempos inciertos. Valora que solo se indexen perfiles completos con reseñas y que el flujo de notificaciones sea claro. Usaría un asistente para estimar presupuesto, elegir materiales y resolver dudas durante la ejecución.
+
+Le hablamos sobre nuestra aplicación y le pareció una propuesta novedosa. Considera que le sería de gran ayuda para escoger la opción correcta. Además, le mencionamos la implementación de un asistente virtual que le ayudará a encontrar la mejor opción, basándose en sus gustos, presupuesto, y otras preferencias. Para él, esta es una opción muy viable que le brindará comodidad y le permitirá ahorrar tiempo dentro de la aplicación.</td>
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
-                <td>0:00 min</td>
+                <td>3:59-9:50 min</td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
-                <td><a href="">Link de entrevistas</a></td>
-            </tr>
+<td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181b152_upc_edu_pe/ESda4ieKM_9Gs7g0EhKARr0BRrHPKE8unSplRAp_8cbMxw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=52TXwT">Link de entrevistas</a></td>            </tr>
             <tr>
                 <th>Entrevistado 3</th>
-                <th></th>
+                <th>Fabian Reyes</th>
             <tr>
                 <th>Entrevistador </th>
-                <th></th>
+                <th>Stefano Valenzuela</th>
             </tr>
             <tr>
                 <td>Edad</td>
-                <td></td>
+                <td>20</td>
             </tr>
             <tr>
                 <td>Distrito</td>
-                <td></td>
+                <td>San Martin de Porres</td>
             </tr>
             <tr>
-            <td><img src="" alt="Foto de entrevista"></td>
-                <td><strong>Resumen:</strong><br>---</td>
-            </tr>
-            <tr>
-                <td>Timing de la entrevista</td>
-                <td>0:00 min</td>
-            </tr>
-            <tr>
-                <td>URL de la entrevista</td>
-                <td><a href="">Link de entrevistas</a></td>
-            </tr>
-        </tbody>
+            <td><img src="..\assets\img\chapter-II\Fabian Entrevista Emergentes.png" alt="Foto de entrevista"></td>
+                <td><strong>Resumen:</strong> <br> Fabián nos comentó que, hace poco, estaba buscando mejores opciones para remodelar los muebles de su hogar. Le resultaba complicado encontrar un medio confiable y seguro para contratar este servicio.
+
+Le hablamos sobre nuestra aplicación y le pareció una propuesta novedosa. Considera que le sería de gran ayuda para escoger la opción correcta. Además, le mencionamos la implementación de un asistente virtual que le ayudará a encontrar la mejor opción, basándose en sus gustos, presupuesto, y otras preferencias. Para él, esta es una opción muy viable que le brindará comodidad y le permitirá ahorrar tiempo dentro de la aplicación.<br></td>
+</tr>
+<tr>
+<td>Timing de la entrevista</td>
+<td>9:50-16:24 min</td>
+</tr>
+<tr>
+<td>URL de la entrevista</td>
+<td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181b152_upc_edu_pe/ESda4ieKM_9Gs7g0EhKARr0BRrHPKE8unSplRAp_8cbMxw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=52TXwT">Link de entrevistas</a></td>
+</tr>
 </table>
 
 ## Entrevista a segmento objetivo 2
@@ -379,123 +381,287 @@ Entrevista a Remodeladores
         <thead>
             <tr>
                 <th>Entrevistado 1</th>
-                <th></th>
+                <th>Ivan?</th>
             </tr>
             <tr>
                 <th>Entrevistador </th>
-                <th></th>
+                <th>Luciano Ruiz</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>Edad</td>
-                <td></td>
+                <td>28</td>
             </tr>
             <tr>
                 <td>Distrito</td>
-                <td></td>
+                <td>Lince</td>
             </tr>
             <tr>
-                <td><img src="" alt="Foto de entrevista"></td>
-                <td><strong>Resumen:</strong><br>---</td>
+                <td><img src="../assets/img/chapter-II/entrevista_segemento2_perez.png" alt="Foto de entrevista"></td>
+                <td><strong>Resumen:</strong><br>Juan tuvo experiencia como gerente de operaciones en una empresa de remodelación. A Juan le parece complicado coordinar todos los proyectos al mismo tiempo sin perder control sobre los tiempos y la calidad. A Juan le parece engorroso que la comunicación entre los equipos y los clientes no sea fluida, lo que genera retrasos. El principal problema que Juan tiene es mantener actualizada la información en tiempo real usando solo hojas de cálculo y software básico.
+Juan ha utilizado inspecciones periódicas y capacitaciones para asegurar la calidad del trabajo. Juan piensa que los servicios más solicitados son remodelaciones de cocinas, baños, renovación de interiores y diseño de mobiliario personalizado. A Juan le parece que su empresa se diferencia por la atención personalizada, cumplimiento de plazos y transparencia en costos.
+A Juan le gustaría tener una herramienta digital centralizada para que el cliente pueda ver el avance del proyecto en tiempo real. A Juan le parecería útil la idea del chatbot, autorizaría información general sobre servicios y precios aproximados. A Juan no le gustaría que el chatbot maneje información confidencial de clientes, las consultas complejas deberían ser derivadas a personal humano.
+Juan piensa que actualmente no hay suficiente fluidez en la comunicación, le gustaría poder centralizar toda la información del proyecto desde la planificación hasta la entrega.</td>
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
-                <td>0:00 min</td>
+                <td>16:34-23:38 min</td>
             </tr>
-            <tr>
+             <tr>
                 <td>URL de la entrevista</td>
-                <td><a href="">Link de entrevistas</a></td>
+                <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181b152_upc_edu_pe/ESda4ieKM_9Gs7g0EhKARr0BRrHPKE8unSplRAp_8cbMxw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=52TXwT">Link de entrevistas</a></td>
             </tr>
             <tr>
                 <th>Entrevistado 2</th>
-                <th></th>
+                <th>Sebastian Samamé Vera</th>
             <tr>
                 <th>Entrevistador </th>
-                <th></th>
+                <th>Carlos Chávez</th>
             </tr>
             <tr>
                 <td>Edad</td>
-                <td></td>
+                <td>23</td>
             </tr>
             <tr>
                 <td>Distrito</td>
-                <td> </td>
+                <td>Pueblo Libre</td>
             </tr>
             <tr>
-                <td><img src="" alt="Foto de entrevista"></td>
-                <td><strong>Resumen:</strong><br>---</td>
+                <td><img src="../assets/img/chapter-II/Entrevista2.jpg" alt="Foto de entrevista"></td>
+                <td><strong>Resumen:</strong><br>El entrevistado, Sebastian Samame, trabajador de una empresa de remodelación en Pueblo Libre, señaló que el mayor desafío de su negocio es coordinar tiempos entre clientes, materiales y permisos. Su empresa gestiona proyectos con cronogramas y software especializado, garantiza la calidad con supervisores y checklists, y mantiene la comunicación con clientes vía WhatsApp, correo y reuniones semanales. Los servicios más demandados son remodelaciones de cocinas y baños, mientras que las quejas se resuelven con rapidez, ofreciendo garantías si es necesario. Destacó la capacitación semestral y protocolos de seguridad para el personal, así como la puntualidad y transparencia como sus principales diferenciadores. Como mejora, ve útil implementar un sistema digital de seguimiento en tiempo real y considera viable un chatbot para consultas frecuentes, siempre que se proteja la información privada de los clientes.</td>
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
-                <td>0:00 min</td>
+                <td>23:39-31:05 min</td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
-                <td><a href="">Link de entrevistas</a></td>
+                <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181b152_upc_edu_pe/ESda4ieKM_9Gs7g0EhKARr0BRrHPKE8unSplRAp_8cbMxw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=52TXwT">Link de entrevistas</a></td>
             </tr>
         <thead>
             <tr>
                 <th>Entrevistado 3</th>
-                <th></th>
+                <th>Alfredo Medina</th>
             </tr>
             <tr>
                 <th>Entrevistador </th>
-                <th> </th>
+                <th>Alexander Alberto Cantoral Sedamano</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>Edad</td>
-                <td></td>
+                <td>24</td>
             </tr>
             <tr>
                 <td>Distrito</td>
-                <td> </td>
+                <td>Comas</td>
             </tr>
             <tr>
-                <td><img src=""></td>
-                <td><strong>Resumen:</strong><br>---</td>
+                <td><img src="https://i.postimg.cc/wT3FMgy7/image.png"></td>
+                <td><strong>Resumen: En la entrevista Alfredo nos destaca las formas en como trabaja la empresa donde está y las formas en las cuales dicha empresa resalta en el mercado. Además nos destaca como el agregado del chatbot podría beneficiar a la empresa, siendo el una persona no técnica, nos cuenta que podría este mismo comparar el servicio buscado con la competencia y demás. Para finalizar, él ya conoce apps parecidas a la propuesta y nos destacó un aspecto importante que dicha competencia no tiene.</strong><br>---</td>
             </tr>
             <tr>
                 <td>Timing de la entrevista</td>
-                <td>0:00 min</td>
+                <td>31:06-39:48 min</td>
             </tr>
             <tr>
                 <td>URL de la entrevista</td>
-                <td><a href="">Link de entrevistas</a></td>
+                <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181b152_upc_edu_pe/ESda4ieKM_9Gs7g0EhKARr0BRrHPKE8unSplRAp_8cbMxw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=52TXwT">Link de entrevistas</a></td>
             </tr>
 </table>
 
 
 ### 2.2.3. Análisis de entrevistas.
 
-## 2.3. Needfinding. 
-Comprender las necesidades y requisitos de los usuarios es crucial para el éxito en el desarrollo de software. La fase de investigación de necesidades requiere un enfoque sistemático para recolectar información, identificar problemas y descubrir oportunidades que guiarán el diseño y desarrollo del software. Al analizar los comportamientos, preferencias y desafíos de los usuarios, nuestro objetivo es crear soluciones que sean tanto funcionales como intuitivas e impactantes. Los perfiles de usuario se han desarrollado teniendo en cuenta los segmentos clave, como el contratista, que busca remodelador, y el remodelador, que ofrece servicios de remodelación. 
+##### Segmento objetivo 1: Personas que remodelar su hogar
+**Características objetivas**
+| Característica | Resultado | Porcentaje |
+|----------------|-----------|------------|
+| Rango de edad  | 20-24 años (jóvenes adultos) | 100% |
+| Distritos      | Periféricos (SJL, SMP)<br>Céntricos (Surco)| 67%<br>33% |
+
+**Características subjetivas**
+| Tema identificado | Resultado | Porcentaje |
+|-------------------|-----------|------------|
+| Problemas con precios poco claros | Todos lo mencionaron | 100% |
+| Falta de centralización en la búsqueda de servicios | Todos lo perciben | 100% |
+| Valoración de reseñas y calificaciones | 2 de 3 entrevistados | 67% |
+| Interés en chatbot/IA para apoyo inicial | Todos lo consideran útil | 100% |
+| Seguimiento del proyecto en tiempo real | 2 de 3 entrevistados | 67% |
+
+**Conclusión del segmento:**  
+Las personas que quieren remodelar su hogar buscan **confiabilidad, precios claros y transparencia en reseñas**, valorando mucho una plataforma centralizada con **seguimiento en tiempo real** y el soporte de un **asistente virtual para comparar y decidir**.
+
+---
+
+##### Segmento objetivo 2: Empresas/proveedores de remodelación
+**Características objetivas**
+| Característica | Resultado | Porcentaje |
+|----------------|-----------|------------|
+| Rango de edad  | 23-28 años (adultos jóvenes profesionales) | 100% |
+| Distritos      | Céntricos (Lince, Pueblo Libre)<br> Periféricos (Comas) | 67%<br>33%  |
+
+**Características subjetivas**
+| Tema identificado | Resultado | Porcentaje |
+|-------------------|-----------|------------|
+| Dificultad para coordinar tiempos y clientes | Todos lo señalaron | 100% |
+| Comunicación con clientes poco fluida | 2 de 3 entrevistados | 67% |
+| Necesidad de un sistema digital centralizado | Todos lo desean | 100% |
+| Servicios más demandados: cocinas y baños | 2 de 3 entrevistados | 67% |
+| Diferenciadores: puntualidad y transparencia | Todos lo destacaron | 100% |
+| Opinión sobre chatbot | Todos lo consideran útil | 100% |
+| Límite: chatbot no debe manejar información sensible | 2 de 3 entrevistados | 67% |
+
+**Conclusión del segmento:**  
+Los remodeladores de empresas buscan **optimizar la gestión de proyectos con herramientas digitales**, mejorar la **comunicación con clientes** y mantener **diferenciación en puntualidad y transparencia**. Ven en el chatbot un aliado, pero con límites claros en la información sensible.
+
+## 2.3. Needfinding.
+Comprender las necesidades y requisitos de los usuarios es crucial para el éxito en el desarrollo de software. La fase de investigación de necesidades requiere un enfoque sistemático para recolectar información, identificar problemas y descubrir oportunidades que guiarán el diseño y desarrollo del software. Al analizar los comportamientos, preferencias y desafíos de los usuarios, nuestro objetivo es crear soluciones que sean tanto funcionales como intuitivas e impactantes. Los perfiles de usuario se han desarrollado teniendo en cuenta los segmentos clave, como el contratista, que busca remodelador, y el remodelador, que ofrece servicios de remodelación.
 
 ### 2.3.1. User Personas.
 
+- User Persona Segmento 1
+<img src="../assets/img/chapter-II/Juan_Morales.png" alt="Foto de entrevista">
+- User persona Segmento 2
+<img src="../assets/img/chapter-II/Carlos_Sánchez.png" alt="Foto de entrevista">
 
 ### 2.3.2. User Task Matrix.
-
+<body>
+    <h2>User Task Matrix</h2>
+    <table>
+        <tr>
+            <th rowspan="2">User Task</th>
+            <th colspan="2">Usuario (Contratista) </th>
+            <th colspan="2">Usuario 2 (Remodelador) </th>
+        </tr>
+        <tr>
+            <th>Frecuencia</th>
+            <th>Importancia</th>
+            <th>Frecuencia</th>
+            <th>Importancia</th>
+        </tr>
+        <tr>
+            <td>Buscar y comparar remodeladores confiables en el área</td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Baja</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td>Solicitar y comparar cotizaciones de proyectos </td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Media</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Revisar reseñas, calificaciones y testimonios de otros clientes </td>
+            <td>Alta</td>
+            <td>Media</td>
+            <td>Media</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td>Coordinar y programar visitas técnicas </td>
+            <td>Media</td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Hacer seguimiento en tiempo real al avance del proyecto (fotos, hitos, reportes)</td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Dejar reseñas y calificaciones al cierre del servicio</td>
+            <td>Media</td>
+            <td>Alta</td>
+            <td>Media</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td>Crear y actualizar portafolio de proyectos realizados</td>
+            <td>Baja</td>
+            <td>Media</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Gestionar cronogramas, materiales y permisos</td>
+            <td>Baja</td>
+            <td>Media</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+                <tr>
+            <td>Mantener comunicación centralizada con el cliente (app/chatbot)</td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+                <tr>
+            <td>Resolver dudas frecuentes con un chatbot (servicios, precios, materiales)</td>
+            <td>Media</td>
+            <td>Alta</td>
+            <td>Media</td>
+            <td>Media</td>
+        </tr>
+                <tr>
+            <td>Discutir cambios o ajustes en el contrato del proyecto</td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+    </table>
+</body>
 
 ### 2.3.3. User Journey Mapping.
 
+#### Segmento Objetivo 1: Personas que remodelan su hogar
+
+<img src="../assets/img/chapter-II/Customer_journey_map1.png" alt="Journey Map Clientes">
+
+#### Segmento Objetivo 2: Empresas/proveedores de remodelación
+
+<img src="../assets/img/chapter-II/Customer_journey_map2.png" alt="Journey Map Remodelador">
+
 ### 2.3.4. Empathy Mapping.
 
+#### Segmento Objetivo 1: Personas que remodelan su hogar
+
+<img src="../assets/img/chapter-II/Empathy_map_clientes.png" alt="Empathy Map Clientes">
+
+#### Segmento Objetivo 2: Empresas/proveedores de remodelación
+
+<img src="../assets/img/chapter-II/Empathy_map_remodeladores.png" alt="Empathy Map Remodelador">
 
 ### 2.3.5. As-is Scenario Mapping.
+
+#### Segmento Objetivo 1: Personas que remodelan su hogar
+
+<img src="../assets/img/chapter-II/as-is_cliente.jpg" alt="As-Is Clientes">
+
+#### Segmento Objetivo 2: Empresas/proveedores de remodelación
+
+<img src="../assets/img/chapter-II/as-is_remodelador.jpg" alt="As-Is Remodelador">
 
 ## 2.4. Ubiquitous Language.
 
 El **lenguaje ubicuo** es una parte fundamental de la estrategia de UX. Se refiere al conjunto de términos y frases que se utilizan de manera consistente en toda la aplicación para referirse a conceptos, acciones y elementos clave. El lenguaje ubicuo tiene los siguientes beneficios:
 
 - **Mejora la usabilidad**: Los usuarios pueden comprender fácilmente la aplicación y navegar por ella sin confusiones.
-  
+
 - **Aumenta la accesibilidad**: El uso de un lenguaje claro y conciso facilita el uso de la aplicación para personas con diferentes niveles de alfabetización y habilidades cognitivas.
-  
+
 - **Refuerza la marca**: Un lenguaje único y consistente ayuda a crear una identidad de marca fuerte y memorable.
-  
+
 - **Promueve la colaboración**: Facilita la comunicación entre los equipos de diseño, desarrollo y marketing.
 
 **Glosario:**
@@ -516,3 +682,5 @@ El **lenguaje ubicuo** es una parte fundamental de la estrategia de UX. Se refie
 - **Review (reseña)**: Comentario que un contratista deja en el perfil del remodelador o empresa, evaluando aspectos como la calidad del trabajo, el trato, los precios, entre otros.
 
 - **Subscription (suscripción)**: Proceso mediante el cual los remodeladores o compañías se registran en ReStyle para ofrecer sus servicios, pagando una tarifa mensual.
+
+- **Chatbot (asistente virtual)**: Sistema de inteligencia artificial que interactúa con usuarios (contratistas y remodeladores) para responder preguntas frecuentes, proporcionar estimados de presupuesto iniciales y derivar consultas complejas a soporte humano cuando sea necesario.
